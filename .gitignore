@@ -2,3 +2,4 @@
 *.xls
 *.png
 *.pdf
+.env
