@@ -213,24 +213,23 @@ async def extract(text: str, global_context: str) -> str:
 
     result = res.data
 
-    # history = res.new_messages()
+    history = res.new_messages()
 
-    # for _ in trange(5, desc="Gleaning...", leave=False):
-    #     glean_res = await model.run(CONTINUE_PROMPT, message_history=history)
-    #     history.extend(glean_res.new_messages())
-    #     result += glean_res.data
+    for _ in trange(5, desc="Gleaning...", leave=False):
+        glean_res = await model.run(CONTINUE_PROMPT, message_history=history)
+        history.extend(glean_res.new_messages())
+        result += glean_res.data
 
-    #     continuation = await model.run(
-    #         LOOP_PROMPT.format(
-    #             **{
-    #                 "tuple_delimiter": DEFAULT_TUPLE_DELIMITER,
-    #             }
-    #         )
-    #     )
+        continuation = await model.run(
+            LOOP_PROMPT.format(
+                **{
+                    "tuple_delimiter": DEFAULT_TUPLE_DELIMITER,
+                }
+            )
+        )
 
-    #     if f"{DEFAULT_TUPLE_DELIMITER}NO{DEFAULT_TUPLE_DELIMITER}" in continuation.data:
-    #         break
-    print(result)
+        if f"{DEFAULT_TUPLE_DELIMITER}NO{DEFAULT_TUPLE_DELIMITER}" in continuation.data:
+            break
     return result
 
 

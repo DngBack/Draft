@@ -1,0 +1,781 @@
+("entity"<|>"QUY ĐỊNH CHUNG"<|>"Regulation"<|>"Quy định chung áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân. Quy định này bao gồm các khía cạnh như quản lý thiết bị, quản lý truy cập, thiết lập và cài đặt thiết bị, cài đặt và sử dụng phần mềm, và xử lý sự cố.")##
+("entity"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Asset"<|>"Thiết bị công ty/khách hàng bao gồm các loại thiết bị như laptop/PC và mobile/tablet. Các thiết bị này được quản lý theo quy định chung và có các quy trình cụ thể cho việc quản lý, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân bao gồm các loại thiết bị như laptop/PC và mobile/tablet. Các thiết bị này cũng phải tuân theo quy định chung và có các quy trình cụ thể cho việc quản lý, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố.")##
+("entity"<|>"LAPTOP/ PC"<|>"Asset"<|>"Laptop/PC là một loại thiết bị được sử dụng trong công việc, có thể thuộc về công ty/khách hàng hoặc cá nhân. Thiết bị này cần được quản lý, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố theo quy định chung.")##
+("entity"<|>"MOBILE/ TABLET"<|>"Asset"<|>"Mobile/Tablet là một loại thiết bị được sử dụng trong công việc, có thể thuộc về công ty/khách hàng hoặc cá nhân. Thiết bị này cần được quản lý, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố theo quy định chung.")##
+("entity"<|>"QUẢN LÝ THIẾT BỊ"<|>"Process"<|>"Quản lý thiết bị là một quy trình trong quy định chung, áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân.")##
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là một quy trình trong quy định chung, áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân.")##
+("entity"<|>"THIẾT LẬP VÀ CÀI ĐẶT THIẾT BỊ"<|>"Process"<|>"Thiết lập và cài đặt thiết bị là một quy trình trong quy định chung, áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân.")##
+("entity"<|>"CÀI ĐẶT VÀ SỬ DỤNG PHẦN MỀM"<|>"Process"<|>"Cài đặt và sử dụng phần mềm là một quy trình trong quy định chung, áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân.")##
+("entity"<|>"XỬ LÝ SỰ CỐ"<|>"Process"<|>"Xử lý sự cố là một quy trình trong quy định chung, áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân.")##
+("relationship"<|>"QUY ĐỊNH CHUNG"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Quy định chung áp dụng cho tất cả các thiết bị công ty/khách hàng, bao gồm các quy trình quản lý thiết bị, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố."<|>"8")##
+("relationship"<|>"QUY ĐỊNH CHUNG"<|>"THIẾT BỊ CÁ NHÂN"<|>"Quy định chung áp dụng cho tất cả các thiết bị cá nhân, bao gồm các quy trình quản lý thiết bị, truy cập, cài đặt, sử dụng phần mềm và xử lý sự cố."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"LAPTOP/ PC"<|>"Laptop/PC là một loại thiết bị thuộc nhóm thiết bị công ty/khách hàng, cần tuân theo quy định chung."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"MOBILE/ TABLET"<|>"Mobile/Tablet là một loại thiết bị thuộc nhóm thiết bị công ty/khách hàng, cần tuân theo quy định chung."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"LAPTOP/ PC"<|>"Laptop/PC là một loại thiết bị thuộc nhóm thiết bị cá nhân, cần tuân theo quy định chung."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"MOBILE/ TABLET"<|>"Mobile/Tablet là một loại thiết bị thuộc nhóm thiết bị cá nhân, cần tuân theo quy định chung."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty cung cấp thiết bị cho nhân viên và quản lý các yêu cầu liên quan đến thiết bị thông qua hệ thống Sun*Asset. Công ty yêu cầu mọi thay đổi, nâng cấp, sửa chữa thiết bị phải được thực hiện qua hệ thống này và cần có sự cho phép của PL/LM. Công ty cũng có quy định về việc mang thiết bị ra khỏi phạm vi công ty và sử dụng thiết bị cá nhân cho công việc.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng cung cấp thiết bị cho công ty và có quyền phê duyệt các yêu cầu liên quan đến việc nâng cấp, thay thế linh kiện, sửa chữa thiết bị do họ cung cấp.")##
+("entity"<|>"SUN*ASSET"<|>"System"<|>"Sun*Asset là hệ thống quản lý tài sản của công ty, được sử dụng để thực hiện các yêu cầu liên quan đến thiết bị như đổi, trả, cấp mới, nâng cấp, thay thế linh kiện, sửa chữa. Hệ thống này yêu cầu sự cho phép của PL/LM trước khi thực hiện các yêu cầu.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là người có thẩm quyền phê duyệt các yêu cầu liên quan đến thiết bị, bao gồm cả việc sử dụng thiết bị cá nhân cho công việc. PL/LM có trách nhiệm xác nhận mục đích sử dụng thiết bị cá nhân phù hợp với nhu cầu công việc trước khi phê duyệt.")##
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên có trách nhiệm hoàn tất các thủ tục liên quan đến việc sử dụng thiết bị, bao gồm việc tạo Request khi mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Nhân viên phải tuân thủ các nội dung trong Cam kết bảo mật.")##
+("entity"<|>"CAM KẾT BẢO MẬT"<|>"Regulation"<|>"Cam kết bảo mật là quy định mà nhân viên phải tuân thủ khi mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Cam kết này đảm bảo an toàn và bảo mật thông tin trong quá trình sử dụng thiết bị.")##
+("entity"<|>"REQUEST"<|>"Form"<|>"Request là thủ tục mà nhân viên phải hoàn tất khi có nhu cầu mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Request cần được phê duyệt bởi PL/LM và có thời hạn sử dụng cụ thể.")##
+("entity"<|>"THỜI HẠN SỬ DỤNG REQUEST"<|>"Time"<|>"Thời hạn sử dụng request được quy định khác nhau cho từng đối tượng: Staff tối đa 3 tháng, PL/LM tối đa 6 tháng, và Head/SDM/UM vô thời hạn. Sau khi hết thời hạn, nhân viên cần tạo lại request nếu muốn tiếp tục sử dụng thiết bị.")##
+("relationship"<|>"CÔNG TY"<|>"SUN*ASSET"<|>"Công ty sử dụng hệ thống Sun*Asset để quản lý các yêu cầu liên quan đến thiết bị, đảm bảo mọi thay đổi, nâng cấp, sửa chữa thiết bị được thực hiện đúng quy trình."<|>"9")##
+("relationship"<|>"KHÁCH HÀNG"<|>"CÔNG TY"<|>"Khách hàng cung cấp thiết bị cho công ty và có quyền phê duyệt các yêu cầu liên quan đến thiết bị do họ cung cấp, thể hiện mối quan hệ cung cấp và quản lý thiết bị giữa hai bên."<|>"8")##
+("relationship"<|>"PL/LM"<|>"REQUEST"<|>"PL/LM có thẩm quyền phê duyệt các request liên quan đến việc sử dụng thiết bị, đảm bảo mục đích sử dụng phù hợp với nhu cầu công việc."<|>"8")##
+("relationship"<|>"NHÂN VIÊN"<|>"REQUEST"<|>"Nhân viên có trách nhiệm hoàn tất request khi mang thiết bị ra ngoài hoặc sử dụng thiết bị cá nhân cho công việc, tuân thủ quy định của công ty."<|>"9")##
+("relationship"<|>"NHÂN VIÊN"<|>"CAM KẾT BẢO MẬT"<|>"Nhân viên phải tuân thủ cam kết bảo mật khi sử dụng thiết bị cá nhân hoặc mang thiết bị ra ngoài, đảm bảo an toàn thông tin."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là đơn vị cung cấp thiết bị cho nhân viên và các dự án. Công ty có quy định nghiêm cấm việc tự ý cho mượn hoặc sử dụng chung thiết bị mà không có sự cho phép.")##
+
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng là đơn vị cung cấp thiết bị cho các dự án. Trong trường hợp các dự án khác nhau nhưng cùng chung một khách hàng, việc mượn hoặc sử dụng chung thiết bị cần có sự cho phép của khách hàng.")##
+
+("entity"<|>"PL"<|>"Role"<|>"PL là người có thẩm quyền cho phép việc mượn thiết bị test giữa các dự án khác nhau. Mọi nhu cầu thay đổi liên quan đến thiết bị test cần có sự cho phép của PL.")##
+
+("entity"<|>"S*ASSET"<|>"System"<|>"S*Asset là hệ thống được sử dụng để thực hiện thủ tục giao nhận thiết bị khi cho mượn trên 5 ngày làm việc. Hệ thống này giúp quản lý và theo dõi việc cho mượn thiết bị.")##
+
+("entity"<|>"GA"<|>"Department"<|>"GA là bộ phận chịu trách nhiệm kiểm tra và cài lại máy trước khi cho mượn thiết bị test. Thiết bị cần được mang qua GA để đảm bảo an toàn và sẵn sàng cho việc sử dụng.")##
+
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng trong dự án. Việc cho mượn thiết bị test giữa các dự án cần có sự cho phép của PL và phải tuân thủ các quy định về thời gian và thủ tục.")##
+
+("entity"<|>"DỰ ÁN"<|>"Process"<|>"Dự án là các hoạt động công việc có thể yêu cầu sử dụng thiết bị test. Các dự án cần tuân thủ quy định về việc mượn thiết bị và thực hiện các thủ tục cần thiết.")##
+
+("entity"<|>"THỦ TỤC GIAO NHẬN"<|>"Process"<|>"Thủ tục giao nhận là quy trình cần thực hiện khi cho mượn thiết bị trên 5 ngày làm việc. Thủ tục này được thực hiện thông qua hệ thống S*Asset.")##
+
+("entity"<|>"THÔNG TIN NGƯỜI GIỮ THIẾT BỊ"<|>"Instruments"<|>"Thông tin người giữ thiết bị cần được cập nhật khi phát sinh cho mượn thiết bị. Việc cập nhật này được thực hiện vào tài liệu quản lý thiết bị.")##
+
+("entity"<|>"TÀI KHOẢN"<|>"Instruments"<|>"Tài khoản là các thông tin đăng nhập trên các hệ thống, ứng dụng, dịch vụ. Trước khi cho mượn thiết bị, nhân viên cần đảm bảo logout tất cả các tài khoản để bảo vệ thông tin.")##
+
+("entity"<|>"DỮ LIỆU DỰ ÁN"<|>"Instruments"<|>"Dữ liệu dự án là các thông tin liên quan đến dự án được lưu trữ trên thiết bị. Trước khi cho mượn thiết bị, nhân viên cần xóa hoặc backup dữ liệu này nếu cần thiết.")##
+
+("relationship"<|>"CÔNG TY"<|>"THIẾT BỊ TEST"<|>"Công ty cung cấp thiết bị test cho các dự án và có quy định nghiêm cấm việc tự ý cho mượn thiết bị này."<|>"8")##
+
+("relationship"<|>"KHÁCH HÀNG"<|>"THIẾT BỊ TEST"<|>"Khách hàng cung cấp thiết bị test cho các dự án và việc mượn thiết bị cần có sự cho phép của khách hàng."<|>"7")##
+
+("relationship"<|>"PL"<|>"THIẾT BỊ TEST"<|>"PL có thẩm quyền cho phép việc mượn thiết bị test giữa các dự án khác nhau."<|>"8")##
+
+("relationship"<|>"S*ASSET"<|>"THỦ TỤC GIAO NHẬN"<|>"S*Asset là hệ thống được sử dụng để thực hiện thủ tục giao nhận thiết bị khi cho mượn trên 5 ngày."<|>"7")##
+
+("relationship"<|>"GA"<|>"THIẾT BỊ TEST"<|>"GA chịu trách nhiệm kiểm tra và cài lại máy trước khi cho mượn thiết bị test."<|>"6")##
+
+("relationship"<|>"DỰ ÁN"<|>"THIẾT BỊ TEST"<|>"Dự án có thể yêu cầu sử dụng thiết bị test và cần tuân thủ quy định về việc mượn thiết bị."<|>"7")##
+
+("relationship"<|>"THÔNG TIN NGƯỜI GIỮ THIẾT BỊ"<|>"THIẾT BỊ TEST"<|>"Thông tin người giữ thiết bị cần được cập nhật khi phát sinh cho mượn thiết bị test."<|>"6")##
+
+("relationship"<|>"TÀI KHOẢN"<|>"THIẾT BỊ TEST"<|>"Trước khi cho mượn thiết bị test, nhân viên cần đảm bảo logout tất cả các tài khoản để bảo vệ thông tin."<|>"8")##
+
+("relationship"<|>"DỮ LIỆU DỰ ÁN"<|>"THIẾT BỊ TEST"<|>"Trước khi cho mượn thiết bị test, nhân viên cần xóa hoặc backup dữ liệu dự án nếu cần thiết."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"VPN"<|>"System"<|>"VPN (Virtual Private Network) là hệ thống cho phép truy cập từ xa vào mạng nội bộ của tổ chức. Việc truy cập VPN yêu cầu hoàn thành thủ tục ký Cam kết bảo mật và tuân thủ các nội dung trong Cam kết. Thời hạn sử dụng VPN khác nhau tùy theo vai trò: Staff tối đa 3 tháng, PL/LM tối đa 6 tháng, và Head/SDM/UM vô thời hạn. Nhân viên không được phép tiếp tục truy cập sau khi hết hạn mà không tạo lại Request. VPN chỉ được sử dụng cho mục đích công việc và không được chia sẻ thông tin tài khoản cho người khác.")##
+("entity"<|>"Request"<|>"Form"<|>"Request là yêu cầu truy cập hệ thống từ xa (VPN) mà nhân viên cần thực hiện để có quyền truy cập. Thủ tục này bao gồm việc ký Cam kết bảo mật và tuân thủ các nội dung trong Cam kết. Thời hạn sử dụng Request phụ thuộc vào vai trò của nhân viên và cần được tạo lại trước khi hết hạn nếu muốn tiếp tục truy cập.")##
+("entity"<|>"Cam kết bảo mật"<|>"Regulation"<|>"Cam kết bảo mật là quy định mà nhân viên phải ký và tuân thủ khi truy cập hệ thống từ xa (VPN). Cam kết này đảm bảo rằng thông tin tài khoản truy cập không được chia sẻ và chỉ được sử dụng cho mục đích công việc.")##
+("entity"<|>"Staff"<|>"Role"<|>"Staff là vai trò trong tổ chức với thời hạn sử dụng VPN tối đa 3 tháng. Sau thời hạn này, Staff cần tạo lại Request để tiếp tục truy cập.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là vai trò trong tổ chức với thời hạn sử dụng VPN tối đa 6 tháng. Sau thời hạn này, PL/LM cần tạo lại Request để tiếp tục truy cập.")##
+("entity"<|>"Head/SDM/UM"<|>"Role"<|>"Head/SDM/UM là vai trò trong tổ chức với thời hạn sử dụng VPN vô thời hạn, không cần tạo lại Request sau một khoảng thời gian nhất định.")##
+("entity"<|>"Nhân viên"<|>"Person"<|>"Nhân viên là người sử dụng hệ thống VPN để truy cập từ xa vào mạng nội bộ. Nhân viên phải tuân thủ các quy định về bảo mật, không chia sẻ thông tin tài khoản và chỉ sử dụng VPN cho mục đích công việc. Khi hết thời hạn sử dụng, nhân viên cần tạo lại Request để tiếp tục truy cập.")##
+("relationship"<|>"VPN"<|>"Request"<|>"Request là yêu cầu cần thiết để nhân viên có thể truy cập hệ thống VPN, bao gồm việc ký Cam kết bảo mật và tuân thủ các quy định liên quan."<|>"9")##
+("relationship"<|>"VPN"<|>"Cam kết bảo mật"<|>"Cam kết bảo mật là một phần của quy trình truy cập VPN, đảm bảo rằng nhân viên tuân thủ các quy định về bảo mật thông tin."<|>"8")##
+("relationship"<|>"Nhân viên"<|>"VPN"<|>"Nhân viên sử dụng VPN để truy cập từ xa vào hệ thống, phải tuân thủ các quy định bảo mật và chỉ sử dụng cho mục đích công việc."<|>"9")##
+("relationship"<|>"Nhân viên"<|>"Request"<|>"Nhân viên cần tạo Request để có quyền truy cập VPN, và phải tạo lại Request trước khi hết hạn để tiếp tục truy cập."<|>"8")##
+("relationship"<|>"Nhân viên"<|>"Cam kết bảo mật"<|>"Nhân viên phải ký và tuân thủ Cam kết bảo mật khi truy cập VPN, đảm bảo không chia sẻ thông tin tài khoản."<|>"8")##
+("relationship"<|>"Staff"<|>"VPN"<|>"Staff có thời hạn sử dụng VPN tối đa 3 tháng, sau đó cần tạo lại Request để tiếp tục truy cập."<|>"7")##
+("relationship"<|>"PL/LM"<|>"VPN"<|>"PL/LM có thời hạn sử dụng VPN tối đa 6 tháng, sau đó cần tạo lại Request để tiếp tục truy cập."<|>"7")##
+("relationship"<|>"Head/SDM/UM"<|>"VPN"<|>"Head/SDM/UM có thời hạn sử dụng VPN vô thời hạn, không cần tạo lại Request sau một khoảng thời gian nhất định."<|>"6")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị Công ty là các thiết bị được cung cấp bởi Công ty, được bộ phận Infra cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff. Thiết bị này cần tuân thủ các quy định của Công ty khi truy cập mạng nội bộ.")##
+("entity"<|>"THIẾT BỊ KHÁCH HÀNG"<|>"Asset"<|>"Thiết bị Khách hàng là các thiết bị được cung cấp bởi khách hàng, cũng được bộ phận Infra cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff. Thiết bị này cần tuân thủ các quy định của Công ty khi truy cập mạng nội bộ.")##
+("entity"<|>"BỘ PHẬN INFRA"<|>"Department"<|>"Bộ phận Infra chịu trách nhiệm cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff cho các thiết bị Công ty và Khách hàng. Bộ phận này cũng thực hiện format cài đặt lại máy theo quy định thiết bị của Công ty.")##
+("entity"<|>"WIFI STAFF"<|>"Service"<|>"Wifi Staff là mạng Wifi nội bộ của Công ty, được cấp quyền truy cập cho các thiết bị Công ty và Khách hàng thông qua bộ phận Infra. Quyền truy cập này cần tuân thủ các quy định của Công ty.")##
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên là người sử dụng thiết bị cá nhân để truy cập vào mạng nội bộ của Công ty. Nhân viên phải tự sao lưu dữ liệu trước khi mang máy sang Infra để format và chịu trách nhiệm với những mất mát do việc format gây ra. Nhân viên cũng phải tuân thủ quy định ANTT và cam kết bảo mật.")##
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là các quy định về an ninh thông tin mà nhân viên phải tuân thủ khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của Công ty.")##
+("entity"<|>"CAM KẾT BẢO MẬT"<|>"Form"<|>"Cam kết bảo mật là các điều khoản mà nhân viên phải tuân thủ trong quá trình sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của Công ty, nhằm đảm bảo an toàn thông tin.")##
+("relationship"<|>"THIẾT BỊ CÔNG TY"<|>"BỘ PHẬN INFRA"<|>"Bộ phận Infra chịu trách nhiệm cập nhật địa chỉ MAC và cấp quyền truy cập Wifi Staff cho thiết bị Công ty."<|>"8")##
+("relationship"<|>"THIẾT BỊ KHÁCH HÀNG"<|>"BỘ PHẬN INFRA"<|>"Bộ phận Infra chịu trách nhiệm cập nhật địa chỉ MAC và cấp quyền truy cập Wifi Staff cho thiết bị Khách hàng."<|>"8")##
+("relationship"<|>"NHÂN VIÊN"<|>"BỘ PHẬN INFRA"<|>"Nhân viên phải mang thiết bị cá nhân qua bộ phận Infra để format cài đặt lại máy theo quy định của Công ty."<|>"7")##
+("relationship"<|>"NHÂN VIÊN"<|>"QUY ĐỊNH ANTT"<|>"Nhân viên phải tuân thủ các nội dung của quy định ANTT khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của Công ty."<|>"9")##
+("relationship"<|>"NHÂN VIÊN"<|>"CAM KẾT BẢO MẬT"<|>"Nhân viên phải tuân thủ các điều khoản trong cam kết bảo mật khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của Công ty."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là quy trình đảm bảo an toàn thông tin khi truy cập mạng, đặc biệt là khi sử dụng Wi-Fi công cộng. Quy trình này bao gồm các biện pháp ngăn chặn kết nối với Wi-Fi công cộng không rõ nguồn gốc và không có mật khẩu bảo vệ, nhằm bảo vệ dữ liệu khi làm việc ngoài phạm vi công ty.")##
+("entity"<|>"WI-FI CÔNG CỘNG"<|>"Asset"<|>"Wi-Fi công cộng là mạng không dây có sẵn cho công chúng sử dụng, thường không có bảo mật cao. Việc kết nối với Wi-Fi công cộng không rõ nguồn gốc và không có mật khẩu bảo vệ có thể gây ra rủi ro bảo mật, đặc biệt khi làm việc ngoài phạm vi công ty.")##
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là tổ chức nơi nhân viên làm việc và cần tuân thủ các quy định về bảo mật thông tin, bao gồm việc hạn chế sử dụng Wi-Fi công cộng không an toàn khi làm việc ngoài phạm vi công ty.")##
+("relationship"<|>"QUẢN LÝ TRUY CẬP"<|>"WI-FI CÔNG CỘNG"<|>"Quản lý truy cập bao gồm việc hạn chế kết nối với Wi-Fi công cộng không rõ nguồn gốc và không có mật khẩu bảo vệ để đảm bảo an toàn thông tin."<|>"8")##
+("relationship"<|>"QUẢN LÝ TRUY CẬP"<|>"CÔNG TY"<|>"Quản lý truy cập là một phần của quy định bảo mật thông tin của công ty, nhằm bảo vệ dữ liệu khi nhân viên làm việc ngoài phạm vi công ty."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"KẾT NỐI KHÔNG DÂY"<|>"System"<|>"Kết nối không dây bao gồm các công nghệ như Bluetooth và Airdrop, được sử dụng để ghép đôi và chia sẻ thông tin giữa các thiết bị. Để đảm bảo an toàn, cần xác minh đúng ID và tên thiết bị trước khi ghép đôi. Chia sẻ thông tin có yêu cầu bảo mật cao cần có sự phê duyệt của PL/LM. Chức năng kết nối không dây phải được tắt khi không sử dụng hoặc khi sử dụng thiết bị cho mục đích công việc.")## 
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là các vai trò có thẩm quyền phê duyệt việc chia sẻ thông tin có yêu cầu bảo mật cao qua kết nối không dây. Họ đảm bảo rằng các quy trình bảo mật được tuân thủ khi thông tin nhạy cảm được chia sẻ.")## 
+("relationship"<|>"KẾT NỐI KHÔNG DÂY"<|>"PL/LM"<|>"PL/LM có trách nhiệm phê duyệt việc chia sẻ thông tin bảo mật cao qua kết nối không dây, đảm bảo an toàn thông tin trong quá trình sử dụng công nghệ này."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là quá trình kiểm soát và giám sát việc truy cập vào các hệ thống và tài nguyên mạng. Trong bối cảnh này, quản lý truy cập bao gồm việc đảm bảo an toàn khi truy cập internet, tránh nhấp vào các quảng cáo, tệp đính kèm, và đường link lạ để bảo vệ thông tin cá nhân và dữ liệu khỏi các mối đe dọa an ninh mạng.")##
+("entity"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"Standard"<|>"Truy cập internet an toàn là tiêu chuẩn nhằm bảo vệ người dùng khỏi các mối đe dọa trực tuyến. Tiêu chuẩn này yêu cầu người dùng không nhấp vào quảng cáo, tệp đính kèm từ thư hoặc SMS, và các đường link lạ hoặc từ địa chỉ lạ để tránh rủi ro bảo mật.")##
+("entity"<|>"QUẢNG CÁO"<|>"Instruments"<|>"Quảng cáo trên các trang web có thể chứa các liên kết độc hại hoặc phần mềm độc hại. Người dùng được khuyến cáo không nhấp vào bất kỳ quảng cáo nào để tránh nguy cơ bị tấn công mạng.")##
+("entity"<|>"TỆP ĐÍNH KÈM"<|>"Instruments"<|>"Tệp đính kèm được gửi qua thư hoặc SMS có thể chứa mã độc hoặc phần mềm gián điệp. Người dùng được khuyến cáo không mở các tệp đính kèm từ các nguồn không rõ ràng để bảo vệ thiết bị và dữ liệu cá nhân.")##
+("entity"<|>"ĐƯỜNG LINK LẠ"<|>"Instruments"<|>"Đường link lạ, còn gọi là link độc, là các liên kết có thể dẫn đến các trang web độc hại hoặc lừa đảo. Người dùng được khuyến cáo không nhấp vào các đường link này, đặc biệt là từ các địa chỉ lạ, để tránh bị lừa đảo hoặc tấn công mạng.")##
+("relationship"<|>"QUẢN LÝ TRUY CẬP"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"Quản lý truy cập bao gồm việc thực hiện các tiêu chuẩn truy cập internet an toàn để bảo vệ người dùng khỏi các mối đe dọa trực tuyến."<|>"8")##
+("relationship"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"QUẢNG CÁO"<|>"Truy cập internet an toàn yêu cầu người dùng không nhấp vào quảng cáo để tránh các mối đe dọa bảo mật."<|>"7")##
+("relationship"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"TỆP ĐÍNH KÈM"<|>"Truy cập internet an toàn yêu cầu người dùng không mở tệp đính kèm từ các nguồn không rõ ràng để bảo vệ dữ liệu."<|>"7")##
+("relationship"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"ĐƯỜNG LINK LẠ"<|>"Truy cập internet an toàn yêu cầu người dùng không nhấp vào các đường link lạ để tránh bị tấn công mạng."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"MÔI TRƯỜNG PRODUCTION"<|>"System"<|>"Môi trường Production là hệ thống máy chủ được sử dụng trong quá trình phát triển dự án. Việc truy cập vào môi trường này bị nghiêm cấm đối với thiết bị cá nhân, trừ khi được SDM phê duyệt trong các trường hợp đặc biệt như thiết bị công ty không đáp ứng hoặc cần hỗ trợ kịp thời.")##  
+("entity"<|>"SDM"<|>"Role"<|>"SDM là người có thẩm quyền phê duyệt việc sử dụng thiết bị cá nhân để truy cập vào môi trường Production trong các trường hợp đặc biệt, đảm bảo rằng các quy định về bảo mật và quản lý truy cập được tuân thủ.")##  
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị không thuộc sở hữu của công ty, bị nghiêm cấm sử dụng để truy cập vào môi trường Production, trừ khi có sự phê duyệt của SDM.")##  
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị công ty là các thiết bị được cung cấp bởi công ty để phục vụ công việc. Trong trường hợp thiết bị này không đáp ứng, có thể được thay thế bằng thiết bị cá nhân nếu được SDM phê duyệt.")##  
+("entity"<|>"HỆ ĐIỀU HÀNH"<|>"System"<|>"Hệ điều hành của thiết bị là phần mềm cơ bản điều khiển hoạt động của thiết bị. Việc tự ý cài lại, nâng cấp hoặc cài đặt hệ điều hành khác bị nghiêm cấm, và mọi thay đổi phải thông qua hệ thống S*Asset và được PL/LM cho phép.")##  
+("entity"<|>"S*ASSET"<|>"System"<|>"S*Asset là hệ thống quản lý tài sản của công ty, nơi thực hiện các yêu cầu liên quan đến thay đổi hệ điều hành của thiết bị. Mọi yêu cầu phải được thực hiện qua hệ thống này và cần có sự cho phép của PL/LM.")##  
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là người có thẩm quyền cho phép các thay đổi liên quan đến hệ điều hành của thiết bị thông qua hệ thống S*Asset, đảm bảo rằng các quy định về quản lý thiết bị được tuân thủ.")##  
+("relationship"<|>"MÔI TRƯỜNG PRODUCTION"<|>"SDM"<|>"SDM có thẩm quyền phê duyệt việc sử dụng thiết bị cá nhân để truy cập vào môi trường Production trong các trường hợp đặc biệt."<|>"8")##  
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"MÔI TRƯỜNG PRODUCTION"<|>"Thiết bị cá nhân bị nghiêm cấm sử dụng để truy cập vào môi trường Production, trừ khi có sự phê duyệt của SDM."<|>"9")##  
+("relationship"<|>"THIẾT BỊ CÔNG TY"<|>"MÔI TRƯỜNG PRODUCTION"<|>"Thiết bị công ty được sử dụng để truy cập vào môi trường Production, và trong trường hợp không đáp ứng, có thể được thay thế bằng thiết bị cá nhân nếu được SDM phê duyệt."<|>"7")##  
+("relationship"<|>"HỆ ĐIỀU HÀNH"<|>"S*ASSET"<|>"Mọi yêu cầu thay đổi hệ điều hành phải được thực hiện thông qua hệ thống S*Asset."<|>"8")##  
+("relationship"<|>"HỆ ĐIỀU HÀNH"<|>"PL/LM"<|>"PL/LM có thẩm quyền cho phép các thay đổi liên quan đến hệ điều hành của thiết bị."<|>"7")##  
+("relationship"<|>"S*ASSET"<|>"PL/LM"<|>"PL/LM phê duyệt các yêu cầu thay đổi hệ điều hành thông qua hệ thống S*Asset."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ"<|>"Asset"<|>"Thiết bị là các công cụ công nghệ được sử dụng trong công ty, yêu cầu thiết lập và cài đặt chế độ tắt máy và tài khoản người dùng. Thiết bị cần được tắt hoàn toàn sau khi kết thúc phiên làm việc và duy trì chế độ tự động khóa màn hình sau một khoảng thời gian nhất định khi không sử dụng.")##
+
+("entity"<|>"CHẾ ĐỘ TẮT MÁY"<|>"Process"<|>"Chế độ tắt máy bao gồm việc tắt hoàn toàn thiết bị sau khi kết thúc phiên làm việc và duy trì chế độ tự động khóa màn hình sau một khoảng thời gian không quá 5 phút hoặc 1 phút khi không sử dụng. Người dùng cần thực hiện khóa màn hình khi rời khỏi vị trí đặt thiết bị.")##
+
+("entity"<|>"TÀI KHOẢN NGƯỜI DÙNG"<|>"System"<|>"Tài khoản người dùng là tài khoản với domain công ty được sử dụng trên thiết bị. Yêu cầu tách biệt tài khoản công việc và tài khoản cá nhân trên các trình duyệt web và trên thiết bị để đảm bảo an toàn và bảo mật thông tin.")##
+
+("relationship"<|>"THIẾT BỊ"<|>"CHẾ ĐỘ TẮT MÁY"<|>"Thiết bị cần được thiết lập chế độ tắt máy để đảm bảo an toàn và bảo mật khi không sử dụng, bao gồm việc tắt hoàn toàn và khóa màn hình tự động."<|>"8")##
+
+("relationship"<|>"THIẾT BỊ"<|>"TÀI KHOẢN NGƯỜI DÙNG"<|>"Thiết bị chỉ được sử dụng với tài khoản người dùng có domain công ty, yêu cầu tách biệt tài khoản công việc và cá nhân để bảo mật thông tin."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"MẬT KHẨU KHÓA MÀN HÌNH"<|>"Code"<|>"Mật khẩu khóa màn hình là một biện pháp bảo mật được sử dụng để bảo vệ thiết bị. Yêu cầu mật khẩu phải mạnh, với độ dài tối thiểu 8 ký tự, bao gồm ký tự viết hoa, ký tự đặc biệt, ký tự thường và số. Mật khẩu cần được thay đổi định kỳ mỗi 3 tháng. Không được sử dụng chung một mật khẩu cho tài khoản công việc và cá nhân.")##
+("entity"<|>"MÃ PIN"<|>"Code"<|>"Mã PIN là một dạng mật khẩu được sử dụng để bảo vệ thiết bị theo quy định của công ty. Mã PIN phải được duy trì và cài đặt trên thiết bị để đảm bảo an toàn.")##
+("entity"<|>"TÀI KHOẢN USER PROFILE/ USE ACCOUNT"<|>"System"<|>"Tài khoản User Profile/ Use Account là tài khoản được sử dụng cho công việc và cá nhân. Yêu cầu không được dùng chung mật khẩu cho cả hai loại tài khoản này. Mật khẩu cho tài khoản công việc cần được thay đổi định kỳ mỗi 3 tháng.")##
+("entity"<|>"QUY ĐỊNH CỦA CÔNG TY"<|>"Regulation"<|>"Quy định của công ty yêu cầu duy trì và sử dụng mật khẩu mạnh cho các tài khoản và thiết bị, với các tiêu chí cụ thể về độ dài và thành phần của mật khẩu. Quy định cũng yêu cầu thay đổi mật khẩu định kỳ và không sử dụng chung mật khẩu cho công việc và cá nhân.")##
+("relationship"<|>"MẬT KHẨU KHÓA MÀN HÌNH"<|>"QUY ĐỊNH CỦA CÔNG TY"<|>"Mật khẩu khóa màn hình phải tuân thủ quy định của công ty về độ mạnh và định kỳ thay đổi để đảm bảo an toàn thông tin."<|>"8")##
+("relationship"<|>"MÃ PIN"<|>"QUY ĐỊNH CỦA CÔNG TY"<|>"Mã PIN phải được duy trì theo quy định của công ty để bảo vệ thiết bị và thông tin cá nhân."<|>"7")##
+("relationship"<|>"TÀI KHOẢN USER PROFILE/ USE ACCOUNT"<|>"QUY ĐỊNH CỦA CÔNG TY"<|>"Tài khoản User Profile/ Use Account phải tuân thủ quy định của công ty về việc không dùng chung mật khẩu cho công việc và cá nhân, và thay đổi mật khẩu định kỳ."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là một phần của quy định về an ninh thông tin, bao gồm các quy định về việc cài đặt và sử dụng dịch vụ phần mềm. Quy định này yêu cầu tuân thủ nghiêm ngặt các điều khoản về việc không tự ý cài đặt phần mềm rủi ro cao, không sử dụng phần mềm không có bản quyền, và không sử dụng license phần mềm của công ty cho mục đích cá nhân.")##
+("entity"<|>"DANH MỤC PHẦN MỀM RỦI RO CAO"<|>"Standard"<|>"Danh mục phần mềm rủi ro cao là danh sách các phần mềm được coi là có nguy cơ cao về bảo mật và an toàn thông tin. Việc cài đặt và sử dụng các phần mềm trong danh mục này bị nghiêm cấm để tránh các rủi ro vi phạm bản quyền và tấn công malware.")##
+("entity"<|>"PHẦN MỀM KHÔNG CÓ BẢN QUYỀN"<|>"Product"<|>"Phần mềm không có bản quyền, hay còn gọi là phần mềm crack, là các phần mềm không được cấp phép chính thức. Việc sử dụng các phần mềm này bị cấm để tránh các rủi ro vi phạm bản quyền và nguy cơ máy tính bị tấn công.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị thuộc sở hữu cá nhân nhưng được sử dụng cho mục đích công việc. Việc cài đặt phần mềm không rõ nguồn gốc trên các thiết bị này bị cấm để hạn chế rủi ro bảo mật. Dữ liệu liên quan đến công việc phải được xóa sau khi kết thúc sử dụng.")##
+("entity"<|>"LICENSE PHẦN MỀM CỦA CÔNG TY"<|>"Product"<|>"License phần mềm của công ty là giấy phép sử dụng phần mềm được công ty cung cấp cho nhân viên. Việc sử dụng các license này cho mục đích cá nhân bị nghiêm cấm.")##
+("entity"<|>"DỮ LIỆU LIÊN QUAN ĐẾN CÔNG VIỆC"<|>"Asset"<|>"Dữ liệu liên quan đến công việc bao gồm tất cả các thông tin và hình ảnh được lưu trữ trên thiết bị cá nhân phục vụ cho công việc. Dữ liệu này phải được xóa sau khi kết thúc quá trình làm việc hoặc sử dụng thiết bị cá nhân.")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"DANH MỤC PHẦN MỀM RỦI RO CAO"<|>"Quy định ANTT nghiêm cấm việc cài đặt và sử dụng phần mềm trong danh mục phần mềm rủi ro cao để bảo vệ an ninh thông tin."<|>"8")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"PHẦN MỀM KHÔNG CÓ BẢN QUYỀN"<|>"Quy định ANTT cấm sử dụng phần mềm không có bản quyền để tránh vi phạm bản quyền và bảo vệ máy tính khỏi tấn công malware."<|>"9")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"THIẾT BỊ CÁ NHÂN"<|>"Quy định ANTT yêu cầu không cài đặt phần mềm không rõ nguồn gốc trên thiết bị cá nhân để hạn chế rủi ro bảo mật."<|>"8")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"LICENSE PHẦN MỀM CỦA CÔNG TY"<|>"Quy định ANTT cấm sử dụng license phần mềm của công ty cho mục đích cá nhân để đảm bảo tuân thủ quy định sử dụng phần mềm."<|>"9")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"DỮ LIỆU LIÊN QUAN ĐẾN CÔNG VIỆC"<|>"Dữ liệu liên quan đến công việc trên thiết bị cá nhân phải được xóa sau khi kết thúc sử dụng để bảo vệ thông tin công việc."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"PHẦN MỀM ANTIVIRUS"<|>"Product"<|>"Phần mềm Antivirus bao gồm các sản phẩm như ESET, Avast, Kaspersky, ClamAV và Microsoft Defender. Đây là các phần mềm được cài đặt trên các thiết bị để bảo vệ hệ thống khỏi các mối đe dọa từ virus và phần mềm độc hại. Việc cài đặt phần mềm antivirus phải tuân thủ theo quy định bản quyền.")##  
+("entity"<|>"FIREWALL"<|>"System"<|>"Firewall là hệ thống bảo mật được tích hợp trên các hệ điều hành như Windows, MAC, và Ubuntu. Nó có chức năng bảo vệ các thiết bị khỏi các truy cập trái phép và các mối đe dọa từ mạng.")##  
+("entity"<|>"HỆ ĐIỀU HÀNH"<|>"System"<|>"Hệ điều hành bao gồm Windows, MAC, và Ubuntu. Đây là các nền tảng mà trên đó các phần mềm antivirus và hệ thống firewall được cài đặt và duy trì hoạt động để bảo vệ thiết bị.")##  
+("entity"<|>"QUY ĐỊNH BẢN QUYỀN"<|>"Regulation"<|>"Quy định bản quyền yêu cầu việc cài đặt phần mềm antivirus phải tuân thủ các điều khoản và điều kiện về bản quyền, đảm bảo sử dụng phần mềm một cách hợp pháp.")##  
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"FIREWALL"<|>"Phần mềm Antivirus và Firewall đều được cài đặt và duy trì trên các thiết bị để bảo vệ hệ thống khỏi các mối đe dọa từ bên ngoài, tạo thành một lớp bảo mật toàn diện."<|>"8")##  
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"HỆ ĐIỀU HÀNH"<|>"Phần mềm Antivirus được cài đặt trên các hệ điều hành như Windows, MAC, và Ubuntu để bảo vệ thiết bị khỏi virus và phần mềm độc hại."<|>"7")##  
+("relationship"<|>"FIREWALL"<|>"HỆ ĐIỀU HÀNH"<|>"Firewall là một phần của hệ điều hành, được tích hợp sẵn trên các nền tảng như Windows, MAC, và Ubuntu để bảo vệ thiết bị khỏi các truy cập trái phép."<|>"7")##  
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"QUY ĐỊNH BẢN QUYỀN"<|>"Việc cài đặt phần mềm Antivirus phải tuân thủ quy định bản quyền, đảm bảo sử dụng phần mềm một cách hợp pháp và đúng quy định."<|>"6")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUY ĐỊNH VỀ VIỆC SỬ DỤNG TÀI SẢN"<|>"Regulation"<|>"Quy định về việc sử dụng tài sản và xử lý mất, hỏng tài sản công ty yêu cầu tuân thủ các nội dung liên quan đến việc bảo vệ và quản lý tài sản của công ty. Quy định này bao gồm các biện pháp xử lý khi xảy ra sự cố như mất mát hoặc hỏng hóc thiết bị.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là người phụ trách trực tiếp, có trách nhiệm nhận thông báo về sự cố và phối hợp với các bộ phận liên quan để đánh giá và xử lý sự cố.")##
+("entity"<|>"ISO"<|>"Department"<|>"Bộ phận ISO chịu trách nhiệm đánh giá sự cố và đưa ra phương án xử lý khi có thông báo từ PL/LM. ISO đóng vai trò quan trọng trong việc đảm bảo an toàn và bảo mật thông tin.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Person"<|>"Khách hàng là đối tượng cần được thông báo ngay lập tức nếu sự cố có khả năng tác động hoặc đã tác động đến họ. Việc thông báo kịp thời giúp duy trì mối quan hệ và sự tin tưởng của khách hàng.")##
+("entity"<|>"PHÒNG HẠ TẦNG NỘI BỘ (INFRA)"<|>"Department"<|>"Phòng Hạ tầng nội bộ (Infra) có nhiệm vụ hỗ trợ xử lý các tài khoản trên thiết bị và đối ứng với các phương án kỹ thuật khác khi xảy ra sự cố.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là tài sản thuộc sở hữu của nhân viên, nhân viên tự quản lý và chịu trách nhiệm với các hư hỏng, thiệt hại, mất mát đối với thiết bị đó.")##
+("entity"<|>"PHƯƠNG PHÁP VÔ HIỆU HÓA"<|>"Process"<|>"Phương pháp vô hiệu hóa bao gồm các biện pháp như khóa thiết bị hoặc xóa dữ liệu từ xa để bảo vệ thông tin khi xảy ra sự cố.")##
+("entity"<|>"THAY ĐỔI PASSWORD"<|>"Process"<|>"Thay đổi password là một biện pháp bảo mật cần thực hiện ngay khi xảy ra sự cố để bảo vệ các hệ thống, ứng dụng, và dịch vụ.")##
+("relationship"<|>"QUY ĐỊNH VỀ VIỆC SỬ DỤNG TÀI SẢN"<|>"PL/LM"<|>"PL/LM phải tuân thủ quy định về việc sử dụng tài sản và xử lý sự cố, đảm bảo thông báo và phối hợp xử lý kịp thời."<|>"8")##
+("relationship"<|>"PL/LM"<|>"ISO"<|>"PL/LM thông báo cho ISO để đánh giá và xử lý sự cố, thể hiện sự phối hợp giữa các bộ phận trong công ty."<|>"9")##
+("relationship"<|>"ISO"<|>"KHÁCH HÀNG"<|>"ISO cần thông báo cho khách hàng nếu sự cố có khả năng tác động đến họ, đảm bảo duy trì mối quan hệ và sự tin tưởng."<|>"8")##
+("relationship"<|>"PL/LM"<|>"PHÒNG HẠ TẦNG NỘI BỘ (INFRA)"<|>"PL/LM thông báo cho phòng Hạ tầng nội bộ để hỗ trợ xử lý các vấn đề kỹ thuật liên quan đến sự cố."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"PHƯƠNG PHÁP VÔ HIỆU HÓA"<|>"Phương pháp vô hiệu hóa có thể được áp dụng cho thiết bị cá nhân để bảo vệ thông tin khi xảy ra sự cố."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"THAY ĐỔI PASSWORD"<|>"Thay đổi password là một biện pháp bảo mật cần thực hiện trên thiết bị cá nhân khi xảy ra sự cố."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị Test là các thiết bị được sử dụng trong quá trình kiểm tra và thử nghiệm, cần tuân thủ các quy định riêng biệt ngoài các quy định chung. Các thiết bị này có thể bao gồm laptop, PC, mobile, và tablet, và được sử dụng để trung chuyển dữ liệu, cài đặt phần mềm, thiết lập cấu hình, và phục vụ cho hoạt động nghiên cứu bảo mật như jailbreak hoặc crack.")##
+
+("entity"<|>"QUY ĐỊNH RIÊNG"<|>"Regulation"<|>"Quy định riêng là các quy tắc cụ thể áp dụng cho Thiết bị Test, yêu cầu tuân thủ ngoài các quy định chung. Các quy định này bao gồm việc sử dụng công cụ để trung chuyển dữ liệu, cài đặt phần mềm, thiết lập thiết bị, và sử dụng thiết bị cho hoạt động nghiên cứu bảo mật.")##
+
+("entity"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Asset"<|>"Thiết bị Công ty/Khách hàng bao gồm các thiết bị như laptop, PC, mobile, và tablet, được sử dụng trong quá trình kiểm tra và thử nghiệm. Các thiết bị này phải tuân thủ các quy định riêng và chung để đảm bảo an toàn và bảo mật.")##
+
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị Cá nhân bao gồm laptop, PC, mobile, và tablet thuộc sở hữu cá nhân, được sử dụng trong quá trình kiểm tra và thử nghiệm. Các thiết bị này cũng phải tuân thủ các quy định riêng và chung để đảm bảo an toàn và bảo mật.")##
+
+("entity"<|>"HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"Process"<|>"Hoạt động nghiên cứu bảo mật bao gồm các hoạt động như jailbreak hoặc crack, được thực hiện trên các thiết bị test để kiểm tra và đảm bảo an toàn bảo mật. Các hoạt động này phải tuân thủ các quy định riêng biệt.")##
+
+("relationship"<|>"THIẾT BỊ TEST"<|>"QUY ĐỊNH RIÊNG"<|>"Thiết bị Test phải tuân thủ các quy định riêng biệt ngoài các quy định chung để đảm bảo an toàn và bảo mật trong quá trình kiểm tra và thử nghiệm."<|>"8")##
+
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"THIẾT BỊ TEST"<|>"Thiết bị Công ty/Khách hàng là một phần của Thiết bị Test, được sử dụng trong quá trình kiểm tra và thử nghiệm, và phải tuân thủ các quy định riêng."<|>"7")##
+
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"THIẾT BỊ TEST"<|>"Thiết bị Cá nhân cũng là một phần của Thiết bị Test, được sử dụng trong quá trình kiểm tra và thử nghiệm, và phải tuân thủ các quy định riêng."<|>"7")##
+
+("relationship"<|>"HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"THIẾT BỊ TEST"<|>"Hoạt động nghiên cứu bảo mật được thực hiện trên Thiết bị Test để kiểm tra và đảm bảo an toàn bảo mật, phải tuân thủ các quy định riêng."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"NEXTCLOUD"<|>"Product"<|>"Nextcloud là phần mềm được sử dụng để trung chuyển dữ liệu và hình ảnh test từ thiết bị test lên Laptop/PC. Phần mềm này chỉ được sử dụng trên các thiết bị có hệ điều hành OS>13 trên IOS hoặc OS>6 trên Android.")##  
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng trong dự án để thực hiện việc kiểm tra và chuyển dữ liệu, hình ảnh test lên Laptop/PC thông qua phần mềm Nextcloud. Các thiết bị này cần có hệ điều hành OS>13 trên IOS hoặc OS>6 trên Android để hỗ trợ cài đặt phần mềm Nextcloud.")##  
+("entity"<|>"LAPTOP/PC"<|>"Asset"<|>"Laptop/PC là thiết bị đích nhận dữ liệu và hình ảnh test được chuyển từ thiết bị test thông qua phần mềm Nextcloud.")##  
+("entity"<|>"OS>13 TRÊN IOS"<|>"Standard"<|>"OS>13 trên IOS là tiêu chuẩn hệ điều hành yêu cầu cho các thiết bị IOS để có thể cài đặt và sử dụng phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test.")##  
+("entity"<|>"OS>6 TRÊN ANDROID"<|>"Standard"<|>"OS>6 trên Android là tiêu chuẩn hệ điều hành yêu cầu cho các thiết bị Android để có thể cài đặt và sử dụng phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test.")##  
+("relationship"<|>"NEXTCLOUD"<|>"THIẾT BỊ TEST"<|>"Nextcloud được cài đặt trên thiết bị test để thực hiện việc chuyển dữ liệu và hình ảnh test lên Laptop/PC, với điều kiện thiết bị test phải có hệ điều hành OS>13 trên IOS hoặc OS>6 trên Android."<|>"9")##  
+("relationship"<|>"NEXTCLOUD"<|>"LAPTOP/PC"<|>"Nextcloud chuyển dữ liệu và hình ảnh test từ thiết bị test lên Laptop/PC, đóng vai trò là công cụ trung chuyển dữ liệu giữa hai loại thiết bị này."<|>"8")##  
+("relationship"<|>"THIẾT BỊ TEST"<|>"OS>13 TRÊN IOS"<|>"Thiết bị test cần có hệ điều hành OS>13 trên IOS để có thể cài đặt và sử dụng phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test."<|>"7")##  
+("relationship"<|>"THIẾT BỊ TEST"<|>"OS>6 TRÊN ANDROID"<|>"Thiết bị test cần có hệ điều hành OS>6 trên Android để có thể cài đặt và sử dụng phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"NEXTCLOUD"<|>"Product"<|>"Nextcloud là phần mềm được sử dụng để lưu trữ và chia sẻ dữ liệu, hình ảnh. Tuy nhiên, đối với các thiết bị test không hỗ trợ cài đặt phần mềm này, dự án cần sử dụng các công cụ khác để thực hiện việc trung chuyển dữ liệu.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng để kiểm tra dữ liệu và hình ảnh. Các thiết bị này có thể không hỗ trợ cài đặt phần mềm Nextcloud nếu có OS<13 trên IOS hoặc OS<6 trên Android và không hỗ trợ nâng cấp OS.")##
+("entity"<|>"CÔNG TY SUN ASTERISK"<|>"Organization"<|>"Công ty Sun Asterisk cung cấp tài khoản mail với domain @sun-asterisk.com hoặc @sun-asterisk.vn để đăng nhập vào các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh. Công ty cũng yêu cầu đảm bảo logout tài khoản sau khi quá trình chuyển dữ liệu kết thúc.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Role"<|>"Khách hàng là người có quyền phê duyệt các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh được sử dụng trong dự án.")##
+("entity"<|>"PL DỰ ÁN"<|>"Role"<|>"PL dự án là người có quyền phê duyệt các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh được sử dụng trong dự án.")##
+("entity"<|>"QUÁ TRÌNH CHUYỂN DỮ LIỆU"<|>"Process"<|>"Quá trình chuyển dữ liệu, hình ảnh test là hoạt động cần đảm bảo logout tài khoản sau khi kết thúc để hạn chế rủi ro rò rỉ thông tin dự án và dữ liệu cá nhân khi dùng chung thiết bị test.")##
+("relationship"<|>"NEXTCLOUD"<|>"THIẾT BỊ TEST"<|>"Nextcloud không thể cài đặt trên các thiết bị test có OS<13 trên IOS hoặc OS<6 trên Android, do đó cần sử dụng các công cụ khác để trung chuyển dữ liệu."<|>"8")##
+("relationship"<|>"CÔNG TY SUN ASTERISK"<|>"THIẾT BỊ TEST"<|>"Công ty Sun Asterisk cung cấp tài khoản mail để đăng nhập vào các công cụ trên thiết bị test, đảm bảo an toàn thông tin."<|>"7")##
+("relationship"<|>"KHÁCH HÀNG"<|>"PL DỰ ÁN"<|>"Khách hàng và PL dự án đều có quyền phê duyệt các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh được sử dụng trong dự án."<|>"6")##
+("relationship"<|>"QUÁ TRÌNH CHUYỂN DỮ LIỆU"<|>"CÔNG TY SUN ASTERISK"<|>"Công ty Sun Asterisk yêu cầu đảm bảo logout tài khoản sau khi quá trình chuyển dữ liệu kết thúc để bảo vệ thông tin dự án."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG CỤ TRUNG CHUYỂN DỮ LIỆU"<|>"System"<|>"Công cụ này được sử dụng để trung chuyển dữ liệu và hình ảnh test. Quá trình này yêu cầu đảm bảo rằng tất cả dữ liệu và hình ảnh test phải được xóa khỏi thiết bị test và các ứng dụng sau khi quá trình chuyển dữ liệu kết thúc.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là nơi dữ liệu và hình ảnh test được lưu trữ tạm thời trong quá trình trung chuyển. Sau khi quá trình chuyển dữ liệu hoàn tất, tất cả dữ liệu và hình ảnh test phải được xóa khỏi thiết bị này.")##
+("entity"<|>"PHẦN MỀM TRÊN THIẾT BỊ TEST"<|>"Product"<|>"Phần mềm được cài đặt và sử dụng trên thiết bị test phải liên quan đến công việc. Việc cài đặt các phần mềm không liên quan đến công việc bị nghiêm cấm.")##
+("relationship"<|>"CÔNG CỤ TRUNG CHUYỂN DỮ LIỆU"<|>"THIẾT BỊ TEST"<|>"Công cụ trung chuyển dữ liệu được sử dụng để chuyển dữ liệu và hình ảnh test từ thiết bị test, yêu cầu xóa dữ liệu sau khi hoàn tất quá trình."<|>"8")##
+("relationship"<|>"PHẦN MỀM TRÊN THIẾT BỊ TEST"<|>"THIẾT BỊ TEST"<|>"Phần mềm được cài đặt trên thiết bị test phải liên quan đến công việc, và việc cài đặt phần mềm không liên quan bị nghiêm cấm."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"Nextcloud"<|>"Product"<|>"Nextcloud là phần mềm được cài đặt trên thiết bị test để hỗ trợ công việc. Tuy nhiên, việc sử dụng Nextcloud trên thiết bị này đi kèm với quy định nghiêm cấm login các ứng dụng tích hợp trong Google Workspace để tránh rủi ro rò rỉ thông tin.")##
+("entity"<|>"Google Workspace"<|>"Product"<|>"Google Workspace là bộ ứng dụng tích hợp bao gồm Gmail, Google Docs, Sheets và Slides, Google Drive, Google Calendar, Google Meet, Google Forms, Google Chat. Việc login vào Google Workspace trên thiết bị test bị nghiêm cấm để tránh rủi ro rò rỉ thông tin dự án và dữ liệu cá nhân.")##
+("entity"<|>"Thiết bị Test"<|>"Asset"<|>"Thiết bị test là công cụ được sử dụng để cài đặt và thử nghiệm phần mềm như Nextcloud. Thiết bị này có nguy cơ rò rỉ thông tin nếu không tuân thủ các quy định về việc login vào các ứng dụng.")##
+("entity"<|>"@sun-asterisk.com"<|>"Code"<|>"@sun-asterisk.com là domain của công ty được sử dụng cho tài khoản mail. Việc login tài khoản mail với domain này trên thiết bị test có thể dẫn đến rủi ro rò rỉ thông tin.")##
+("entity"<|>"CH Play (Google Play)"<|>"Service"<|>"CH Play (Google Play) là dịch vụ cung cấp ứng dụng cho thiết bị Android. Trong trường hợp cần thiết, nhân viên có thể tải ứng dụng từ CH Play để phục vụ công việc nhưng phải đảm bảo logout tài khoản mail công ty ngay sau khi tải xuống.")##
+("entity"<|>"Nhân viên"<|>"Person"<|>"Nhân viên là người thực hiện các thao tác cài đặt và sử dụng phần mềm trên thiết bị test. Họ có trách nhiệm tuân thủ các quy định về việc login và logout tài khoản mail công ty để đảm bảo an toàn thông tin.")##
+("relationship"<|>"Nextcloud"<|>"Thiết bị Test"<|>"Nextcloud được cài đặt trên thiết bị test để hỗ trợ công việc, nhưng việc sử dụng phải tuân thủ các quy định nghiêm ngặt để tránh rủi ro bảo mật."<|>"8")##
+("relationship"<|>"Google Workspace"<|>"Thiết bị Test"<|>"Việc login vào Google Workspace trên thiết bị test bị nghiêm cấm để tránh rủi ro rò rỉ thông tin dự án và dữ liệu cá nhân."<|>"9")##
+("relationship"<|>"@sun-asterisk.com"<|>"Thiết bị Test"<|>"Login tài khoản mail với domain @sun-asterisk.com trên thiết bị test có thể dẫn đến rủi ro rò rỉ thông tin, do đó cần phải tránh."<|>"8")##
+("relationship"<|>"CH Play (Google Play)"<|>"Nhân viên"<|>"Nhân viên có thể tải ứng dụng từ CH Play để phục vụ công việc nhưng phải đảm bảo logout tài khoản mail công ty ngay sau khi tải xuống để bảo vệ thông tin."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị iOS được sử dụng trong quá trình kiểm thử. Các thiết bị này cần được thiết lập với tài khoản iCloud của Công ty và bật chức năng Find My iPhone, bao gồm cả Find My network và Send Last Location. Trong quá trình test, cần đảm bảo tắt các chức năng như Backup, Automatic restore, Synchronize, Keychain, AutoFill Passwords, và Share Location. Sau khi kiểm thử, tất cả dữ liệu và hình ảnh test trên thiết bị phải được xóa trước khi cho mượn hoặc bàn giao thiết bị.")## 
+("entity"<|>"TÀI KHOẢN ICLOUD CỦA CÔNG TY"<|>"System"<|>"Tài khoản iCloud của Công ty được sử dụng trên các thiết bị iOS trong quá trình kiểm thử. Tài khoản này cần được duy trì để đảm bảo các chức năng như Find My iPhone hoạt động hiệu quả.")## 
+("entity"<|>"FIND MY IPHONE"<|>"Service"<|>"Find My iPhone là một dịch vụ được cài đặt trên thiết bị iOS để theo dõi và bảo vệ thiết bị. Dịch vụ này bao gồm các chức năng Find My network và Send Last Location, cần được bật trong quá trình kiểm thử.")## 
+("entity"<|>"BACKUP"<|>"Process"<|>"Backup là quá trình sao lưu dữ liệu trên thiết bị iOS. Trong quá trình kiểm thử, chức năng này cần được tắt để tránh lưu trữ dữ liệu không cần thiết.")## 
+("entity"<|>"AUTOMATIC RESTORE"<|>"Process"<|>"Automatic restore là quá trình tự động khôi phục dữ liệu trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để đảm bảo dữ liệu không bị khôi phục không mong muốn.")## 
+("entity"<|>"SYNCHRONIZE"<|>"Process"<|>"Synchronize (đồng bộ hóa) là quá trình đồng bộ dữ liệu giữa thiết bị iOS và các dịch vụ đám mây. Trong quá trình kiểm thử, cần tắt chức năng này để tránh đồng bộ hóa dữ liệu cá nhân.")## 
+("entity"<|>"KEYCHAIN"<|>"Service"<|>"Keychain là dịch vụ lưu trữ mật khẩu và thông tin bảo mật trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để bảo vệ thông tin bảo mật.")## 
+("entity"<|>"AUTOFILL PASSWORDS"<|>"Service"<|>"AutoFill Passwords là dịch vụ tự động điền mật khẩu trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để tránh điền thông tin không mong muốn.")## 
+("entity"<|>"SHARE LOCATION"<|>"Service"<|>"Share Location là dịch vụ chia sẻ vị trí trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để bảo vệ quyền riêng tư.")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"TÀI KHOẢN ICLOUD CỦA CÔNG TY"<|>"Thiết bị test sử dụng tài khoản iCloud của Công ty để đảm bảo các chức năng bảo mật và theo dõi như Find My iPhone hoạt động hiệu quả."<|>"8")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"FIND MY IPHONE"<|>"Thiết bị test cần bật chức năng Find My iPhone để theo dõi và bảo vệ thiết bị trong quá trình kiểm thử."<|>"7")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"BACKUP"<|>"Chức năng Backup trên thiết bị test cần được tắt để tránh lưu trữ dữ liệu không cần thiết trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"AUTOMATIC RESTORE"<|>"Chức năng Automatic restore trên thiết bị test cần được tắt để đảm bảo dữ liệu không bị khôi phục không mong muốn."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"SYNCHRONIZE"<|>"Chức năng Synchronize trên thiết bị test cần được tắt để tránh đồng bộ hóa dữ liệu cá nhân trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"KEYCHAIN"<|>"Chức năng Keychain trên thiết bị test cần được tắt để bảo vệ thông tin bảo mật trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"AUTOFILL PASSWORDS"<|>"Chức năng AutoFill Passwords trên thiết bị test cần được tắt để tránh điền thông tin không mong muốn trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"SHARE LOCATION"<|>"Chức năng Share Location trên thiết bị test cần được tắt để bảo vệ quyền riêng tư trong quá trình kiểm thử."<|>"6")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"Asset"<|>"Thiết bị nghiên cứu bảo mật là nhóm thiết bị được sử dụng riêng biệt cho hoạt động nghiên cứu bảo mật như jailbreak hoặc crack. Nhóm thiết bị này không được sử dụng cho các hoạt động kiểm thử trong dự án và phải được quản lý tách biệt với thiết bị test của dự án.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là nhóm thiết bị được sử dụng trong các dự án để thực hiện kiểm thử. Nhóm thiết bị này không được sử dụng cho hoạt động nghiên cứu bảo mật và phải được quản lý tách biệt với thiết bị nghiên cứu bảo mật.")##
+("entity"<|>"BỘ PHẬN NGHIÊN CỨU BẢO MẬT"<|>"Department"<|>"Bộ phận nghiên cứu bảo mật là đơn vị chịu trách nhiệm thực hiện các hoạt động nghiên cứu bảo mật như jailbreak hoặc crack. Bộ phận này không sử dụng thiết bị test của dự án mà chỉ sử dụng thiết bị phục vụ cho hoạt động nghiên cứu bảo mật.")##
+("entity"<|>"NGƯỜI PHỤ TRÁCH THIẾT BỊ"<|>"Role"<|>"Người phụ trách thiết bị là cá nhân chịu trách nhiệm cập nhật danh sách quản lý thiết bị phục vụ công việc nghiên cứu bảo mật. Họ phải đảm bảo rằng thiết bị nghiên cứu bảo mật được quản lý theo biểu mẫu quy định.")##
+("entity"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Form"<|>"Danh sách quản lý thiết bị là biểu mẫu được sử dụng để cập nhật và quản lý các thiết bị phục vụ công việc nghiên cứu bảo mật. Biểu mẫu này giúp đảm bảo rằng các thiết bị được quản lý đúng quy định và tách biệt với thiết bị test của dự án.")##
+("relationship"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"BỘ PHẬN NGHIÊN CỨU BẢO MẬT"<|>"Thiết bị nghiên cứu bảo mật được sử dụng bởi bộ phận nghiên cứu bảo mật cho các hoạt động như jailbreak hoặc crack, đảm bảo không sử dụng thiết bị test của dự án."<|>"9")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"BỘ PHẬN NGHIÊN CỨU BẢO MẬT"<|>"Thiết bị test không được sử dụng bởi bộ phận nghiên cứu bảo mật, đảm bảo tách biệt với thiết bị nghiên cứu bảo mật."<|>"8")##
+("relationship"<|>"NGƯỜI PHỤ TRÁCH THIẾT BỊ"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Người phụ trách thiết bị có trách nhiệm cập nhật danh sách quản lý thiết bị phục vụ công việc nghiên cứu bảo mật theo biểu mẫu quy định."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY SUN ASTERISK"<|>"Organization"<|>"Công ty Sun Asterisk cung cấp các tài khoản email với domain @sun-asterisk.com hoặc @sun-asterisk.vn cho việc sử dụng trên các thiết bị phục vụ hoạt động nghiên cứu bảo mật. Công ty cũng cung cấp tài khoản Icloud riêng cho các thiết bị IOS và yêu cầu bộ phận sử dụng thiết bị quản lý thông tin tài khoản như ID, tên người dùng, mật khẩu, và số điện thoại.")##
+("entity"<|>"THIẾT BỊ IOS"<|>"Asset"<|>"Thiết bị IOS được sử dụng trong hoạt động nghiên cứu bảo mật, yêu cầu sử dụng tài khoản Icloud do công ty Sun Asterisk cung cấp. Bộ phận sử dụng thiết bị có trách nhiệm quản lý thông tin tài khoản liên quan.")##
+("entity"<|>"TÀI KHOẢN EMAIL"<|>"Instruments"<|>"Tài khoản email có domain @sun-asterisk.com hoặc @sun-asterisk.vn được công ty Sun Asterisk cung cấp để sử dụng trên các thiết bị phục vụ hoạt động nghiên cứu bảo mật. Tài khoản này là một phần quan trọng trong việc quản lý và bảo mật thông tin.")##
+("entity"<|>"TÀI KHOẢN ICLOUD"<|>"Instruments"<|>"Tài khoản Icloud được công ty Sun Asterisk cung cấp riêng cho các thiết bị IOS, nhằm đảm bảo an toàn và bảo mật trong quá trình nghiên cứu. Bộ phận sử dụng thiết bị phải quản lý thông tin tài khoản này.")##
+("entity"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"Department"<|>"Bộ phận sử dụng thiết bị có trách nhiệm quản lý tất cả các thông tin tài khoản như ID, tên người dùng, mật khẩu, và số điện thoại khi sử dụng thiết bị phục vụ hoạt động nghiên cứu bảo mật. Bộ phận này phải tuân thủ các quy định của công ty Sun Asterisk.")##
+("relationship"<|>"CÔNG TY SUN ASTERISK"<|>"TÀI KHOẢN EMAIL"<|>"Công ty Sun Asterisk cung cấp tài khoản email với domain @sun-asterisk.com hoặc @sun-asterisk.vn cho việc sử dụng trên các thiết bị phục vụ nghiên cứu bảo mật."<|>"9")##
+("relationship"<|>"CÔNG TY SUN ASTERISK"<|>"TÀI KHOẢN ICLOUD"<|>"Công ty Sun Asterisk cung cấp tài khoản Icloud riêng cho các thiết bị IOS để đảm bảo an toàn và bảo mật trong quá trình nghiên cứu."<|>"9")##
+("relationship"<|>"THIẾT BỊ IOS"<|>"TÀI KHOẢN ICLOUD"<|>"Thiết bị IOS sử dụng tài khoản Icloud do công ty Sun Asterisk cung cấp để phục vụ hoạt động nghiên cứu bảo mật."<|>"8")##
+("relationship"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"THIẾT BỊ IOS"<|>"Bộ phận sử dụng thiết bị có trách nhiệm quản lý thông tin tài khoản khi sử dụng thiết bị IOS trong hoạt động nghiên cứu bảo mật."<|>"7")##
+("relationship"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"TÀI KHOẢN EMAIL"<|>"Bộ phận sử dụng thiết bị phải quản lý thông tin tài khoản email được công ty Sun Asterisk cung cấp để đảm bảo an toàn và bảo mật."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ PHỤC VỤ HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"Asset"<|>"Thiết bị phục vụ hoạt động nghiên cứu bảo mật, bao gồm các hoạt động như jailbreak hoặc crack, được sử dụng trong quá trình nghiên cứu bảo mật. Việc sử dụng các thiết bị này phải tuân thủ quy định về cài đặt và sử dụng phần mềm bản quyền.")##
+("entity"<|>"PHẦN MỀM BẢN QUYỀN"<|>"Product"<|>"Phần mềm bản quyền là các phần mềm được cài đặt trên thiết bị phục vụ hoạt động nghiên cứu bảo mật. Việc cài đặt và sử dụng phần mềm này phải tuân thủ các quy định đã được đặt ra.")##
+("entity"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"Department"<|>"Bộ phận sử dụng thiết bị có trách nhiệm theo dõi và đánh giá rủi ro liên quan đến việc sử dụng thiết bị phục vụ hoạt động nghiên cứu bảo mật. Việc đánh giá rủi ro được thực hiện định kỳ 6 tháng một lần.")##
+("entity"<|>"QUY ĐỊNH SỬ DỤNG THIẾT BỊ"<|>"Regulation"<|>"Quy định về việc sử dụng thiết bị phục vụ hoạt động nghiên cứu bảo mật yêu cầu tuân thủ các quy định về cài đặt và sử dụng phần mềm bản quyền. Quy định này nhằm đảm bảo an toàn và bảo mật trong quá trình nghiên cứu.")##
+("relationship"<|>"THIẾT BỊ PHỤC VỤ HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"PHẦN MỀM BẢN QUYỀN"<|>"Thiết bị phục vụ hoạt động nghiên cứu bảo mật phải cài đặt và sử dụng phần mềm bản quyền theo quy định."<|>"8")##
+("relationship"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"THIẾT BỊ PHỤC VỤ HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"Bộ phận sử dụng thiết bị có trách nhiệm theo dõi và đánh giá rủi ro liên quan đến thiết bị phục vụ hoạt động nghiên cứu bảo mật."<|>"7")##
+("relationship"<|>"QUY ĐỊNH SỬ DỤNG THIẾT BỊ"<|>"THIẾT BỊ PHỤC VỤ HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"Quy định sử dụng thiết bị yêu cầu tuân thủ các quy định về cài đặt và sử dụng phần mềm bản quyền trên thiết bị phục vụ hoạt động nghiên cứu bảo mật."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Form"<|>"Danh sách quản lý thiết bị là biểu mẫu được sử dụng để cập nhật thông tin về thiết bị Test và những thay đổi trong quá trình sử dụng. Biểu mẫu này có định dạng: [Temp] [###(ProjectID)] ProjectName - Device Management. Tất cả thông tin phải được cập nhật liên tục để đảm bảo quản lý thiết bị hiệu quả.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là viết tắt của Project Leader/Line Manager, người có trách nhiệm duy trì và cập nhật thông tin định kỳ ít nhất 1 tháng/1 lần về các thiết bị cá nhân được sử dụng cho mục đích Test. Họ cũng quản lý thông tin authentication các tài khoản dùng chung trên các service do Khách hàng cung cấp và các trường hợp khác cần thiết.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị được sử dụng cho mục đích Test hoặc các mục đích chung khác trong hoạt động dự án/bộ phận. Thông tin về các thiết bị này cần được cập nhật định kỳ và quản lý theo biểu mẫu Non_project: BM-1-501-01_Personal device management hoặc Project: [Temp] [###(ProjectID)] ProjectName - Device Management.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng là tổ chức cung cấp các service và thông tin authentication cho các tài khoản dùng chung. Các thông tin này cần được quản lý và cập nhật định kỳ bởi PL/LM hoặc người phụ trách.")##
+("relationship"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"THIẾT BỊ CÁ NHÂN"<|>"Danh sách quản lý thiết bị được sử dụng để cập nhật thông tin về các thiết bị cá nhân, đảm bảo quản lý hiệu quả và liên tục các thay đổi trong quá trình sử dụng."<|>"8")##
+("relationship"<|>"PL/LM"<|>"THIẾT BỊ CÁ NHÂN"<|>"PL/LM có trách nhiệm cập nhật thông tin định kỳ về các thiết bị cá nhân, đảm bảo thông tin được ghi nhận và quản lý chính xác."<|>"9")##
+("relationship"<|>"PL/LM"<|>"KHÁCH HÀNG"<|>"PL/LM quản lý thông tin authentication các tài khoản dùng chung trên các service do Khách hàng cung cấp, thể hiện mối quan hệ quản lý và sử dụng dịch vụ giữa hai bên."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị Test là công cụ được sử dụng trong quá trình kiểm thử. Việc sử dụng thiết bị này cần tuân thủ các quy định cụ thể để đảm bảo an toàn và hiệu quả trong quá trình kiểm thử.")##
+("entity"<|>"QUY ĐỊNH TRONG QUÁ TRÌNH KIỂM THỬ"<|>"Regulation"<|>"Quy định trong quá trình kiểm thử là các hướng dẫn và yêu cầu cần tuân thủ khi sử dụng thiết bị Test. Những quy định này nhằm đảm bảo quá trình kiểm thử diễn ra an toàn và hiệu quả.")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"QUY ĐỊNH TRONG QUÁ TRÌNH KIỂM THỬ"<|>"Việc sử dụng thiết bị Test phải tuân thủ các quy định trong quá trình kiểm thử để đảm bảo an toàn và hiệu quả."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUY ĐỊNH CHUNG"<|>"Regulation"<|>"Quy định chung áp dụng cho tất cả các thiết bị được sử dụng trong công việc, bao gồm cả thiết bị công ty/khách hàng và thiết bị cá nhân. Quy định này bao gồm các khía cạnh như quản lý thiết bị, quản lý truy cập, thiết lập và cài đặt thiết bị, cài đặt và sử dụng phần mềm, và xử lý sự cố.")##
+("entity"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Asset"<|>"Thiết bị công ty/khách hàng bao gồm các loại thiết bị như laptop/PC và mobile/tablet. Các thiết bị này được sử dụng trong công việc và phải tuân thủ các quy định chung về quản lý, truy cập, cài đặt và sử dụng phần mềm, cũng như xử lý sự cố.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân bao gồm các loại thiết bị như laptop/PC và mobile/tablet. Các thiết bị này thuộc sở hữu cá nhân nhưng được sử dụng trong công việc và phải tuân thủ các quy định chung về quản lý, truy cập, cài đặt và sử dụng phần mềm, cũng như xử lý sự cố.")##
+("entity"<|>"LAPTOP/ PC"<|>"Asset"<|>"Laptop/PC là một loại thiết bị được sử dụng trong công việc, có thể thuộc về công ty/khách hàng hoặc cá nhân. Thiết bị này phải tuân thủ các quy định về quản lý, truy cập, cài đặt và sử dụng phần mềm, cũng như xử lý sự cố.")##
+("entity"<|>"MOBILE/ TABLET"<|>"Asset"<|>"Mobile/Tablet là một loại thiết bị được sử dụng trong công việc, có thể thuộc về công ty/khách hàng hoặc cá nhân. Thiết bị này phải tuân thủ các quy định về quản lý, truy cập, cài đặt và sử dụng phần mềm, cũng như xử lý sự cố.")##
+("entity"<|>"QUẢN LÝ THIẾT BỊ"<|>"Process"<|>"Quản lý thiết bị là quy trình bao gồm việc kiểm soát và giám sát các thiết bị được sử dụng trong công việc, đảm bảo tuân thủ các quy định chung.")##
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là quy trình kiểm soát quyền truy cập vào các thiết bị và dữ liệu, đảm bảo an toàn và bảo mật thông tin.")##
+("entity"<|>"THIẾT LẬP VÀ CÀI ĐẶT THIẾT BỊ"<|>"Process"<|>"Thiết lập và cài đặt thiết bị là quy trình chuẩn bị và cấu hình các thiết bị để sử dụng trong công việc, đảm bảo hoạt động hiệu quả và tuân thủ các quy định.")##
+("entity"<|>"CÀI ĐẶT VÀ SỬ DỤNG PHẦN MỀM"<|>"Process"<|>"Cài đặt và sử dụng phần mềm là quy trình liên quan đến việc cài đặt các ứng dụng cần thiết và sử dụng chúng một cách hiệu quả trên các thiết bị.")##
+("entity"<|>"XỬ LÝ SỰ CỐ"<|>"Process"<|>"Xử lý sự cố là quy trình giải quyết các vấn đề kỹ thuật phát sinh trong quá trình sử dụng thiết bị, đảm bảo thiết bị hoạt động bình thường.")##
+("relationship"<|>"QUY ĐỊNH CHUNG"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Quy định chung áp dụng cho các thiết bị công ty/khách hàng, đảm bảo việc sử dụng thiết bị tuân thủ các quy định về quản lý và bảo mật."<|>"8")##
+("relationship"<|>"QUY ĐỊNH CHUNG"<|>"THIẾT BỊ CÁ NHÂN"<|>"Quy định chung áp dụng cho các thiết bị cá nhân khi được sử dụng trong công việc, đảm bảo tuân thủ các quy định về quản lý và bảo mật."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"LAPTOP/ PC"<|>"Laptop/PC là một loại thiết bị thuộc danh mục thiết bị công ty/khách hàng, được sử dụng trong công việc."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"MOBILE/ TABLET"<|>"Mobile/Tablet là một loại thiết bị thuộc danh mục thiết bị công ty/khách hàng, được sử dụng trong công việc."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"LAPTOP/ PC"<|>"Laptop/PC là một loại thiết bị thuộc danh mục thiết bị cá nhân, được sử dụng trong công việc."<|>"7")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"MOBILE/ TABLET"<|>"Mobile/Tablet là một loại thiết bị thuộc danh mục thiết bị cá nhân, được sử dụng trong công việc."<|>"7")##
+("relationship"<|>"QUẢN LÝ THIẾT BỊ"<|>"QUY ĐỊNH CHUNG"<|>"Quản lý thiết bị là một phần của quy định chung, đảm bảo việc sử dụng thiết bị tuân thủ các quy định đã đề ra."<|>"8")##
+("relationship"<|>"QUẢN LÝ TRUY CẬP"<|>"QUY ĐỊNH CHUNG"<|>"Quản lý truy cập là một phần của quy định chung, đảm bảo an toàn và bảo mật thông tin khi sử dụng thiết bị."<|>"8")##
+("relationship"<|>"THIẾT LẬP VÀ CÀI ĐẶT THIẾT BỊ"<|>"QUY ĐỊNH CHUNG"<|>"Thiết lập và cài đặt thiết bị là một phần của quy định chung, đảm bảo thiết bị hoạt động hiệu quả và tuân thủ các quy định."<|>"8")##
+("relationship"<|>"CÀI ĐẶT VÀ SỬ DỤNG PHẦN MỀM"<|>"QUY ĐỊNH CHUNG"<|>"Cài đặt và sử dụng phần mềm là một phần của quy định chung, đảm bảo các ứng dụng được sử dụng hiệu quả trên thiết bị."<|>"8")##
+("relationship"<|>"XỬ LÝ SỰ CỐ"<|>"QUY ĐỊNH CHUNG"<|>"Xử lý sự cố là một phần của quy định chung, đảm bảo các vấn đề kỹ thuật được giải quyết kịp thời để thiết bị hoạt động bình thường."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là đơn vị cung cấp thiết bị cho nhân viên và quản lý các yêu cầu liên quan đến thiết bị thông qua hệ thống Sun*Asset. Công ty yêu cầu mọi thay đổi, nâng cấp, sửa chữa thiết bị phải được thực hiện qua hệ thống này và cần có sự cho phép của PL/LM. Công ty cũng có quy định về việc mang thiết bị ra ngoài phạm vi công ty và sử dụng thiết bị cá nhân cho công việc.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng là đơn vị cung cấp thiết bị cho công ty. Mọi nhu cầu liên quan đến việc nâng cấp, thay thế linh kiện, sửa chữa thiết bị do khách hàng cung cấp đều phải thông báo và nhận được sự cho phép của khách hàng trước khi thực hiện.")##
+("entity"<|>"SUN*ASSET"<|>"System"<|>"Sun*Asset là hệ thống quản lý tài sản của công ty, được sử dụng để thực hiện mọi yêu cầu liên quan đến thiết bị do công ty hoặc khách hàng cung cấp. Hệ thống này yêu cầu sự cho phép của PL/LM trước khi thực hiện các yêu cầu.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là người có thẩm quyền phê duyệt các yêu cầu liên quan đến thiết bị, bao gồm việc sử dụng thiết bị cá nhân thay thế thiết bị do công ty cung cấp. PL/LM có trách nhiệm xác nhận mục đích sử dụng thiết bị cá nhân phù hợp với nhu cầu công việc trước khi phê duyệt.")##
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên có trách nhiệm hoàn tất thủ tục Request khi mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Nhân viên phải tuân thủ các nội dung trong Cam kết bảo mật và tạo lại Request trước ngày hết hạn nếu muốn tiếp tục sử dụng thiết bị.")##
+("entity"<|>"REQUEST"<|>"Form"<|>"Request là thủ tục cần hoàn tất khi có nhu cầu mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Thời hạn sử dụng request khác nhau tùy theo vai trò: Staff tối đa 3 tháng, PL/LM tối đa 6 tháng, Head/SDM/UM vô thời hạn.")##
+("entity"<|>"CAM KẾT BẢO MẬT"<|>"Regulation"<|>"Cam kết bảo mật là quy định mà nhân viên phải tuân thủ khi mang thiết bị ra ngoài phạm vi công ty hoặc sử dụng thiết bị cá nhân cho công việc. Nhân viên cần ký lại cam kết này khi thay đổi thiết bị hoặc sử dụng thêm thiết bị khác.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là thiết bị do nhân viên sở hữu và có thể được sử dụng thay thế cho thiết bị do công ty cung cấp, nhưng phải được PL/LM phê duyệt với lý do sử dụng phù hợp. Nhân viên phải hoàn tất thủ tục Request và tuân thủ Cam kết bảo mật khi sử dụng thiết bị cá nhân cho công việc.")##
+("relationship"<|>"CÔNG TY"<|>"SUN*ASSET"<|>"Công ty sử dụng hệ thống Sun*Asset để quản lý mọi yêu cầu liên quan đến thiết bị, đảm bảo các yêu cầu được thực hiện đúng quy trình và có sự phê duyệt cần thiết."<|>"9")##
+("relationship"<|>"CÔNG TY"<|>"PL/LM"<|>"PL/LM là người có thẩm quyền trong công ty để phê duyệt các yêu cầu liên quan đến thiết bị, đảm bảo việc sử dụng thiết bị phù hợp với nhu cầu công việc."<|>"8")##
+("relationship"<|>"CÔNG TY"<|>"NHÂN VIÊN"<|>"Nhân viên của công ty có trách nhiệm tuân thủ các quy định về quản lý thiết bị, bao gồm việc hoàn tất thủ tục Request và tuân thủ Cam kết bảo mật."<|>"8")##
+("relationship"<|>"KHÁCH HÀNG"<|>"CÔNG TY"<|>"Công ty nhận thiết bị từ khách hàng và phải thông báo, nhận sự cho phép của khách hàng trước khi thực hiện các nhu cầu liên quan đến thiết bị do khách hàng cung cấp."<|>"7")##
+("relationship"<|>"PL/LM"<|>"NHÂN VIÊN"<|>"PL/LM phê duyệt các yêu cầu của nhân viên liên quan đến việc sử dụng thiết bị cá nhân cho công việc, đảm bảo mục đích sử dụng phù hợp."<|>"7")##
+("relationship"<|>"REQUEST"<|>"CAM KẾT BẢO MẬT"<|>"Request và Cam kết bảo mật là hai thủ tục mà nhân viên phải hoàn tất và tuân thủ khi mang thiết bị ra ngoài hoặc sử dụng thiết bị cá nhân cho công việc."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"PL/LM"<|>"PL/LM phải phê duyệt việc sử dụng thiết bị cá nhân của nhân viên cho công việc, đảm bảo lý do sử dụng phù hợp với nhu cầu công việc."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là đơn vị cung cấp thiết bị cho nhân viên và các dự án. Công ty có quy định nghiêm cấm việc tự ý cho mượn hoặc sử dụng chung thiết bị mà không có sự cho phép cần thiết.")##  
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng là đơn vị cung cấp thiết bị cho các dự án. Trong trường hợp các dự án khác nhau nhưng cùng chung một khách hàng, việc mượn hoặc sử dụng chung thiết bị cần có sự cho phép của khách hàng.")##  
+("entity"<|>"PL"<|>"Role"<|>"PL là người có thẩm quyền cho phép việc mượn thiết bị test giữa các dự án khác nhau. Mọi nhu cầu thay đổi liên quan đến thiết bị test cần có sự cho phép của PL.")##  
+("entity"<|>"S*ASSET"<|>"System"<|>"S*Asset là hệ thống được sử dụng để thực hiện thủ tục giao nhận thiết bị khi cho mượn trên 5 ngày làm việc. Hệ thống này giúp quản lý và theo dõi việc cho mượn thiết bị.")##  
+("entity"<|>"GA"<|>"Department"<|>"GA là bộ phận chịu trách nhiệm kiểm tra và cài lại máy trước khi cho mượn thiết bị test. Thiết bị cần được mang qua GA để đảm bảo an toàn và sẵn sàng cho việc sử dụng.")##  
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng trong dự án. Việc cho mượn thiết bị test giữa các dự án khác nhau cần có sự cho phép của PL và phải tuân thủ các quy định về thời gian mượn.")##  
+("entity"<|>"DỰ ÁN"<|>"Process"<|>"Dự án là các hoạt động công việc mà thiết bị test được sử dụng. Các dự án có thể có nhu cầu mượn thiết bị từ khách hàng hoặc công ty, và phải tuân thủ các quy định về việc cho mượn thiết bị.")##  
+("entity"<|>"THỦ TỤC GIAO NHẬN"<|>"Process"<|>"Thủ tục giao nhận là quy trình cần thực hiện khi cho mượn thiết bị trên 5 ngày làm việc. Thủ tục này được thực hiện thông qua hệ thống S*Asset và đảm bảo thiết bị được kiểm tra bởi GA.")##  
+("entity"<|>"THÔNG TIN NGƯỜI GIỮ THIẾT BỊ"<|>"Instruments"<|>"Thông tin người giữ thiết bị cần được cập nhật khi phát sinh cho mượn thiết bị. Việc cập nhật này được thực hiện vào tài liệu quản lý thiết bị của dự án.")##  
+("entity"<|>"TÀI KHOẢN"<|>"Instruments"<|>"Tài khoản là các thông tin đăng nhập trên các hệ thống, ứng dụng, dịch vụ được sử dụng cho công việc. Trước khi cho mượn thiết bị, nhân viên phải đảm bảo logout tất cả các tài khoản để bảo mật thông tin.")##  
+("entity"<|>"DỮ LIỆU DỰ ÁN"<|>"Instruments"<|>"Dữ liệu dự án là các thông tin liên quan đến dự án được lưu trữ trên thiết bị. Trước khi cho mượn thiết bị, nhân viên cần xóa hoặc backup dữ liệu này để đảm bảo an toàn thông tin.")##  
+("relationship"<|>"CÔNG TY"<|>"THIẾT BỊ TEST"<|>"Công ty cung cấp thiết bị test cho các dự án và có quy định nghiêm cấm việc tự ý cho mượn thiết bị này giữa các dự án khác nhau."<|>"8")##  
+("relationship"<|>"KHÁCH HÀNG"<|>"THIẾT BỊ TEST"<|>"Khách hàng cung cấp thiết bị test cho các dự án và việc mượn thiết bị này cần có sự cho phép của khách hàng."<|>"7")##  
+("relationship"<|>"PL"<|>"THIẾT BỊ TEST"<|>"PL có thẩm quyền cho phép việc mượn thiết bị test giữa các dự án khác nhau, đảm bảo tuân thủ quy định."<|>"8")##  
+("relationship"<|>"S*ASSET"<|>"THỦ TỤC GIAO NHẬN"<|>"Hệ thống S*Asset được sử dụng để thực hiện thủ tục giao nhận thiết bị khi cho mượn trên 5 ngày làm việc."<|>"7")##  
+("relationship"<|>"GA"<|>"THIẾT BỊ TEST"<|>"GA chịu trách nhiệm kiểm tra và cài lại máy trước khi cho mượn thiết bị test, đảm bảo thiết bị sẵn sàng cho sử dụng."<|>"8")##  
+("relationship"<|>"DỰ ÁN"<|>"THIẾT BỊ TEST"<|>"Thiết bị test được sử dụng trong các dự án và việc cho mượn thiết bị này cần tuân thủ các quy định về thời gian và sự cho phép."<|>"8")##  
+("relationship"<|>"THÔNG TIN NGƯỜI GIỮ THIẾT BỊ"<|>"THIẾT BỊ TEST"<|>"Thông tin người giữ thiết bị cần được cập nhật khi phát sinh cho mượn thiết bị test, đảm bảo quản lý thông tin chính xác."<|>"7")##  
+("relationship"<|>"TÀI KHOẢN"<|>"THIẾT BỊ TEST"<|>"Trước khi cho mượn thiết bị test, nhân viên phải đảm bảo logout tất cả các tài khoản để bảo mật thông tin công việc."<|>"8")##  
+("relationship"<|>"DỮ LIỆU DỰ ÁN"<|>"THIẾT BỊ TEST"<|>"Dữ liệu dự án trên thiết bị test cần được xóa hoặc backup trước khi cho mượn để đảm bảo an toàn thông tin."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"VPN"<|>"System"<|>"VPN (Virtual Private Network) là hệ thống cho phép truy cập từ xa vào mạng nội bộ của tổ chức. Việc truy cập VPN yêu cầu hoàn thành thủ tục ký Cam kết bảo mật và tuân thủ các nội dung trong Cam kết. VPN chỉ được sử dụng cho mục đích công việc và không được chia sẻ thông tin tài khoản truy cập cho người khác. Khi thực hiện các hoạt động ngoài mục đích công việc, cần ngắt kết nối VPN.")##
+("entity"<|>"Request"<|>"Form"<|>"Request là yêu cầu truy cập hệ thống từ xa (VPN) mà nhân viên cần thực hiện để có quyền truy cập. Thời hạn sử dụng request khác nhau tùy theo vai trò: Staff tối đa 3 tháng, PL/LM tối đa 6 tháng, và Head/SDM/UM vô thời hạn. Sau khi hết hạn, nhân viên cần tạo lại Request nếu muốn tiếp tục truy cập.")##
+("entity"<|>"Cam kết bảo mật"<|>"Regulation"<|>"Cam kết bảo mật là quy định mà nhân viên phải ký kết khi truy cập hệ thống từ xa (VPN). Cam kết này yêu cầu nhân viên tuân thủ các nội dung bảo mật trong quá trình truy cập.")##
+("entity"<|>"Staff"<|>"Role"<|>"Staff là vai trò của nhân viên có thời hạn sử dụng request truy cập VPN tối đa 3 tháng.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là vai trò của nhân viên có thời hạn sử dụng request truy cập VPN tối đa 6 tháng.")##
+("entity"<|>"Head/SDM/UM"<|>"Role"<|>"Head/SDM/UM là vai trò của nhân viên có thời hạn sử dụng request truy cập VPN vô thời hạn.")##
+("relationship"<|>"VPN"<|>"Request"<|>"Request là yêu cầu cần thiết để nhân viên có thể truy cập hệ thống từ xa qua VPN, thể hiện mối quan hệ giữa hệ thống và quy trình truy cập."<|>"8")##
+("relationship"<|>"VPN"<|>"Cam kết bảo mật"<|>"Cam kết bảo mật là quy định mà nhân viên phải tuân thủ khi truy cập VPN, đảm bảo an toàn và bảo mật thông tin."<|>"9")##
+("relationship"<|>"Request"<|>"Staff"<|>"Staff có thời hạn sử dụng request truy cập VPN tối đa 3 tháng, thể hiện mối quan hệ giữa vai trò nhân viên và thời hạn truy cập."<|>"7")##
+("relationship"<|>"Request"<|>"PL/LM"<|>"PL/LM có thời hạn sử dụng request truy cập VPN tối đa 6 tháng, thể hiện mối quan hệ giữa vai trò nhân viên và thời hạn truy cập."<|>"7")##
+("relationship"<|>"Request"<|>"Head/SDM/UM"<|>"Head/SDM/UM có thời hạn sử dụng request truy cập VPN vô thời hạn, thể hiện mối quan hệ giữa vai trò nhân viên và thời hạn truy cập."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"BỘ PHẬN INFRA"<|>"Department"<|>"Bộ phận Infra chịu trách nhiệm cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff cho tất cả thiết bị Công ty hoặc Khách hàng cung cấp. Bộ phận này cũng thực hiện format cài đặt lại máy theo quy định thiết bị của Công ty và phải có sự đồng ý của nhân viên khi xóa dữ liệu cá nhân.")##  
+("entity"<|>"WIFI STAFF"<|>"Service"<|>"Wifi Staff là dịch vụ mạng Wifi nội bộ của Công ty, được cấp quyền truy cập cho các thiết bị Công ty hoặc Khách hàng cung cấp sau khi được bộ phận Infra cập nhật địa chỉ MAC.")##  
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên có trách nhiệm tự sao lưu và lưu trữ dữ liệu cá nhân trước khi mang thiết bị sang bộ phận Infra để format. Nhân viên cũng phải tuân thủ các nội dung của quy định ANTT và các điều khoản trong cam kết bảo mật khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của công ty.")##  
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là các nội dung mà nhân viên phải tuân thủ khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của công ty.")##  
+("entity"<|>"CAM KẾT BẢO MẬT"<|>"Regulation"<|>"Cam kết bảo mật là các điều khoản mà nhân viên phải tuân thủ trong quá trình sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của công ty.")##  
+("entity"<|>"THIẾT BỊ CÔNG TY HOẶC KHÁCH HÀNG CUNG CẤP"<|>"Asset"<|>"Thiết bị Công ty hoặc Khách hàng cung cấp là các thiết bị được bộ phận Infra cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff.")##  
+("relationship"<|>"BỘ PHẬN INFRA"<|>"WIFI STAFF"<|>"Bộ phận Infra chịu trách nhiệm cấp quyền truy cập vào Wifi Staff cho các thiết bị sau khi cập nhật địa chỉ MAC."<|>"8")##  
+("relationship"<|>"NHÂN VIÊN"<|>"BỘ PHẬN INFRA"<|>"Nhân viên phải mang thiết bị qua bộ phận Infra để format cài đặt lại máy theo quy định thiết bị của Công ty."<|>"7")##  
+("relationship"<|>"NHÂN VIÊN"<|>"QUY ĐỊNH ANTT"<|>"Nhân viên phải tuân thủ các nội dung của quy định ANTT khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của công ty."<|>"8")##  
+("relationship"<|>"NHÂN VIÊN"<|>"CAM KẾT BẢO MẬT"<|>"Nhân viên phải tuân thủ các điều khoản trong cam kết bảo mật khi sử dụng thiết bị cá nhân và truy cập vào mạng nội bộ của công ty."<|>"8")##  
+("relationship"<|>"THIẾT BỊ CÔNG TY HOẶC KHÁCH HÀNG CUNG CẤP"<|>"BỘ PHẬN INFRA"<|>"Bộ phận Infra cập nhật địa chỉ MAC và cấp quyền truy cập vào Wifi Staff cho các thiết bị này."<|>"8")##  
+<|COMPLETE|>
+======================= 
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là quá trình kiểm soát và giám sát việc truy cập vào các hệ thống và mạng, nhằm đảm bảo an toàn thông tin và bảo mật dữ liệu. Trong bối cảnh này, quản lý truy cập bao gồm các quy định về việc sử dụng mạng Wi-Fi công cộng.")##
+
+("entity"<|>"TRUY CẬP MẠNG WIFI CÔNG CỘNG"<|>"Regulation"<|>"Truy cập mạng Wi-Fi công cộng là quy định về việc không kết nối và sử dụng Wi-Fi công cộng không rõ nguồn gốc và không có mật khẩu bảo vệ khi làm việc ngoài phạm vi công ty. Quy định này nhằm bảo vệ thông tin và dữ liệu của công ty khỏi các nguy cơ bảo mật.")##
+
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là tổ chức nơi các quy định về quản lý truy cập và sử dụng mạng Wi-Fi công cộng được áp dụng. Công ty có trách nhiệm đảm bảo an toàn thông tin cho nhân viên khi làm việc ngoài phạm vi công ty.")##
+
+("relationship"<|>"QUẢN LÝ TRUY CẬP"<|>"TRUY CẬP MẠNG WIFI CÔNG CỘNG"<|>"Quản lý truy cập bao gồm quy định về việc không sử dụng mạng Wi-Fi công cộng không rõ nguồn gốc và không có mật khẩu bảo vệ, nhằm đảm bảo an toàn thông tin."<|>"8")##
+
+("relationship"<|>"TRUY CẬP MẠNG WIFI CÔNG CỘNG"<|>"CÔNG TY"<|>"Quy định về truy cập mạng Wi-Fi công cộng được áp dụng trong công ty để bảo vệ thông tin và dữ liệu khi nhân viên làm việc ngoài phạm vi công ty."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"KẾT NỐI KHÔNG DÂY"<|>"System"<|>"Kết nối không dây bao gồm các công nghệ như Bluetooth và Airdrop, được sử dụng để ghép đôi và chia sẻ thông tin giữa các thiết bị. Để đảm bảo an toàn, cần xác minh đúng ID và tên thiết bị trước khi ghép đôi, và tắt chức năng này khi không cần thiết hoặc khi sử dụng thiết bị cho mục đích công việc.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là viết tắt của các vai trò quản lý có thẩm quyền phê duyệt việc chia sẻ thông tin có yêu cầu bảo mật cao qua kết nối không dây. Họ đảm bảo rằng các quy trình bảo mật được tuân thủ.")##
+("relationship"<|>"KẾT NỐI KHÔNG DÂY"<|>"PL/LM"<|>"Việc chia sẻ thông tin qua kết nối không dây cần có sự phê duyệt của PL/LM để đảm bảo an toàn và bảo mật thông tin."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUẢN LÝ TRUY CẬP"<|>"Process"<|>"Quản lý truy cập là quá trình kiểm soát và giám sát việc truy cập vào các hệ thống và tài nguyên mạng. Nó bao gồm các biện pháp bảo mật để đảm bảo rằng chỉ những người dùng được ủy quyền mới có thể truy cập vào các thông tin và dịch vụ cần thiết. Quản lý truy cập thường liên quan đến việc thiết lập các chính sách và quy trình để bảo vệ dữ liệu và ngăn chặn truy cập trái phép.")##
+("entity"<|>"TRUY CẬP INTERNET AN TOÀN"<|>"Standard"<|>"Truy cập internet an toàn là tiêu chuẩn bảo mật nhằm bảo vệ người dùng khỏi các mối đe dọa trực tuyến. Nó bao gồm các hướng dẫn như không nhấp vào quảng cáo, tệp đính kèm từ email hoặc SMS không rõ nguồn gốc, và tránh các đường link lạ hoặc độc hại. Mục tiêu là giảm thiểu rủi ro từ các cuộc tấn công mạng và bảo vệ thông tin cá nhân.")##
+("entity"<|>"QUẢNG CÁO"<|>"Instruments"<|>"Quảng cáo trên các trang web có thể chứa các liên kết hoặc nội dung độc hại. Người dùng được khuyến cáo không nhấp vào bất kỳ quảng cáo nào để tránh rủi ro bảo mật.")##
+("entity"<|>"TỆP ĐÍNH KÈM"<|>"Instruments"<|>"Tệp đính kèm được gửi qua email hoặc SMS có thể chứa mã độc hoặc phần mềm gián điệp. Người dùng nên cẩn trọng và không mở các tệp đính kèm từ nguồn không rõ.")##
+("entity"<|>"ĐƯỜNG LINK LẠ"<|>"Instruments"<|>"Đường link lạ hoặc độc hại có thể dẫn đến các trang web giả mạo hoặc chứa mã độc. Người dùng được khuyến cáo không nhấp vào các đường link từ địa chỉ lạ để bảo vệ thông tin cá nhân và thiết bị.")##<|COMPLETE|>
+======================= 
+("entity"<|>"MÔI TRƯỜNG PRODUCTION"<|>"System"<|>"Môi trường Production là hệ thống máy chủ được sử dụng trong quá trình phát triển dự án. Việc truy cập vào môi trường này bị nghiêm cấm đối với thiết bị cá nhân, trừ khi được SDM phê duyệt trong các trường hợp đặc biệt như thiết bị công ty không đáp ứng hoặc cần hỗ trợ kịp thời.")##  
+("entity"<|>"SDM"<|>"Role"<|>"SDM là người có thẩm quyền phê duyệt việc sử dụng thiết bị cá nhân để truy cập vào môi trường Production trong các trường hợp đặc biệt như thiết bị công ty không đáp ứng hoặc cần hỗ trợ kịp thời.")##  
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị không thuộc sở hữu của công ty, bị nghiêm cấm sử dụng để truy cập vào môi trường Production, trừ khi có sự phê duyệt của SDM.")##  
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị công ty là các thiết bị được cung cấp bởi công ty để phục vụ công việc. Trong trường hợp thiết bị này không đáp ứng, có thể được thay thế bằng thiết bị cá nhân nếu được SDM phê duyệt.")##  
+("entity"<|>"HỆ ĐIỀU HÀNH"<|>"System"<|>"Hệ điều hành của thiết bị là phần mềm hệ thống quản lý tài nguyên phần cứng và cung cấp các dịch vụ cho các chương trình máy tính. Việc tự ý cài lại, nâng cấp hoặc cài đặt các hệ điều hành khác bị nghiêm cấm.")##  
+("entity"<|>"S*ASSET"<|>"System"<|>"S*Asset là hệ thống quản lý tài sản của công ty, nơi thực hiện các yêu cầu liên quan đến thay đổi hệ điều hành. Mọi thay đổi cần có sự cho phép của PL/LM.")##  
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là người có thẩm quyền cho phép thực hiện các thay đổi liên quan đến hệ điều hành thông qua hệ thống S*Asset.")##  
+("relationship"<|>"MÔI TRƯỜNG PRODUCTION"<|>"SDM"<|>"SDM có thẩm quyền phê duyệt việc sử dụng thiết bị cá nhân để truy cập vào môi trường Production trong các trường hợp đặc biệt."<|>"8")##  
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"SDM"<|>"SDM có thể phê duyệt việc sử dụng thiết bị cá nhân để truy cập vào môi trường Production khi cần thiết."<|>"7")##  
+("relationship"<|>"THIẾT BỊ CÔNG TY"<|>"SDM"<|>"SDM có thể phê duyệt việc sử dụng thiết bị cá nhân thay thế khi thiết bị công ty không đáp ứng yêu cầu công việc."<|>"7")##  
+("relationship"<|>"HỆ ĐIỀU HÀNH"<|>"S*ASSET"<|>"Mọi yêu cầu thay đổi hệ điều hành cần được thực hiện thông qua hệ thống S*Asset."<|>"9")##  
+("relationship"<|>"HỆ ĐIỀU HÀNH"<|>"PL/LM"<|>"PL/LM có thẩm quyền cho phép thay đổi hệ điều hành thông qua hệ thống S*Asset."<|>"8")##  
+<|COMPLETE|>
+======================= 
+("entity"<|>"CHẾ ĐỘ TẮT MÁY"<|>"Process"<|>"Chế độ tắt máy bao gồm việc tắt hoàn toàn (Shut down) sau khi kết thúc phiên làm việc và duy trì chế độ tự động khóa màn hình sau một khoảng thời gian nhất định khi không sử dụng. Cụ thể, màn hình sẽ tự động khóa sau không quá 5 phút hoặc 1 phút tùy theo quy định, và người dùng phải thực hiện khóa màn hình khi rời khỏi vị trí đặt thiết bị.")##  
+("entity"<|>"TÀI KHOẢN NGƯỜI DÙNG"<|>"Process"<|>"Tài khoản người dùng (User profile) là tài khoản với domain công ty được sử dụng trên thiết bị. Quy định yêu cầu tách biệt tài khoản công việc và tài khoản cá nhân trên các trình duyệt web, cũng như tách biệt tài khoản User profile/Use account dùng cho mục đích công việc và cá nhân trên thiết bị.")##  
+("relationship"<|>"CHẾ ĐỘ TẮT MÁY"<|>"TÀI KHOẢN NGƯỜI DÙNG"<|>"Cả chế độ tắt máy và tài khoản người dùng đều là các quy định liên quan đến việc thiết lập và cài đặt thiết bị, nhằm đảm bảo an toàn và bảo mật thông tin khi sử dụng thiết bị trong công việc."<|>"6")##  
+<|COMPLETE|>
+======================= 
+("entity"<|>"MẬT KHẨU KHÓA MÀN HÌNH"<|>"Code"<|>"Mật khẩu khóa màn hình là một biện pháp bảo mật được sử dụng để bảo vệ thiết bị khỏi truy cập trái phép. Mật khẩu phải mạnh, với độ dài tối thiểu 8 ký tự, bao gồm ký tự viết hoa, ký tự đặc biệt, ký tự thường và số. Mật khẩu cần được thay đổi định kỳ mỗi 3 tháng. Không được sử dụng chung một mật khẩu cho tài khoản công việc và cá nhân.")##
+("entity"<|>"QUY ĐỊNH CÔNG TY"<|>"Regulation"<|>"Quy định của công ty yêu cầu duy trì sử dụng mật khẩu mạnh và thay đổi định kỳ để bảo vệ thông tin và thiết bị. Quy định này áp dụng cho cả tài khoản công việc và cá nhân, nhằm đảm bảo an toàn dữ liệu.")##
+("entity"<|>"THIẾT BỊ"<|>"Asset"<|>"Thiết bị là các công cụ công nghệ được sử dụng trong công việc, cần được bảo vệ bằng mật khẩu mạnh để ngăn chặn truy cập trái phép. Việc cài đặt mật khẩu trên thiết bị là bắt buộc theo quy định của công ty.")##
+("relationship"<|>"MẬT KHẨU KHÓA MÀN HÌNH"<|>"QUY ĐỊNH CÔNG TY"<|>"Việc duy trì và thay đổi mật khẩu khóa màn hình định kỳ là một phần của quy định công ty nhằm bảo vệ thông tin và thiết bị."<|>"8")##
+("relationship"<|>"MẬT KHẨU KHÓA MÀN HÌNH"<|>"THIẾT BỊ"<|>"Mật khẩu khóa màn hình được cài đặt trên thiết bị để bảo vệ khỏi truy cập trái phép, đảm bảo an toàn cho dữ liệu lưu trữ trên thiết bị."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là một phần của quy định về an ninh thông tin, bao gồm các quy định về việc cài đặt và sử dụng dịch vụ phần mềm. Quy định này yêu cầu tuân thủ nghiêm ngặt các điều khoản về việc không tự ý cài đặt phần mềm rủi ro cao, không sử dụng phần mềm không có bản quyền, và không sử dụng license phần mềm của công ty cho mục đích cá nhân.")##
+("entity"<|>"DANH MỤC PHẦN MỀM RỦI RO CAO"<|>"Standard"<|>"Danh mục phần mềm rủi ro cao là danh sách các phần mềm được coi là có nguy cơ cao về bảo mật và an toàn thông tin. Việc cài đặt và sử dụng các phần mềm trong danh mục này bị nghiêm cấm để tránh các rủi ro vi phạm bản quyền và tấn công malware.")##
+("entity"<|>"PHẦN MỀM KHÔNG CÓ BẢN QUYỀN"<|>"Product"<|>"Phần mềm không có bản quyền, hay còn gọi là phần mềm crack, là các phần mềm không được cấp phép chính thức. Việc sử dụng các phần mềm này bị cấm để tránh vi phạm bản quyền và nguy cơ máy tính bị tấn công.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị thuộc sở hữu cá nhân nhưng được sử dụng cho mục đích công việc. Việc cài đặt phần mềm trên các thiết bị này phải tuân thủ các quy định về bản quyền và bảo mật, và dữ liệu công việc phải được xóa sau khi kết thúc sử dụng.")##
+("entity"<|>"LICENSE PHẦN MỀM CỦA CÔNG TY"<|>"Instruments"<|>"License phần mềm của công ty là giấy phép sử dụng phần mềm được công ty cấp cho nhân viên để phục vụ công việc. Việc sử dụng license này cho mục đích cá nhân bị nghiêm cấm.")##
+("entity"<|>"DỮ LIỆU CÔNG VIỆC"<|>"Asset"<|>"Dữ liệu công việc bao gồm tất cả các dữ liệu và hình ảnh liên quan đến công việc được lưu trữ trên thiết bị cá nhân. Quy định yêu cầu xóa dữ liệu này sau khi kết thúc quá trình làm việc hoặc sử dụng thiết bị cá nhân.")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"DANH MỤC PHẦN MỀM RỦI RO CAO"<|>"Quy định ANTT nghiêm cấm việc cài đặt và sử dụng các phần mềm trong danh mục phần mềm rủi ro cao để bảo vệ an ninh thông tin."<|>"9")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"PHẦN MỀM KHÔNG CÓ BẢN QUYỀN"<|>"Quy định ANTT cấm sử dụng phần mềm không có bản quyền để tránh vi phạm bản quyền và bảo vệ máy tính khỏi tấn công malware."<|>"9")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"THIẾT BỊ CÁ NHÂN"<|>"Quy định ANTT yêu cầu kiểm tra và tuân thủ các điều khoản sử dụng phần mềm trên thiết bị cá nhân để đảm bảo an toàn thông tin."<|>"8")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"LICENSE PHẦN MỀM CỦA CÔNG TY"<|>"Quy định ANTT cấm sử dụng license phần mềm của công ty cho mục đích cá nhân để bảo vệ tài sản công ty."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"DỮ LIỆU CÔNG VIỆC"<|>"Thiết bị cá nhân phải đảm bảo xóa dữ liệu công việc sau khi kết thúc sử dụng để bảo vệ thông tin công ty."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"PHẦN MỀM ANTIVIRUS"<|>"Product"<|>"Phần mềm Antivirus bao gồm các sản phẩm như ESET, Avast, Kaspersky, ClamAV và Microsoft Defender. Đây là các phần mềm được cài đặt trên các thiết bị để bảo vệ hệ thống khỏi các mối đe dọa từ virus và phần mềm độc hại. Việc cài đặt và duy trì phần mềm này là cần thiết để đảm bảo an toàn cho hệ thống.")##
+
+("entity"<|>"FIREWALL"<|>"System"<|>"Firewall là hệ thống bảo mật được tích hợp trên các hệ điều hành như Windows, MAC, và Ubuntu. Nó có chức năng kiểm soát và giám sát lưu lượng mạng, ngăn chặn các truy cập trái phép và bảo vệ hệ thống khỏi các cuộc tấn công từ bên ngoài.")##
+
+("entity"<|>"HỆ ĐIỀU HÀNH"<|>"System"<|>"Hệ điều hành bao gồm Windows, MAC, và Ubuntu. Đây là các nền tảng phần mềm cơ bản điều khiển hoạt động của máy tính và thiết bị, hỗ trợ cài đặt và vận hành các phần mềm bảo mật như Antivirus và Firewall.")##
+
+("entity"<|>"QUY ĐỊNH BẢN QUYỀN"<|>"Regulation"<|>"Quy định bản quyền yêu cầu việc cài đặt phần mềm antivirus phải tuân thủ các điều khoản về bản quyền, đảm bảo sử dụng phần mềm hợp pháp và tránh vi phạm pháp luật về sở hữu trí tuệ.")##
+
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"FIREWALL"<|>"Phần mềm Antivirus và Firewall đều là các công cụ bảo mật được sử dụng để bảo vệ hệ thống khỏi các mối đe dọa từ bên ngoài, thường được cài đặt và duy trì cùng nhau để tăng cường an ninh mạng."<|>"8")##
+
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"HỆ ĐIỀU HÀNH"<|>"Phần mềm Antivirus được cài đặt trên các hệ điều hành như Windows, MAC, và Ubuntu để bảo vệ thiết bị khỏi virus và phần mềm độc hại."<|>"9")##
+
+("relationship"<|>"FIREWALL"<|>"HỆ ĐIỀU HÀNH"<|>"Firewall là một phần của hệ điều hành, được tích hợp sẵn trên các nền tảng như Windows, MAC, và Ubuntu để bảo vệ hệ thống khỏi các truy cập trái phép."<|>"9")##
+
+("relationship"<|>"PHẦN MỀM ANTIVIRUS"<|>"QUY ĐỊNH BẢN QUYỀN"<|>"Việc cài đặt phần mềm Antivirus phải tuân thủ quy định bản quyền để đảm bảo sử dụng hợp pháp và tránh vi phạm pháp luật."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"QUY ĐỊNH VỀ VIỆC SỬ DỤNG TÀI SẢN VÀ XỬ LÝ MẤT HỎNG TÀI SẢN CÔNG TY"<|>"regulation"<|>"Quy định này hướng dẫn việc sử dụng tài sản và xử lý các trường hợp mất mát, hỏng hóc tài sản của công ty. Nhân viên phải tuân thủ quy định này khi xảy ra sự cố liên quan đến tài sản.")##
+("entity"<|>"PL/LM"<|>"role"<|>"PL/LM là người phụ trách trực tiếp, có trách nhiệm nhận thông báo về sự cố và phối hợp với bộ phận ISO để đánh giá và xử lý sự cố.")##
+("entity"<|>"BỘ PHẬN ISO"<|>"department"<|>"Bộ phận ISO chịu trách nhiệm đánh giá sự cố và đưa ra phương án xử lý khi có thông báo từ PL/LM. Bộ phận này đóng vai trò quan trọng trong việc đảm bảo an toàn và bảo mật thông tin.")##
+("entity"<|>"KHÁCH HÀNG"<|>"person"<|>"Khách hàng là đối tượng cần được thông báo ngay lập tức nếu sự cố có khả năng tác động hoặc đã tác động đến họ.")##
+("entity"<|>"PHÒNG HẠ TẦNG NỘI BỘ (INFRA)"<|>"department"<|>"Phòng Hạ tầng nội bộ (Infra) có nhiệm vụ hỗ trợ xử lý các tài khoản trên thiết bị và đối ứng với các phương án kỹ thuật khác khi xảy ra sự cố.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"asset"<|>"Thiết bị cá nhân là tài sản thuộc sở hữu của nhân viên, nhân viên tự quản lý và chịu trách nhiệm với các hư hỏng, thiệt hại, mất mát đối với thiết bị này.")##
+("entity"<|>"PHƯƠNG PHÁP VÔ HIỆU HÓA, KHÓA THIẾT BỊ, XÓA DỮ LIỆU TỪ XA"<|>"process"<|>"Các phương pháp này được thực hiện chủ động để bảo vệ thông tin và tài sản khi xảy ra sự cố, bao gồm vô hiệu hóa, khóa thiết bị hoặc xóa dữ liệu từ xa.")##
+("entity"<|>"THAY ĐỔI PASSWORD ĐĂNG NHẬP"<|>"process"<|>"Quá trình thay đổi mật khẩu đăng nhập trên các hệ thống, ứng dụng, dịch vụ nhằm bảo vệ an toàn thông tin khi xảy ra sự cố.")##
+("relationship"<|>"QUY ĐỊNH VỀ VIỆC SỬ DỤNG TÀI SẢN VÀ XỬ LÝ MẤT HỎNG TÀI SẢN CÔNG TY"<|>"PL/LM"<|>"PL/LM phải tuân thủ quy định này khi xử lý các sự cố liên quan đến tài sản công ty."<|>"8")##
+("relationship"<|>"PL/LM"<|>"BỘ PHẬN ISO"<|>"PL/LM thông báo cho bộ phận ISO để đánh giá và xử lý sự cố."<|>"9")##
+("relationship"<|>"BỘ PHẬN ISO"<|>"KHÁCH HÀNG"<|>"Bộ phận ISO cần thông báo cho khách hàng nếu sự cố có khả năng tác động đến họ."<|>"7")##
+("relationship"<|>"PL/LM"<|>"PHÒNG HẠ TẦNG NỘI BỘ (INFRA)"<|>"PL/LM thông báo cho phòng Hạ tầng nội bộ để hỗ trợ xử lý các tài khoản và vấn đề kỹ thuật."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"PHƯƠNG PHÁP VÔ HIỆU HÓA, KHÓA THIẾT BỊ, XÓA DỮ LIỆU TỪ XA"<|>"Nhân viên có thể thực hiện các phương pháp này để bảo vệ thiết bị cá nhân khi xảy ra sự cố."<|>"7")##
+("relationship"<|>"PHƯƠNG PHÁP VÔ HIỆU HÓA, KHÓA THIẾT BỊ, XÓA DỮ LIỆU TỪ XA"<|>"THAY ĐỔI PASSWORD ĐĂNG NHẬP"<|>"Cả hai quá trình này đều nhằm bảo vệ thông tin và tài sản khi xảy ra sự cố."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị Test là các thiết bị được sử dụng trong quá trình kiểm tra và thử nghiệm, cần tuân thủ các quy định riêng biệt ngoài các quy định chung. Các thiết bị này có thể bao gồm laptop, PC, mobile, và tablet, và được sử dụng để trung chuyển dữ liệu, cài đặt phần mềm, thiết lập cấu hình, và phục vụ hoạt động nghiên cứu bảo mật như jailbreak hoặc crack.")##
+
+("entity"<|>"QUY ĐỊNH RIÊNG"<|>"Regulation"<|>"Quy định riêng là các quy định cụ thể áp dụng cho Thiết bị Test, yêu cầu tuân thủ ngoài các quy định chung. Các quy định này bao gồm việc sử dụng công cụ để trung chuyển dữ liệu, cài đặt phần mềm, thiết lập thiết bị, và sử dụng thiết bị cho hoạt động nghiên cứu bảo mật.")##
+
+("entity"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"Asset"<|>"Thiết bị Công ty/ Khách hàng bao gồm các thiết bị như laptop, PC, mobile, và tablet, được sử dụng trong quá trình kiểm tra và thử nghiệm. Các thiết bị này phải tuân thủ các quy định riêng và chung trong quá trình sử dụng.")##
+
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị Cá nhân bao gồm các thiết bị như laptop, PC, mobile, và tablet, thuộc sở hữu cá nhân nhưng được sử dụng trong quá trình kiểm tra và thử nghiệm. Các thiết bị này cũng phải tuân thủ các quy định riêng và chung.")##
+
+("entity"<|>"HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"Process"<|>"Hoạt động nghiên cứu bảo mật bao gồm các hoạt động như jailbreak hoặc crack, được thực hiện trên các thiết bị test. Các hoạt động này phải tuân thủ các quy định riêng biệt để đảm bảo an toàn và bảo mật.")##
+
+("relationship"<|>"THIẾT BỊ TEST"<|>"QUY ĐỊNH RIÊNG"<|>"Thiết bị Test phải tuân thủ các quy định riêng ngoài các quy định chung, bao gồm việc sử dụng công cụ, cài đặt phần mềm, thiết lập thiết bị, và nghiên cứu bảo mật."<|>"9")##
+
+("relationship"<|>"THIẾT BỊ CÔNG TY/ KHÁCH HÀNG"<|>"THIẾT BỊ TEST"<|>"Thiết bị Công ty/ Khách hàng là một phần của Thiết bị Test, được sử dụng trong quá trình kiểm tra và thử nghiệm, và phải tuân thủ các quy định riêng."<|>"8")##
+
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"THIẾT BỊ TEST"<|>"Thiết bị Cá nhân cũng là một phần của Thiết bị Test, được sử dụng trong quá trình kiểm tra và thử nghiệm, và phải tuân thủ các quy định riêng."<|>"8")##
+
+("relationship"<|>"HOẠT ĐỘNG NGHIÊN CỨU BẢO MẬT"<|>"THIẾT BỊ TEST"<|>"Hoạt động nghiên cứu bảo mật như jailbreak hoặc crack được thực hiện trên Thiết bị Test, yêu cầu tuân thủ các quy định riêng để đảm bảo an toàn."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"NEXTCLOUD"<|>"Product"<|>"Nextcloud là phần mềm được sử dụng để trung chuyển dữ liệu và hình ảnh test từ thiết bị test lên Laptop/PC. Phần mềm này chỉ được cài đặt trên các thiết bị có hệ điều hành OS>13 trên IOS hoặc OS>6 trên Android.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng trong dự án để thực hiện việc kiểm tra và chuyển dữ liệu, hình ảnh test. Các thiết bị này cần có hệ điều hành OS>13 trên IOS hoặc OS>6 trên Android để cài đặt phần mềm Nextcloud.")##
+("entity"<|>"LAPTOP/PC"<|>"Asset"<|>"Laptop/PC là thiết bị đích để nhận dữ liệu và hình ảnh test được chuyển từ thiết bị test thông qua phần mềm Nextcloud.")##
+("entity"<|>"OS>13 TRÊN IOS"<|>"Standard"<|>"OS>13 trên IOS là tiêu chuẩn hệ điều hành tối thiểu cần có trên các thiết bị IOS để cài đặt phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test.")##
+("entity"<|>"OS>6 TRÊN ANDROID"<|>"Standard"<|>"OS>6 trên Android là tiêu chuẩn hệ điều hành tối thiểu cần có trên các thiết bị Android để cài đặt phần mềm Nextcloud cho việc chuyển dữ liệu và hình ảnh test.")##
+("relationship"<|>"NEXTCLOUD"<|>"THIẾT BỊ TEST"<|>"Nextcloud được cài đặt trên thiết bị test để thực hiện việc chuyển dữ liệu và hình ảnh test lên Laptop/PC."<|>"8")##
+("relationship"<|>"NEXTCLOUD"<|>"LAPTOP/PC"<|>"Nextcloud chuyển dữ liệu và hình ảnh test từ thiết bị test lên Laptop/PC, đóng vai trò là công cụ trung chuyển dữ liệu."<|>"8")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"OS>13 TRÊN IOS"<|>"Thiết bị test cần có hệ điều hành OS>13 trên IOS để cài đặt phần mềm Nextcloud."<|>"7")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"OS>6 TRÊN ANDROID"<|>"Thiết bị test cần có hệ điều hành OS>6 trên Android để cài đặt phần mềm Nextcloud."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"NEXTCLOUD"<|>"Product"<|>"Nextcloud là phần mềm được sử dụng để lưu trữ và chia sẻ dữ liệu, hình ảnh. Tuy nhiên, đối với các thiết bị test không hỗ trợ cài đặt phần mềm này, dự án cần sử dụng các công cụ khác để thực hiện việc trung chuyển dữ liệu.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng trong quá trình kiểm tra, có thể không hỗ trợ cài đặt phần mềm Nextcloud nếu có OS<13 trên IOS hoặc OS<6 trên Android và không hỗ trợ nâng cấp OS. Trong trường hợp này, cần sử dụng các công cụ khác để lưu trữ và chia sẻ dữ liệu.")##
+("entity"<|>"CÔNG CỤ KHÁC"<|>"Product"<|>"Các công cụ khác được sử dụng để lưu trữ và chia sẻ dữ liệu, hình ảnh khi thiết bị test không hỗ trợ cài đặt Nextcloud. Các công cụ này phải được Khách hàng hoặc PL dự án phê duyệt.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Person"<|>"Khách hàng là người hoặc tổ chức có quyền phê duyệt các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh được sử dụng trong dự án.")##
+("entity"<|>"PL DỰ ÁN"<|>"Role"<|>"PL dự án là người có thẩm quyền phê duyệt các công cụ lưu trữ và chia sẻ dữ liệu, hình ảnh được sử dụng trong dự án.")##
+("entity"<|>"TÀI KHOẢN MAIL"<|>"Instruments"<|>"Tài khoản mail với domain Công ty @sun-asterisk.com hoặc @sun-asterisk.vn được cung cấp bởi công ty để đăng nhập vào các công cụ lưu trữ và chia sẻ dữ liệu.")##
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty cung cấp tài khoản mail với domain @sun-asterisk.com hoặc @sun-asterisk.vn để sử dụng trong việc đăng nhập vào các công cụ lưu trữ và chia sẻ dữ liệu.")##
+("entity"<|>"RÒ RỈ THÔNG TIN"<|>"Event"<|>"Rò rỉ thông tin là rủi ro có thể xảy ra nếu không đảm bảo logout tài khoản sau khi kết thúc quá trình chuyển dữ liệu, hình ảnh test, đặc biệt khi dùng chung thiết bị test.")##
+("relationship"<|>"NEXTCLOUD"<|>"THIẾT BỊ TEST"<|>"Nextcloud không thể cài đặt trên các thiết bị test có OS<13 trên IOS hoặc OS<6 trên Android, do đó cần sử dụng các công cụ khác."<|>"8")##
+("relationship"<|>"CÔNG CỤ KHÁC"<|>"KHÁCH HÀNG"<|>"Các công cụ khác để lưu trữ và chia sẻ dữ liệu phải được Khách hàng phê duyệt trước khi sử dụng."<|>"7")##
+("relationship"<|>"CÔNG CỤ KHÁC"<|>"PL DỰ ÁN"<|>"Các công cụ khác để lưu trữ và chia sẻ dữ liệu phải được PL dự án phê duyệt trước khi sử dụng."<|>"7")##
+("relationship"<|>"TÀI KHOẢN MAIL"<|>"CÔNG TY"<|>"Công ty cung cấp tài khoản mail với domain @sun-asterisk.com hoặc @sun-asterisk.vn để sử dụng trong các công cụ lưu trữ và chia sẻ dữ liệu."<|>"9")##
+("relationship"<|>"RÒ RỈ THÔNG TIN"<|>"THIẾT BỊ TEST"<|>"Rò rỉ thông tin có thể xảy ra nếu không logout tài khoản sau khi sử dụng thiết bị test chung."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG CỤ TRUNG CHUYỂN DỮ LIỆU"<|>"System"<|>"Công cụ được sử dụng để trung chuyển dữ liệu và hình ảnh test giữa các thiết bị và ứng dụng. Quá trình này yêu cầu đảm bảo tất cả dữ liệu và hình ảnh test được xóa sạch trên thiết bị test và các ứng dụng sau khi hoàn tất chuyển dữ liệu.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị được sử dụng để thực hiện các thử nghiệm và kiểm tra dữ liệu, hình ảnh test. Thiết bị này phải đảm bảo không lưu trữ dữ liệu, hình ảnh test sau khi quá trình chuyển dữ liệu hoàn tất.")##
+("entity"<|>"PHẦN MỀM TRÊN THIẾT BỊ TEST"<|>"Product"<|>"Phần mềm được cài đặt và sử dụng trên thiết bị test để hỗ trợ quá trình thử nghiệm. Có quy định nghiêm cấm cài đặt các phần mềm không liên quan tới công việc trên thiết bị này.")##
+("entity"<|>"QUY TRÌNH XÓA DỮ LIỆU"<|>"Process"<|>"Quy trình đảm bảo tất cả dữ liệu và hình ảnh test được xóa sạch trên thiết bị test và các ứng dụng sau khi quá trình chuyển dữ liệu kết thúc. Đây là một bước quan trọng để bảo mật thông tin.")##
+("entity"<|>"QUY ĐỊNH CÀI ĐẶT PHẦN MỀM"<|>"Regulation"<|>"Quy định nghiêm cấm cài đặt các phần mềm không liên quan tới công việc trên thiết bị test, nhằm đảm bảo an toàn và bảo mật cho quá trình thử nghiệm.")##
+("relationship"<|>"CÔNG CỤ TRUNG CHUYỂN DỮ LIỆU"<|>"THIẾT BỊ TEST"<|>"Công cụ trung chuyển dữ liệu được sử dụng để chuyển dữ liệu và hình ảnh test giữa các thiết bị test, yêu cầu xóa dữ liệu sau khi hoàn tất."<|>"8")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"PHẦN MỀM TRÊN THIẾT BỊ TEST"<|>"Thiết bị test là nơi cài đặt và sử dụng phần mềm để thực hiện các thử nghiệm, với quy định nghiêm cấm cài đặt phần mềm không liên quan."<|>"7")##
+("relationship"<|>"PHẦN MỀM TRÊN THIẾT BỊ TEST"<|>"QUY ĐỊNH CÀI ĐẶT PHẦN MỀM"<|>"Phần mềm trên thiết bị test phải tuân thủ quy định cài đặt, không được cài đặt phần mềm không liên quan tới công việc."<|>"9")##
+("relationship"<|>"CÔNG CỤ TRUNG CHUYỂN DỮ LIỆU"<|>"QUY TRÌNH XÓA DỮ LIỆU"<|>"Công cụ trung chuyển dữ liệu phải tuân thủ quy trình xóa dữ liệu sau khi hoàn tất chuyển dữ liệu và hình ảnh test."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị được sử dụng để cài đặt và kiểm tra phần mềm, đặc biệt là phần mềm Nextcloud. Trên các thiết bị này, việc login các ứng dụng tích hợp trong Google Workspace như Gmail, Google Docs, Sheets, Slides, Google Drive, Google Calendar, Google Meet, Google Forms, và Google Chat bị nghiêm cấm để tránh rủi ro rò rỉ thông tin dự án và dữ liệu cá nhân.")##
+
+("entity"<|>"NEXTCLOUD"<|>"Product"<|>"Nextcloud là phần mềm được cài đặt trên thiết bị test để phục vụ cho các hoạt động kiểm tra và phát triển. Việc cài đặt Nextcloud trên thiết bị test yêu cầu tuân thủ các quy định nghiêm ngặt về bảo mật thông tin.")##
+
+("entity"<|>"GOOGLE WORKSPACE"<|>"Product"<|>"Google Workspace là bộ ứng dụng tích hợp bao gồm Gmail, Google Docs, Sheets, Slides, Google Drive, Google Calendar, Google Meet, Google Forms, và Google Chat. Việc sử dụng Google Workspace trên thiết bị test bị hạn chế để đảm bảo an toàn thông tin.")##
+
+("entity"<|>"DOMAIN CÔNG TY @SUN-ASTERISK.COM"<|>"Code"<|>"Domain công ty @sun-asterisk.com là địa chỉ email được sử dụng trong các hoạt động của công ty. Việc login tài khoản mail với domain này trên thiết bị test có thể tiềm ẩn rủi ro rò rỉ thông tin.")##
+
+("entity"<|>"CH PLAY (GOOGLE PLAY)"<|>"Service"<|>"CH Play (Google Play) là dịch vụ cung cấp ứng dụng cho các thiết bị Android. Trong trường hợp cần thiết, nhân viên có thể tải ứng dụng từ CH Play để phục vụ công việc, nhưng phải đảm bảo logout tài khoản mail công ty ngay sau khi tải xuống.")##
+
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên là người thực hiện các thao tác cài đặt và sử dụng phần mềm trên thiết bị test. Họ có trách nhiệm tuân thủ các quy định về bảo mật thông tin, bao gồm việc logout tài khoản mail công ty sau khi tải ứng dụng từ CH Play.")##
+
+("relationship"<|>"THIẾT BỊ TEST"<|>"NEXTCLOUD"<|>"Thiết bị test được sử dụng để cài đặt phần mềm Nextcloud, phục vụ cho việc kiểm tra và phát triển phần mềm."<|>"8")##
+
+("relationship"<|>"THIẾT BỊ TEST"<|>"GOOGLE WORKSPACE"<|>"Việc login các ứng dụng trong Google Workspace trên thiết bị test bị nghiêm cấm để tránh rủi ro rò rỉ thông tin."<|>"9")##
+
+("relationship"<|>"DOMAIN CÔNG TY @SUN-ASTERISK.COM"<|>"GOOGLE WORKSPACE"<|>"Việc login tài khoản mail với domain công ty trên Google Workspace có thể tiềm ẩn rủi ro rò rỉ thông tin khi dùng chung thiết bị test."<|>"8")##
+
+("relationship"<|>"CH PLAY (GOOGLE PLAY)"<|>"NHÂN VIÊN"<|>"Nhân viên có thể tải ứng dụng từ CH Play để phục vụ công việc nhưng phải đảm bảo logout tài khoản mail công ty ngay sau khi tải xuống."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là các thiết bị iOS được sử dụng trong quá trình kiểm thử. Các thiết bị này cần được thiết lập với tài khoản iCloud của Công ty và bật chức năng Find My iPhone, bao gồm cả Find My network và Send Last Location. Trong quá trình test, cần đảm bảo tắt các chức năng như Backup, Automatic restore, Synchronize, Keychain, AutoFill Passwords, và Share Location. Sau khi kiểm thử, tất cả dữ liệu và hình ảnh test trên thiết bị phải được xóa trước khi cho mượn hoặc bàn giao thiết bị.")## 
+("entity"<|>"TÀI KHOẢN ICLOUD CỦA CÔNG TY"<|>"System"<|>"Tài khoản iCloud của Công ty được sử dụng trên các thiết bị iOS trong quá trình kiểm thử. Tài khoản này cần được duy trì để đảm bảo các chức năng như Find My iPhone hoạt động hiệu quả.")## 
+("entity"<|>"FIND MY IPHONE"<|>"Service"<|>"Find My iPhone là một dịch vụ được cài đặt trên các thiết bị iOS trong quá trình kiểm thử. Dịch vụ này bao gồm các chức năng Find My network và Send Last Location, giúp theo dõi và bảo vệ thiết bị.")## 
+("entity"<|>"BACKUP"<|>"Process"<|>"Backup là một quá trình sao lưu dữ liệu trên thiết bị iOS. Trong quá trình kiểm thử, chức năng này cần được tắt để tránh lưu trữ dữ liệu không cần thiết.")## 
+("entity"<|>"AUTOMATIC RESTORE"<|>"Process"<|>"Automatic restore là quá trình tự động khôi phục dữ liệu trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để đảm bảo dữ liệu không bị khôi phục không mong muốn.")## 
+("entity"<|>"SYNCHRONIZE"<|>"Process"<|>"Synchronize là quá trình đồng bộ hóa dữ liệu trên thiết bị iOS. Trong quá trình kiểm thử, cần tắt chức năng này để tránh đồng bộ hóa dữ liệu cá nhân.")## 
+("entity"<|>"KEYCHAIN"<|>"Service"<|>"Keychain là một dịch vụ lưu trữ mật khẩu và thông tin bảo mật trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để bảo vệ thông tin cá nhân.")## 
+("entity"<|>"AUTOFILL PASSWORDS"<|>"Service"<|>"AutoFill Passwords là một dịch vụ tự động điền mật khẩu trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để tránh điền thông tin không mong muốn.")## 
+("entity"<|>"SHARE LOCATION"<|>"Service"<|>"Share Location là một dịch vụ chia sẻ vị trí trên thiết bị iOS. Chức năng này cần được tắt trong quá trình kiểm thử để bảo vệ quyền riêng tư.")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"TÀI KHOẢN ICLOUD CỦA CÔNG TY"<|>"Thiết bị test sử dụng tài khoản iCloud của Công ty để đảm bảo các chức năng cần thiết cho quá trình kiểm thử."<|>"8")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"FIND MY IPHONE"<|>"Thiết bị test cần bật chức năng Find My iPhone để theo dõi và bảo vệ thiết bị trong quá trình kiểm thử."<|>"7")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"BACKUP"<|>"Chức năng Backup trên thiết bị test cần được tắt để tránh lưu trữ dữ liệu không cần thiết trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"AUTOMATIC RESTORE"<|>"Chức năng Automatic restore trên thiết bị test cần được tắt để tránh khôi phục dữ liệu không mong muốn trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"SYNCHRONIZE"<|>"Chức năng Synchronize trên thiết bị test cần được tắt để tránh đồng bộ hóa dữ liệu cá nhân trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"KEYCHAIN"<|>"Chức năng Keychain trên thiết bị test cần được tắt để bảo vệ thông tin bảo mật trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"AUTOFILL PASSWORDS"<|>"Chức năng AutoFill Passwords trên thiết bị test cần được tắt để tránh điền thông tin không mong muốn trong quá trình kiểm thử."<|>"6")## 
+("relationship"<|>"THIẾT BỊ TEST"<|>"SHARE LOCATION"<|>"Chức năng Share Location trên thiết bị test cần được tắt để bảo vệ quyền riêng tư trong quá trình kiểm thử."<|>"6")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"Asset"<|>"Thiết bị nghiên cứu bảo mật là nhóm thiết bị được sử dụng riêng biệt cho hoạt động nghiên cứu bảo mật như jailbreak/crack. Nhóm thiết bị này không được sử dụng cho các hoạt động kiểm thử trong dự án và phải được quản lý tách biệt với thiết bị test của dự án.")##
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị test là nhóm thiết bị được sử dụng trong các dự án để thực hiện kiểm thử. Nhóm thiết bị này không được sử dụng cho hoạt động nghiên cứu bảo mật và phải được quản lý tách biệt với thiết bị nghiên cứu bảo mật.")##
+("entity"<|>"BỘ PHẬN NGHIÊN CỨU BẢO MẬT"<|>"Department"<|>"Bộ phận nghiên cứu bảo mật là đơn vị chịu trách nhiệm thực hiện các hoạt động nghiên cứu bảo mật như jailbreak/crack. Bộ phận này không sử dụng thiết bị test của dự án mà chỉ sử dụng thiết bị phục vụ cho hoạt động nghiên cứu bảo mật.")##
+("entity"<|>"NGƯỜI PHỤ TRÁCH THIẾT BỊ"<|>"Role"<|>"Người phụ trách thiết bị là cá nhân chịu trách nhiệm cập nhật danh sách quản lý thiết bị phục vụ công việc nghiên cứu bảo mật. Họ phải đảm bảo rằng thiết bị nghiên cứu bảo mật được quản lý theo biểu mẫu quy định.")##
+("entity"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Form"<|>"Danh sách quản lý thiết bị là biểu mẫu được sử dụng để cập nhật và quản lý các thiết bị phục vụ công việc nghiên cứu bảo mật. Biểu mẫu này giúp đảm bảo rằng các thiết bị được quản lý một cách có hệ thống và tách biệt.")##
+("relationship"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"THIẾT BỊ TEST"<|>"Thiết bị nghiên cứu bảo mật và thiết bị test phải được quản lý tách biệt để đảm bảo rằng thiết bị nghiên cứu bảo mật không được sử dụng cho các hoạt động kiểm thử trong dự án."<|>"8")##
+("relationship"<|>"BỘ PHẬN NGHIÊN CỨU BẢO MẬT"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"Bộ phận nghiên cứu bảo mật sử dụng thiết bị nghiên cứu bảo mật cho các hoạt động nghiên cứu như jailbreak/crack, không sử dụng thiết bị test của dự án."<|>"9")##
+("relationship"<|>"NGƯỜI PHỤ TRÁCH THIẾT BỊ"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Người phụ trách thiết bị có trách nhiệm cập nhật danh sách quản lý thiết bị phục vụ công việc nghiên cứu bảo mật theo biểu mẫu quy định."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY SUN ASTERISK"<|>"Organization"<|>"Công ty Sun Asterisk cung cấp các tài khoản email với domain @sun-asterisk.com hoặc @sun-asterisk.vn cho việc sử dụng trên các thiết bị phục vụ hoạt động nghiên cứu bảo mật. Công ty cũng cung cấp tài khoản Icloud riêng cho các thiết bị IOS và yêu cầu bộ phận sử dụng thiết bị quản lý thông tin tài khoản như ID, tên người dùng, mật khẩu, và số điện thoại.")##
+("entity"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"Asset"<|>"Thiết bị phục vụ hoạt động nghiên cứu bảo mật, bao gồm các hoạt động như jailbreak hoặc crack. Các thiết bị này yêu cầu sử dụng tài khoản được tạo bởi email có domain của công ty và tài khoản Icloud do công ty cung cấp cho thiết bị IOS.")##
+("entity"<|>"TÀI KHOẢN EMAIL CÔNG TY"<|>"Instruments"<|>"Tài khoản email có domain @sun-asterisk.com hoặc @sun-asterisk.vn được công ty Sun Asterisk cung cấp để sử dụng trên các thiết bị nghiên cứu bảo mật. Tài khoản này là một phần quan trọng trong việc quản lý và bảo mật thông tin trên thiết bị.")##
+("entity"<|>"TÀI KHOẢN ICLOUD"<|>"Instruments"<|>"Tài khoản Icloud được công ty Sun Asterisk cung cấp riêng cho các thiết bị IOS. Tài khoản này được sử dụng để đăng nhập và quản lý thông tin trên thiết bị, bao gồm ID, tên người dùng, mật khẩu, và số điện thoại.")##
+("entity"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"Department"<|>"Bộ phận chịu trách nhiệm sử dụng các thiết bị phục vụ hoạt động nghiên cứu bảo mật. Bộ phận này có trách nhiệm quản lý tất cả các thông tin tài khoản liên quan đến thiết bị, đảm bảo an toàn và bảo mật thông tin.")##
+("relationship"<|>"CÔNG TY SUN ASTERISK"<|>"TÀI KHOẢN EMAIL CÔNG TY"<|>"Công ty Sun Asterisk cung cấp tài khoản email với domain @sun-asterisk.com hoặc @sun-asterisk.vn cho việc sử dụng trên các thiết bị nghiên cứu bảo mật."<|>"9")##
+("relationship"<|>"CÔNG TY SUN ASTERISK"<|>"TÀI KHOẢN ICLOUD"<|>"Công ty Sun Asterisk cung cấp tài khoản Icloud riêng cho các thiết bị IOS để sử dụng trong hoạt động nghiên cứu bảo mật."<|>"9")##
+("relationship"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"TÀI KHOẢN EMAIL CÔNG TY"<|>"Thiết bị nghiên cứu bảo mật sử dụng tài khoản email có domain của công ty để đảm bảo an toàn và bảo mật thông tin."<|>"8")##
+("relationship"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"TÀI KHOẢN ICLOUD"<|>"Thiết bị IOS trong hoạt động nghiên cứu bảo mật sử dụng tài khoản Icloud do công ty cung cấp để quản lý thông tin."<|>"8")##
+("relationship"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"THIẾT BỊ NGHIÊN CỨU BẢO MẬT"<|>"Bộ phận sử dụng thiết bị có trách nhiệm quản lý thông tin tài khoản trên các thiết bị phục vụ hoạt động nghiên cứu bảo mật."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ"<|>"Asset"<|>"Thiết bị được sử dụng để phục vụ hoạt động nghiên cứu bảo mật, bao gồm các hoạt động như jailbreak hoặc crack. Việc sử dụng thiết bị này phải tuân thủ quy định về cài đặt và sử dụng phần mềm bản quyền. Bộ phận sử dụng thiết bị có trách nhiệm theo dõi và đánh giá rủi ro định kỳ 6 tháng/lần.")##
+("entity"<|>"PHẦN MỀM BẢN QUYỀN"<|>"Product"<|>"Phần mềm bản quyền là các phần mềm được cài đặt trên thiết bị phục vụ nghiên cứu bảo mật. Việc cài đặt và sử dụng phần mềm này phải tuân thủ các quy định đã đề ra.")##
+("entity"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"Department"<|>"Bộ phận này chịu trách nhiệm sử dụng thiết bị phục vụ nghiên cứu bảo mật. Họ có trách nhiệm theo dõi và đánh giá rủi ro liên quan đến việc sử dụng thiết bị định kỳ 6 tháng/lần.")##
+("entity"<|>"QUY ĐỊNH SỬ DỤNG THIẾT BỊ"<|>"Regulation"<|>"Quy định này yêu cầu việc cài đặt và sử dụng phần mềm bản quyền trên các thiết bị phục vụ nghiên cứu bảo mật phải được tuân thủ nghiêm ngặt. Ngoài ra, bộ phận sử dụng thiết bị phải thực hiện theo dõi và đánh giá rủi ro định kỳ.")##
+("relationship"<|>"THIẾT BỊ"<|>"PHẦN MỀM BẢN QUYỀN"<|>"Thiết bị phục vụ nghiên cứu bảo mật phải cài đặt và sử dụng phần mềm bản quyền theo quy định."<|>"8")##
+("relationship"<|>"THIẾT BỊ"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"Bộ phận sử dụng thiết bị có trách nhiệm theo dõi và đánh giá rủi ro liên quan đến thiết bị định kỳ."<|>"7")##
+("relationship"<|>"THIẾT BỊ"<|>"QUY ĐỊNH SỬ DỤNG THIẾT BỊ"<|>"Việc sử dụng thiết bị phải tuân thủ quy định về cài đặt và sử dụng phần mềm bản quyền."<|>"9")##
+("relationship"<|>"BỘ PHẬN SỬ DỤNG THIẾT BỊ"<|>"QUY ĐỊNH SỬ DỤNG THIẾT BỊ"<|>"Bộ phận này phải tuân thủ quy định về việc theo dõi và đánh giá rủi ro định kỳ khi sử dụng thiết bị."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Form"<|>"Danh sách quản lý thiết bị là biểu mẫu được sử dụng để cập nhật thông tin về thiết bị Test và những thay đổi trong quá trình sử dụng. Biểu mẫu này có định dạng: [Temp] [###(ProjectID)] ProjectName - Device Management, và được duy trì liên tục để đảm bảo thông tin thiết bị luôn được cập nhật.")##
+("entity"<|>"PL/LM"<|>"Role"<|>"PL/LM là viết tắt của Project Leader/Line Manager, người có trách nhiệm duy trì và cập nhật thông tin định kỳ ít nhất 1 tháng/1 lần về các thiết bị cá nhân được sử dụng cho mục đích Test, tiếp nhận thông tin authentication các tài khoản dùng chung trên các service do Khách hàng cung cấp, hoặc các trường hợp khác cần ghi nhận và quản lý thông tin thiết bị cá nhân.")##
+("entity"<|>"THIẾT BỊ CÁ NHÂN"<|>"Asset"<|>"Thiết bị cá nhân là các thiết bị được sử dụng cho mục đích Test hoặc các mục đích chung khác trong hoạt động dự án/bộ phận. Thông tin về các thiết bị này cần được cập nhật định kỳ và quản lý theo biểu mẫu quy định.")##
+("entity"<|>"BIỂU MẪU NON_PROJECT"<|>"Form"<|>"Biểu mẫu Non_project: BM-1-501-01_Personal device management là biểu mẫu được sử dụng để quản lý thông tin thiết bị cá nhân không thuộc dự án cụ thể, nhằm mục đích ghi nhận và quản lý thông tin thiết bị cá nhân được sử dụng cho mục đích chung.")##
+("entity"<|>"BIỂU MẪU PROJECT"<|>"Form"<|>"Biểu mẫu Project: [Temp] [###(ProjectID)] ProjectName - Device Management là biểu mẫu được sử dụng để quản lý thông tin thiết bị cá nhân thuộc dự án cụ thể, nhằm mục đích ghi nhận và quản lý thông tin thiết bị cá nhân được sử dụng cho mục đích chung.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Organization"<|>"Khách hàng là tổ chức cung cấp các service và thông tin authentication cho các tài khoản dùng chung, liên quan đến việc sử dụng thiết bị cá nhân trong các dự án.")##
+("relationship"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"PL/LM"<|>"PL/LM có trách nhiệm duy trì và cập nhật thông tin vào danh sách quản lý thiết bị, đảm bảo thông tin thiết bị luôn được cập nhật và chính xác."<|>"8")##
+("relationship"<|>"THIẾT BỊ CÁ NHÂN"<|>"DANH SÁCH QUẢN LÝ THIẾT BỊ"<|>"Thông tin về thiết bị cá nhân được cập nhật vào danh sách quản lý thiết bị để theo dõi và quản lý việc sử dụng thiết bị trong các dự án."<|>"9")##
+("relationship"<|>"PL/LM"<|>"THIẾT BỊ CÁ NHÂN"<|>"PL/LM chịu trách nhiệm cập nhật thông tin định kỳ về thiết bị cá nhân, đảm bảo việc sử dụng thiết bị được quản lý chặt chẽ."<|>"8")##
+("relationship"<|>"BIỂU MẪU NON_PROJECT"<|>"THIẾT BỊ CÁ NHÂN"<|>"Biểu mẫu Non_project được sử dụng để quản lý thông tin thiết bị cá nhân không thuộc dự án cụ thể, đảm bảo việc ghi nhận thông tin thiết bị được thực hiện đúng quy định."<|>"7")##
+("relationship"<|>"BIỂU MẪU PROJECT"<|>"THIẾT BỊ CÁ NHÂN"<|>"Biểu mẫu Project được sử dụng để quản lý thông tin thiết bị cá nhân thuộc dự án cụ thể, đảm bảo việc ghi nhận thông tin thiết bị được thực hiện đúng quy định."<|>"7")##
+("relationship"<|>"KHÁCH HÀNG"<|>"THIẾT BỊ CÁ NHÂN"<|>"Khách hàng cung cấp các service và thông tin authentication cho các tài khoản dùng chung, liên quan đến việc sử dụng thiết bị cá nhân trong các dự án."<|>"6")##<|COMPLETE|>
+======================= 
+("entity"<|>"THIẾT BỊ TEST"<|>"Asset"<|>"Thiết bị Test là công cụ được sử dụng trong quá trình kiểm thử. Việc sử dụng thiết bị này cần tuân thủ các quy định cụ thể để đảm bảo an toàn và hiệu quả trong quá trình kiểm thử.")##
+("entity"<|>"QUY ĐỊNH TRONG QUÁ TRÌNH KIỂM THỬ"<|>"Regulation"<|>"Quy định trong quá trình kiểm thử là các hướng dẫn và yêu cầu cần tuân thủ khi sử dụng thiết bị Test. Những quy định này nhằm đảm bảo quá trình kiểm thử diễn ra an toàn và hiệu quả.")##
+("relationship"<|>"THIẾT BỊ TEST"<|>"QUY ĐỊNH TRONG QUÁ TRÌNH KIỂM THỬ"<|>"Việc sử dụng thiết bị Test phải tuân thủ các quy định trong quá trình kiểm thử để đảm bảo an toàn và hiệu quả."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"SOURCE CODE"<|>"Code"<|>"Source code là mã nguồn của các phần mềm hoặc ứng dụng, thường chứa các thông tin nhạy cảm và cần được bảo mật. Việc chụp ảnh màn hình source code và đăng lên mạng xã hội như Facebook có thể dẫn đến rò rỉ thông tin quan trọng.")##
+
+("entity"<|>"DỰ ÁN"<|>"Project"<|>"Dự án là một tập hợp các công việc và nhiệm vụ được thực hiện để đạt được một mục tiêu cụ thể. Thông tin về dự án thường bao gồm chi tiết về khách hàng, công việc và các tài liệu liên quan, cần được bảo mật và không chia sẻ công khai.")##
+
+("entity"<|>"KHÁCH HÀNG"<|>"Person"<|>"Khách hàng là người hoặc tổ chức sử dụng sản phẩm hoặc dịch vụ của công ty. Thông tin về khách hàng cần được bảo mật và không chia sẻ với bên ngoài.")##
+
+("entity"<|>"TÀI KHOẢN CÁ NHÂN"<|>"Asset"<|>"Tài khoản cá nhân là thông tin đăng nhập của một cá nhân, thường được sử dụng để truy cập vào các thiết bị hoặc hệ thống. Sử dụng tài khoản cá nhân trên các thiết bị test của công ty có thể gây ra rủi ro bảo mật.")##
+
+("entity"<|>"PRIVATE KEY/PASSWORD"<|>"Code"<|>"Private key và password là các thông tin bảo mật quan trọng dùng để truy cập vào hệ thống hoặc dữ liệu. Việc chia sẻ chúng trên các nền tảng chung có thể dẫn đến rủi ro bảo mật.")##
+
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị công ty bao gồm các máy tính và thiết bị test được sử dụng cho công việc. Việc nhiều người dùng chung thiết bị hoặc cài đặt phần mềm không liên quan có thể gây ra rủi ro bảo mật.")##
+
+("entity"<|>"SNS SHARING"<|>"Service"<|>"SNS sharing là việc chia sẻ thông tin qua các mạng xã hội. Sử dụng chức năng này không kiểm soát có thể dẫn đến rò rỉ thông tin nhạy cảm.")##
+
+("entity"<|>"AWS KEY"<|>"Code"<|>"AWS key là mã khóa dùng để truy cập vào dịch vụ của Amazon Web Services. Lộ AWS key có thể dẫn đến việc truy cập trái phép và gây thiệt hại tài chính.")##
+
+("entity"<|>"CEO"<|>"Role"<|>"CEO là giám đốc điều hành của công ty, người chịu trách nhiệm cao nhất về hoạt động và chiến lược của công ty. CEO có thể phải xin lỗi và đền tiền khi xảy ra sự cố bảo mật.")##
+
+("entity"<|>"MANAGER"<|>"Role"<|>"Manager là người quản lý, chịu trách nhiệm giám sát và điều phối các hoạt động trong công ty. Manager có thể phải xin lỗi và giải quyết các sự cố bảo mật.")##
+
+("entity"<|>"PAO"<|>"Role"<|>"PAO là viết tắt của Public Affairs Officer, người chịu trách nhiệm về quan hệ công chúng và truyền thông của công ty. PAO có thể phải xin lỗi và xử lý các vấn đề liên quan đến rò rỉ thông tin.")##
+
+("entity"<|>"SERVER"<|>"Asset"<|>"Server là máy chủ lưu trữ và xử lý dữ liệu. Không đặt basic auth cho server của dịch vụ chưa phát hành có thể dẫn đến truy cập trái phép.")##
+
+("entity"<|>"DEVICE TEST"<|>"Asset"<|>"Device test là thiết bị được sử dụng để kiểm tra và phát triển phần mềm. Việc cài đặt tài khoản khách hàng hoặc phần mềm không liên quan có thể gây ra rủi ro bảo mật.")##
+
+("entity"<|>"PRODUCT"<|>"Product"<|>"Product là sản phẩm của công ty, có thể là phần mềm hoặc phần cứng. Việc để ảnh chụp màn hình hoặc video của sản phẩm lên các nền tảng công khai có thể dẫn đến rò rỉ thông tin.")##
+
+("relationship"<|>"SOURCE CODE"<|>"DỰ ÁN"<|>"Source code là một phần quan trọng của dự án, chứa các thông tin nhạy cảm cần được bảo mật."<|>"8")##
+
+("relationship"<|>"DỰ ÁN"<|>"KHÁCH HÀNG"<|>"Thông tin về dự án thường bao gồm chi tiết về khách hàng, cần được bảo mật."<|>"7")##
+
+("relationship"<|>"TÀI KHOẢN CÁ NHÂN"<|>"THIẾT BỊ CÔNG TY"<|>"Sử dụng tài khoản cá nhân trên thiết bị công ty có thể gây ra rủi ro bảo mật."<|>"6")##
+
+("relationship"<|>"PRIVATE KEY/PASSWORD"<|>"THIẾT BỊ CÔNG TY"<|>"Chia sẻ private key/password trên thiết bị công ty có thể dẫn đến rủi ro bảo mật."<|>"7")##
+
+("relationship"<|>"AWS KEY"<|>"CEO"<|>"Lộ AWS key có thể khiến CEO phải xin lỗi và đền tiền."<|>"8")##
+
+("relationship"<|>"MANAGER"<|>"SERVER"<|>"Không đặt basic auth cho server có thể khiến manager phải xin lỗi và bị đòi tiền."<|>"7")##
+
+("relationship"<|>"DEVICE TEST"<|>"MANAGER"<|>"Sử dụng device test không đúng cách có thể khiến manager phải xin lỗi và đền tiền."<|>"7")##
+
+("relationship"<|>"PRODUCT"<|>"MANAGER"<|>"Để thông tin sản phẩm công khai có thể khiến manager phải xin lỗi."<|>"7")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là tổ chức áp dụng các quy định nghiêm ngặt về việc cài đặt phần mềm trên các thiết bị liên quan đến quá trình xử lý và lưu trữ thông tin. Công ty cấm các hành vi tự ý cài đặt phần mềm rủi ro cao và các hành vi gây ảnh hưởng đến băng thông hoặc tấn công hệ thống.")##  
+("entity"<|>"PHẦN MỀM RỦI RO CAO"<|>"Product"<|>"Phần mềm rủi ro cao bao gồm các phần mềm điều khiển máy từ xa, phần mềm quay/chụp màn hình, dịch vụ đọc, chia sẻ file có tính năng lưu trữ trên Internet như Pastebin, Json Viewer, Gyazo, phần mềm Proxy, OpenVPN, HotspotShield, phần mềm theo dõi, thu thập dữ liệu trái phép như Keylogger, và cài đặt máy ảo như Kali Linux, Backtrack. Những phần mềm này bị nghiêm cấm cài đặt và sử dụng.")##  
+("entity"<|>"BĂNG THÔNG CÔNG TY"<|>"Asset"<|>"Băng thông của Công ty là tài nguyên mạng cần được bảo vệ khỏi các hành vi gây ảnh hưởng như cài đặt phần mềm tăng tốc download hoặc phần mềm chia sẻ P2P. Công ty nghiêm cấm các hành vi này để đảm bảo hiệu suất và an toàn mạng.")##  
+("entity"<|>"HỆ THỐNG SECURITY CÔNG TY"<|>"System"<|>"Hệ thống Security của Công ty là hệ thống bảo mật được thiết lập để bảo vệ thông tin và dữ liệu của Công ty. Công ty cấm sử dụng phần mềm như Proxy, OpenVPN, HotspotShield để vượt qua hệ thống này.")##  
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị của Công ty bao gồm máy tính bàn, laptop, thiết bị di động và các thiết bị khác liên quan đến quá trình xử lý và lưu trữ thông tin. Các thiết bị này phải tuân thủ quy định về cài đặt phần mềm và không được phép kết nối vào mạng nội bộ Công ty nếu không được phép.")##  
+("entity"<|>"NHÂN VIÊN/KHÁCH HÀNG"<|>"Person"<|>"Nhân viên và khách hàng của Công ty là những người có thể được phép kết nối vào mạng nội bộ Công ty. Họ phải tuân thủ các quy định về cài đặt phần mềm và bảo mật thông tin.")##  
+("entity"<|>"PHẦN I - DANH SÁCH CÁC PHẦN MỀM RỦI RO CAO"<|>"Section"<|>"Phần I là danh sách các phần mềm rủi ro cao không được phép cài đặt hoặc sử dụng trong Công ty. Danh sách này bao gồm các phần mềm có khả năng gây hại hoặc vi phạm bảo mật.")##  
+("entity"<|>"PHẦN II - DANH SÁCH CÁC HÀNH VI/THỦ THUẬT KHÔNG ĐƯỢC PHÉP"<|>"Section"<|>"Phần II là danh sách các hành vi và thủ thuật không được phép thực hiện trong Công ty, bao gồm các hành vi tấn công hệ thống và gây ảnh hưởng đến băng thông.")##  
+("relationship"<|>"CÔNG TY"<|>"PHẦN MỀM RỦI RO CAO"<|>"Công ty nghiêm cấm cài đặt và sử dụng phần mềm rủi ro cao để bảo vệ hệ thống và dữ liệu của mình."<|>"9")##  
+("relationship"<|>"CÔNG TY"<|>"BĂNG THÔNG CÔNG TY"<|>"Công ty bảo vệ băng thông của mình bằng cách cấm các hành vi gây ảnh hưởng như cài đặt phần mềm tăng tốc download."<|>"8")##  
+("relationship"<|>"CÔNG TY"<|>"HỆ THỐNG SECURITY CÔNG TY"<|>"Công ty thiết lập hệ thống Security để bảo vệ thông tin và cấm sử dụng phần mềm vượt qua hệ thống này."<|>"9")##  
+("relationship"<|>"CÔNG TY"<|>"THIẾT BỊ CÔNG TY"<|>"Công ty quản lý các thiết bị của mình bằng cách áp dụng quy định về cài đặt phần mềm và bảo mật."<|>"8")##  
+("relationship"<|>"CÔNG TY"<|>"NHÂN VIÊN/KHÁCH HÀNG"<|>"Công ty yêu cầu nhân viên và khách hàng tuân thủ các quy định về cài đặt phần mềm khi kết nối vào mạng nội bộ."<|>"7")##  
+("relationship"<|>"PHẦN MỀM RỦI RO CAO"<|>"PHẦN I - DANH SÁCH CÁC PHẦN MỀM RỦI RO CAO"<|>"Phần I liệt kê các phần mềm rủi ro cao không được phép sử dụng trong Công ty."<|>"8")##  
+("relationship"<|>"PHẦN II - DANH SÁCH CÁC HÀNH VI/THỦ THUẬT KHÔNG ĐƯỢC PHÉP"<|>"CÔNG TY"<|>"Công ty cấm các hành vi và thủ thuật tấn công hệ thống được liệt kê trong Phần II."<|>"8")##  
+<|COMPLETE|>
+======================= 
+("entity"<|>"PHẦN MỀM YÊU CẦU BẢN QUYỀN"<|>"Product"<|>"Phần mềm yêu cầu bản quyền là các phần mềm cần có giấy phép hợp pháp để sử dụng, bao gồm các phần mềm như Photoshop, Microsoft Office. Nhân viên không được phép tự ý cài đặt hoặc crack các phần mềm này.")## 
+("entity"<|>"PHẦN MỀM GIẢI TRÍ"<|>"Product"<|>"Phần mềm giải trí là các phần mềm không liên quan đến công việc, ví dụ như các phần mềm game. Nhân viên không được phép tự ý cài đặt các phần mềm này trên thiết bị công ty.")## 
+("entity"<|>"ANTIVIRUS"<|>"Product"<|>"Antivirus là phần mềm được cài đặt trên tất cả các thiết bị máy tính (Windows, MAC, Ubuntu) để bảo vệ khỏi các mối đe dọa từ virus. Nhân viên phải cài đặt và bật phần mềm này.")## 
+("entity"<|>"FIREWALL"<|>"Product"<|>"Firewall là phần mềm bảo mật được cài đặt trên các thiết bị để kiểm soát lưu lượng mạng và bảo vệ hệ thống khỏi các truy cập trái phép. Nhân viên không được phép vô hiệu hóa hoặc thay đổi cài đặt của firewall.")## 
+("entity"<|>"VPN"<|>"Product"<|>"VPN là phần mềm an toàn giúp mã hóa dữ liệu và bảo vệ thông tin khi truy cập mạng. Nhân viên không được phép vô hiệu hóa, gỡ bỏ hay thay đổi cài đặt của VPN.")## 
+("entity"<|>"HỆ ĐIỀU HÀNH"<|>"Product"<|>"Hệ điều hành là phần mềm hệ thống quản lý phần cứng và phần mềm máy tính. Nhân viên bị nghiêm cấm cài lại, tự ý nâng cấp hoặc cài các hệ điều hành khác.")## 
+("entity"<|>"NHÂN VIÊN"<|>"Person"<|>"Nhân viên là người làm việc tại công ty, phải tuân thủ các quy định chung như đeo thẻ trong khu vực công ty, khóa màn hình khi rời khỏi vị trí làm việc, và không sử dụng thiết bị lưu trữ cá nhân để xuất dữ liệu công việc khi chưa được phép.")## 
+("entity"<|>"PHÒNG HỌP"<|>"Location"<|>"Phòng họp là nơi nhân viên sử dụng để họp hành. Sau khi sử dụng, nhân viên phải xóa thông tin trên bảng, thu dọn/hủy giấy tờ chứa thông tin liên quan, đặt lại thiết bị tại vị trí ban đầu và tắt các thiết bị không sử dụng.")## 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là nơi làm việc của nhân viên, nơi các quy định chung được áp dụng để đảm bảo an toàn và bảo mật thông tin.")## 
+("relationship"<|>"PHẦN MỀM YÊU CẦU BẢN QUYỀN"<|>"NHÂN VIÊN"<|>"Nhân viên không được phép tự ý cài đặt hoặc crack các phần mềm yêu cầu bản quyền, thể hiện sự tuân thủ quy định về bản quyền phần mềm."<|>"8")## 
+("relationship"<|>"PHẦN MỀM GIẢI TRÍ"<|>"NHÂN VIÊN"<|>"Nhân viên không được phép cài đặt phần mềm giải trí không liên quan đến công việc, thể hiện sự tuân thủ quy định về sử dụng phần mềm trong công ty."<|>"7")## 
+("relationship"<|>"ANTIVIRUS"<|>"NHÂN VIÊN"<|>"Nhân viên phải cài đặt và bật phần mềm Antivirus trên tất cả các thiết bị máy tính để bảo vệ khỏi virus, thể hiện sự tuân thủ quy định bảo mật."<|>"9")## 
+("relationship"<|>"FIREWALL"<|>"NHÂN VIÊN"<|>"Nhân viên không được phép vô hiệu hóa hoặc thay đổi cài đặt của firewall, thể hiện sự tuân thủ quy định bảo mật hệ thống."<|>"9")## 
+("relationship"<|>"VPN"<|>"NHÂN VIÊN"<|>"Nhân viên không được phép vô hiệu hóa, gỡ bỏ hay thay đổi cài đặt của VPN, thể hiện sự tuân thủ quy định bảo mật thông tin."<|>"9")## 
+("relationship"<|>"HỆ ĐIỀU HÀNH"<|>"NHÂN VIÊN"<|>"Nhân viên bị nghiêm cấm cài lại, tự ý nâng cấp hoặc cài các hệ điều hành khác, thể hiện sự tuân thủ quy định về quản lý hệ thống."<|>"8")## 
+("relationship"<|>"PHÒNG HỌP"<|>"NHÂN VIÊN"<|>"Nhân viên phải tuân thủ quy định về việc sử dụng phòng họp, bao gồm xóa thông tin trên bảng, thu dọn giấy tờ, và tắt thiết bị không sử dụng."<|>"7")## 
+("relationship"<|>"CÔNG TY"<|>"NHÂN VIÊN"<|>"Nhân viên phải tuân thủ các quy định chung của công ty để đảm bảo an toàn và bảo mật thông tin."<|>"8")##<|COMPLETE|>
+======================= 
+("entity"<|>"TÀI KHOẢN GSUITE"<|>"System"<|>"Tài khoản GSuite là hệ thống tài khoản do Công ty cấp cho nhân viên để thực hiện mọi hoạt động liên quan đến công việc. Việc sử dụng tài khoản cá nhân cho mục đích công việc bị nghiêm cấm.")##
+
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là tổ chức cung cấp tài khoản GSuite cho nhân viên và quản lý các thiết bị liên quan đến quá trình xử lý và lưu trữ thông tin. Công ty có các quy định nghiêm ngặt về việc sử dụng và quản lý thiết bị.")##
+
+("entity"<|>"THIẾT BỊ CỦA CÔNG TY"<|>"Asset"<|>"Thiết bị của Công ty bao gồm máy tính bàn, laptop, di động và các thiết bị khác liên quan đến xử lý và lưu trữ thông tin. Các thiết bị này phải được tắt hoàn toàn sau khi kết thúc ngày làm việc và lưu trữ trong Cabinet của nhân viên.")##
+
+("entity"<|>"BAN IFU"<|>"Department"<|>"Ban IFU, hay ban Hạ tầng và hệ thống, là bộ phận có một số thiết bị chuyên biệt không cần tắt sau khi kết thúc ngày làm việc để phục vụ cho công việc.")##
+
+("entity"<|>"PSM/LM/UM"<|>"Role"<|>"PSM, LM, và UM là các vai trò quản lý có thẩm quyền phê duyệt việc mang các thiết bị lưu trữ thông tin của Công ty ra khỏi phạm vi Công ty.")##
+
+("entity"<|>"QUY ĐỊNH VỀ QUẢN LÝ THIẾT BỊ"<|>"Regulation"<|>"Quy định về quản lý thiết bị của Công ty yêu cầu nhân viên tắt thiết bị sau khi làm việc, lưu trữ trong Cabinet, không cho người không liên quan sử dụng, và không mang ra khỏi Công ty khi chưa được phê duyệt.")##
+
+("relationship"<|>"CÔNG TY"<|>"TÀI KHOẢN GSUITE"<|>"Công ty cấp tài khoản GSuite cho nhân viên để thực hiện công việc, đảm bảo mọi hoạt động công việc được thực hiện trên hệ thống này."<|>"9")##
+
+("relationship"<|>"CÔNG TY"<|>"THIẾT BỊ CỦA CÔNG TY"<|>"Công ty cung cấp và quản lý các thiết bị liên quan đến xử lý và lưu trữ thông tin, áp dụng các quy định nghiêm ngặt về việc sử dụng và bảo quản."<|>"8")##
+
+("relationship"<|>"THIẾT BỊ CỦA CÔNG TY"<|>"BAN IFU"<|>"Một số thiết bị chuyên biệt của ban IFU không cần tắt sau khi kết thúc ngày làm việc để phục vụ cho công việc."<|>"7")##
+
+("relationship"<|>"THIẾT BỊ CỦA CÔNG TY"<|>"PSM/LM/UM"<|>"Việc mang thiết bị lưu trữ thông tin của Công ty ra khỏi phạm vi Công ty cần sự phê duyệt của PSM, LM, hoặc UM."<|>"8")##
+
+("relationship"<|>"CÔNG TY"<|>"QUY ĐỊNH VỀ QUẢN LÝ THIẾT BỊ"<|>"Công ty áp dụng quy định về quản lý thiết bị để đảm bảo an toàn và bảo mật thông tin, yêu cầu nhân viên tuân thủ các quy định này."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là tổ chức quản lý các quy định về bảo vệ tài sản và bảo mật thông tin. Công ty yêu cầu nhân viên tuân thủ các quy định này khi mang thiết bị đi công tác hoặc làm việc ngoài văn phòng.")##
+("entity"<|>"SUN* INC"<|>"Location"<|>"Sun* Inc là văn phòng nơi nhân viên có thể mang thiết bị công ty đi công tác. Việc mang thiết bị đến đây phải tuân thủ các quy định bảo vệ tài sản và bảo mật thông tin.")##
+("entity"<|>"PSM/LM/UM"<|>"Role"<|>"PSM/LM/UM là các vai trò quản lý có thẩm quyền phê duyệt việc mang thiết bị công ty về nhà hoặc đi công tác ngoài văn phòng Sun* Inc. Họ cũng phê duyệt việc kết nối thiết bị cá nhân vào mạng nội bộ công ty.")##
+("entity"<|>"BAN THƯ KÝ ISO"<|>"Department"<|>"Ban Thư ký ISO là bộ phận chịu trách nhiệm hoàn tất các thủ tục liên quan đến việc mang thiết bị công ty ra ngoài hoặc kết nối thiết bị cá nhân vào mạng nội bộ.")##
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là tài liệu hướng dẫn thực hiện các quy định về an ninh thông tin và bảo vệ tài sản của công ty. Tài liệu này có các mục cụ thể như mục 2.2 và mục 1.3.")##
+("entity"<|>"QUY ĐỊNH VỀ QUẢN LÝ TRUY CẬP"<|>"Regulation"<|>"Quy định về quản lý truy cập áp dụng cho việc truy cập mạng, dịch vụ mạng, hệ thống và dữ liệu của công ty. Quy định này cấm tự phát wifi và kết nối thiết bị cá nhân vào mạng nội bộ mà không có sự cho phép.")##
+("entity"<|>"MẠNG CÔNG TY"<|>"System"<|>"Mạng công ty là hệ thống mạng nội bộ mà nhân viên không được phép tự phát wifi hoặc kết nối thiết bị cá nhân mà không có sự cho phép của PSM/LM/UM.")##
+("entity"<|>"THIẾT BỊ CÔNG TY"<|>"Asset"<|>"Thiết bị công ty là tài sản mà nhân viên có thể mang đi công tác hoặc làm việc ngoài văn phòng, nhưng phải tuân thủ các quy định bảo vệ tài sản và bảo mật thông tin.")##
+("entity"<|>"HỆ THỐNG SERVER CÔNG TY"<|>"System"<|>"Hệ thống server công ty là nơi nhân viên cần có sự cho phép của PSM/LM/UM để đăng nhập, đảm bảo an ninh và bảo mật thông tin.")##
+("relationship"<|>"CÔNG TY"<|>"SUN* INC"<|>"Công ty cho phép nhân viên mang thiết bị đi công tác tại văn phòng Sun* Inc, nhưng phải tuân thủ các quy định bảo vệ tài sản và bảo mật thông tin."<|>"8")##
+("relationship"<|>"CÔNG TY"<|>"PSM/LM/UM"<|>"Công ty yêu cầu sự phê duyệt của PSM/LM/UM khi nhân viên muốn mang thiết bị về nhà hoặc đi công tác ngoài văn phòng Sun* Inc."<|>"9")##
+("relationship"<|>"CÔNG TY"<|>"BAN THƯ KÝ ISO"<|>"Ban Thư ký ISO chịu trách nhiệm hoàn tất các thủ tục liên quan đến việc mang thiết bị công ty ra ngoài, theo quy định của công ty."<|>"8")##
+("relationship"<|>"CÔNG TY"<|>"QUY ĐỊNH ANTT"<|>"Công ty áp dụng Quy định ANTT để hướng dẫn thực hiện các quy định về an ninh thông tin và bảo vệ tài sản."<|>"9")##
+("relationship"<|>"CÔNG TY"<|>"QUY ĐỊNH VỀ QUẢN LÝ TRUY CẬP"<|>"Công ty áp dụng quy định về quản lý truy cập để kiểm soát việc truy cập mạng và dịch vụ mạng, đảm bảo an ninh thông tin."<|>"9")##
+("relationship"<|>"CÔNG TY"<|>"MẠNG CÔNG TY"<|>"Công ty quản lý mạng nội bộ và cấm tự phát wifi hoặc kết nối thiết bị cá nhân mà không có sự cho phép."<|>"8")##
+("relationship"<|>"CÔNG TY"<|>"THIẾT BỊ CÔNG TY"<|>"Công ty quản lý việc sử dụng thiết bị công ty, yêu cầu tuân thủ các quy định bảo vệ tài sản và bảo mật thông tin."<|>"9")##
+("relationship"<|>"CÔNG TY"<|>"HỆ THỐNG SERVER CÔNG TY"<|>"Công ty yêu cầu sự cho phép của PSM/LM/UM để nhân viên có thể đăng nhập vào hệ thống server, đảm bảo an ninh thông tin."<|>"9")##<|COMPLETE|>
+======================= 
+("entity"<|>"PSM/LM/UM"<|>"Role"<|>"PSM/LM/UM là các vai trò quản lý trong tổ chức, có thẩm quyền cho phép nhân viên truy cập từ xa (VPN) và thực hiện các thủ tục cần thiết. Họ đóng vai trò quan trọng trong việc đảm bảo an ninh thông tin khi nhân viên làm việc từ xa.")##
+
+("entity"<|>"Ban Thư ký ISO"<|>"Department"<|>"Ban Thư ký ISO là bộ phận chịu trách nhiệm xử lý các thủ tục liên quan đến việc truy cập từ xa của nhân viên. Họ đảm bảo rằng các quy trình và quy định về an ninh thông tin được tuân thủ.")##
+
+("entity"<|>"Quy định ANTT"<|>"Regulation"<|>"Quy định ANTT là bộ quy tắc hướng dẫn thực hiện các biện pháp an ninh thông tin trong tổ chức. Nó bao gồm các yêu cầu về mật khẩu, truy cập từ xa, và các biện pháp bảo mật khác để bảo vệ dữ liệu và hệ thống.")##
+
+("entity"<|>"Mật khẩu đăng nhập"<|>"Code"<|>"Mật khẩu đăng nhập là một chuỗi ký tự được sử dụng để bảo vệ tài khoản người dùng. Quy định yêu cầu mật khẩu phải có độ dài tối thiểu 8 ký tự, bao gồm ký tự hoa, ký tự thường và số, không được dễ đoán, và phải thay đổi định kỳ mỗi 3 tháng.")##
+
+("entity"<|>"Hệ thống"<|>"System"<|>"Hệ thống là các nền tảng công nghệ mà nhân viên sử dụng để làm việc. Quy định yêu cầu không sử dụng cùng một mật khẩu cho nhiều hệ thống trừ khi có thể đảm bảo mức độ bảo mật thỏa đáng.")##
+
+("entity"<|>"Dịch vụ"<|>"Service"<|>"Dịch vụ là các ứng dụng hoặc nền tảng trực tuyến mà nhân viên có thể truy cập. Quy định yêu cầu không sử dụng cùng một mật khẩu cho nhiều dịch vụ trừ khi có thể đảm bảo mức độ bảo mật thỏa đáng.")##
+
+("relationship"<|>"PSM/LM/UM"<|>"Ban Thư ký ISO"<|>"PSM/LM/UM và Ban Thư ký ISO phối hợp để đảm bảo nhân viên có thể truy cập từ xa một cách an toàn, thông qua việc phê duyệt và xử lý các thủ tục cần thiết."<|>"7")##
+
+("relationship"<|>"Quy định ANTT"<|>"Mật khẩu đăng nhập"<|>"Quy định ANTT bao gồm các yêu cầu cụ thể về mật khẩu đăng nhập nhằm đảm bảo an ninh thông tin cho tài khoản người dùng."<|>"8")##
+
+("relationship"<|>"Quy định ANTT"<|>"Hệ thống"<|>"Quy định ANTT yêu cầu không sử dụng cùng một mật khẩu cho nhiều hệ thống để đảm bảo an ninh thông tin."<|>"7")##
+
+("relationship"<|>"Quy định ANTT"<|>"Dịch vụ"<|>"Quy định ANTT yêu cầu không sử dụng cùng một mật khẩu cho nhiều dịch vụ để đảm bảo an ninh thông tin."<|>"7")##<|COMPLETE|>
+======================= 
+```plaintext
+("entity"<|>"ID"<|>"Code"<|>"ID là mã định danh cá nhân của nhân viên, được sử dụng để truy cập vào các hệ thống và mạng nội bộ của Công ty. Việc bảo mật ID là rất quan trọng để đảm bảo an toàn thông tin.")##
+("entity"<|>"MẬT KHẨU"<|>"Code"<|>"Mật khẩu là thông tin bảo mật cá nhân của nhân viên, dùng để truy cập vào các hệ thống và mạng nội bộ của Công ty. Nhân viên không được tiết lộ mật khẩu cho bất kỳ ai và phải bảo mật khi gửi qua email.")##
+("entity"<|>"CÔNG TY"<|>"Organization"<|>"Công ty là nơi làm việc của nhân viên và khách hàng, có các quy định nghiêm ngặt về bảo mật thông tin và quản lý khách hàng khi đến làm việc.")##
+("entity"<|>"EMAIL"<|>"Instruments"<|>"Email là công cụ giao tiếp được sử dụng để gửi tệp tin quan trọng. Khi gửi tệp tin cần bảo mật, nhân viên phải nén tệp và gửi mật khẩu trong email sau.")##
+("entity"<|>"KHÁCH HÀNG"<|>"Person"<|>"Khách hàng là những người đến làm việc tại Công ty, có thể cần ký 'Cam kết bảo mật dành cho Khách hàng làm việc tại công ty' trong một số trường hợp nhất định.")##
+("entity"<|>"PSM"<|>"Role"<|>"PSM là người chịu trách nhiệm đón tiếp khách hàng khi họ đến làm việc tại Công ty. PSM cũng có quyền phê duyệt việc sử dụng mạng nội bộ của khách hàng.")##
+("entity"<|>"UM"<|>"Role"<|>"UM là người phụ trách quyết định xem khách hàng có cần ký 'Cam kết bảo mật dành cho Khách hàng làm việc tại công ty' hay không, tùy thuộc vào tình hình thực tế.")##
+("entity"<|>"PA"<|>"Department"<|>"PA là phòng quản lý lao động, chịu trách nhiệm đăng ký thủ tục nhận và trả thẻ khách cho khách hàng đến làm việc tại Công ty.")##
+("entity"<|>"WIFI CUSTOMER"<|>"Service"<|>"Wifi Customer là dịch vụ wifi được cung cấp cho khách hàng khi đến làm việc tại Công ty. Khách hàng chỉ được sử dụng mạng nội bộ khi có sự phê duyệt.")##
+("entity"<|>"MẠNG NỘI BỘ CÔNG TY"<|>"System"<|>"Mạng nội bộ Công ty bao gồm mạng dây và wifi Staff, chỉ được sử dụng bởi khách hàng khi có sự phê duyệt của PSM/LM và ký cam kết bảo mật.")##
+("entity"<|>"PHÒNG SERVER"<|>"Location"<|>"Phòng Server là khu vực nhạy cảm trong Công ty, nơi khách hàng và nhà cung cấp không được tự ý quay phim, chụp ảnh mà không có sự cho phép.")##
+("entity"<|>"KHU VỰC LÀM VIỆC CỦA NHÂN VIÊN"<|>"Location"<|>"Khu vực làm việc của nhân viên là nơi khách hàng và nhà cung cấp không được tự ý quay phim, chụp ảnh mà không có sự cho phép.")##
+("entity"<|>"CAM KẾT BẢO MẬT DÀNH CHO KHÁCH HÀNG LÀM VIỆC TẠI CÔNG TY"<|>"Form"<|>"Cam kết bảo mật là tài liệu mà khách hàng cần ký khi làm việc dài ngày hoặc sử dụng mạng nội bộ Công ty, nhằm đảm bảo an toàn thông tin.")##
+("relationship"<|>"ID"<|>"MẬT KHẨU"<|>"ID và mật khẩu là thông tin bảo mật cá nhân của nhân viên, cần được bảo vệ để đảm bảo an toàn thông tin khi truy cập vào hệ thống Công ty."<|>"8")##
+("relationship"<|>"EMAIL"<|>"MẬT KHẨU"<|>"Khi gửi tệp tin quan trọng qua email, mật khẩu phải được gửi trong email sau để đảm bảo bảo mật thông tin."<|>"7")##
+("relationship"<|>"KHÁCH HÀNG"<|>"PSM"<|>"PSM chịu trách nhiệm đón tiếp khách hàng khi họ đến làm việc tại Công ty, thể hiện mối quan hệ quản lý và hỗ trợ."<|>"6")##
+("relationship"<|>"KHÁCH HÀNG"<|>"UM"<|>"UM quyết định xem khách hàng có cần ký cam kết bảo mật khi làm việc tại Công ty, thể hiện vai trò quản lý và giám sát."<|>"6")##
+("relationship"<|>"KHÁCH HÀNG"<|>"PA"<|>"PA chịu trách nhiệm đăng ký thủ tục nhận và trả thẻ khách cho khách hàng, thể hiện mối quan hệ hỗ trợ và quản lý."<|>"5")##
+("relationship"<|>"KHÁCH HÀNG"<|>"WIFI CUSTOMER"<|>"Khách hàng được phép sử dụng Wifi Customer khi đến làm việc tại Công ty, thể hiện mối quan hệ cung cấp dịch vụ."<|>"5")##
+("relationship"<|>"KHÁCH HÀNG"<|>"MẠNG NỘI BỘ CÔNG TY"<|>"Khách hàng chỉ được sử dụng mạng nội bộ Công ty khi có sự phê duyệt và ký cam kết bảo mật, thể hiện mối quan hệ quản lý và bảo mật."<|>"7")##
+("relationship"<|>"KHÁCH HÀNG"<|>"CAM KẾT BẢO MẬT DÀNH CHO KHÁCH HÀNG LÀM VIỆC TẠI CÔNG TY"<|>"Khách hàng cần ký cam kết bảo mật khi làm việc dài ngày hoặc sử dụng mạng nội bộ Công ty, đảm bảo an toàn thông tin."<|>"8")##
+("relationship"<|>"PHÒNG SERVER"<|>"KHÁCH HÀNG"<|>"Khách hàng không được tự ý quay phim, chụp ảnh tại phòng Server mà không có sự cho phép, thể hiện quy định bảo mật nghiêm ngặt."<|>"7")##
+("relationship"<|>"KHU VỰC LÀM VIỆC CỦA NHÂN VIÊN"<|>"KHÁCH HÀNG"<|>"Khách hàng không được tự ý quay phim, chụp ảnh tại khu vực làm việc của nhân viên mà không có sự cho phép, thể hiện quy định bảo mật nghiêm ngặt."<|>"7")##<|COMPLETE|>
+```
+======================= 
+("entity"<|>"QUY ĐỊNH ANTT"<|>"Regulation"<|>"Quy định ANTT là một bộ quy tắc hoặc hướng dẫn được thiết lập để quản lý và điều chỉnh các hoạt động liên quan đến an ninh trật tự. Quy định này có thể bao gồm các điều khoản về cách thức xử lý và tương tác với khách hàng, nhằm đảm bảo tuân thủ các tiêu chuẩn an ninh.")##
+("entity"<|>"SỔ TAY HƯỚNG DẪN THỰC HIỆN QUY ĐỊNH ANTT"<|>"Form"<|>"Sổ tay hướng dẫn thực hiện Quy định ANTT là tài liệu cung cấp các chỉ dẫn chi tiết về cách thức thực hiện các quy định liên quan đến an ninh trật tự. Tài liệu này có thể bao gồm các mục cụ thể như mục 5, giúp nhân viên phụ trách hiểu rõ và áp dụng đúng các quy định.")##
+("entity"<|>"NHÂN VIÊN PHỤ TRÁCH"<|>"Role"<|>"Nhân viên phụ trách là người chịu trách nhiệm thực hiện và tuân thủ các quy định đối với khách hàng. Họ cần tham khảo sổ tay hướng dẫn để đảm bảo rằng các quy định an ninh trật tự được thực hiện đúng cách.")##
+("relationship"<|>"QUY ĐỊNH ANTT"<|>"SỔ TAY HƯỚNG DẪN THỰC HIỆN QUY ĐỊNH ANTT"<|>"Sổ tay hướng dẫn thực hiện Quy định ANTT cung cấp các chỉ dẫn chi tiết để thực hiện các quy định an ninh trật tự, giúp nhân viên hiểu và áp dụng đúng các quy định này."<|>"8")##
+("relationship"<|>"NHÂN VIÊN PHỤ TRÁCH"<|>"SỔ TAY HƯỚNG DẪN THỰC HIỆN QUY ĐỊNH ANTT"<|>"Nhân viên phụ trách cần tham khảo sổ tay hướng dẫn để thực hiện đúng các quy định an ninh trật tự đối với khách hàng."<|>"7")##<|COMPLETE|>
+======================= 
