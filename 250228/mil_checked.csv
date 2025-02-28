@@ -1,0 +1,2875 @@
+system,user,json
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 2 triệu 300 nghìn cho bữa tiệc sinh nhật cuối tuần qua.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm 5 mê đồ điện tử trong tháng này.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 10 củ sushi cho bữa tối hôm qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 chai cà phê cho buổi họp sáng nay.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 3 triệu 600 nghìn cho vé xem concert tuần trước.
+",3600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Dùng 8 mê cho chuyến du lịch cuối tháng.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 4 củ trái cây tươi cho bữa tiệc BBQ.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 6 chai rượu vang cho bữa tối kỷ niệm.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 9 triệu vào quỹ chứng khoán tháng này.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 1 triệu 500 nghìn cho dịch vụ sửa chữa nhà.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu bảy triệu mua sắm đồ dùng cho gia đình
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu ba m triệu cho bữa tiệc sinh nhật
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua tiêu năm chai cho một bữa ăn sang trọng
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","sáng nay tiêu mười củ cho việc sửa chữa nhà
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu bốn mê cho chuyến du lịch cuối tuần
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối thứ bảy tiêu hai triệu cho vé xem concert
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi chiều tiêu sáu chai cho việc mua sắm quần áo
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu tám củ cho việc học thêm tiếng Anh
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu một triệu rưỡi cho bữa tiệc cưới
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua tiêu chín mê cho việc đặt phòng khách sạn
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu 4 trăm nghìn cho bữa tiệc sinh nhật.
+",2400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 7 triệu 8 trăm nghìn đồ trang trí cho sự kiện.
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 1 triệu 5 trăm nghìn vào quỹ chứng khoán.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 6 triệu 2 trăm nghìn cho chuyến du lịch hè.
+",6200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Thanh toán 4 triệu 1 trăm nghìn tiền thuê nhà tháng này.
+",4100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu 3 trăm nghìn cho bộ quần áo mới.
+",3300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm 8 triệu 6 trăm nghìn cho dịp lễ hội.
+",8600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 9 triệu 7 trăm nghìn cho căn hộ mới.
+",9700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 5 triệu 5 trăm nghìn cho việc sửa chữa xe.
+",5500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 10 triệu 2 trăm nghìn vào dự án khởi nghiệp.
+",10200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua 5 triệu chi cho việc sửa chữa văn phòng.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tuần trước 2 m mua sắm đồ dùng cho công ty.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Sáng nay 10 mê thanh toán tiền thuê nhà.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng này 3 củ đầu tư vào dự án mới.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tuần này 7 chai chi phí cho sự kiện marketing.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Cuối tháng trước 6 trai trả lương cho nhân viên.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm nay 1 triệu mua vé máy bay cho chuyến công tác.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tuần này 4 m chi phí cho bữa tiệc cuối năm.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng trước 8 mê thanh toán hóa đơn internet.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua 9 củ đầu tư vào quỹ chứng khoán.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu mua sắm quần áo cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 5 m cho bữa tiệc sinh nhật vào thứ Bảy.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 200 mua trái cây tươi cho bữa ăn tối.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt phòng khách sạn 7 triệu cho chuyến đi sắp tới.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 500 mua đồ trang trí cho lễ cưới.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 4 m cho vé xem concert vào tháng tới.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu mua sắm đồ điện tử mới cho gia đình.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu 300 cho bữa ăn tối tại nhà hàng sang trọng.
+",8300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu đầu tư vào quỹ tiết kiệm cho tương lai.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu 750 cho chuyến du lịch hè với bạn bè.
+",10750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 15 triệu bánh mì cho bữa tiệc sinh nhật cuối tuần này
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền trai năm ly trà sữa cho nhóm bạn vào tối thứ bảy
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 m phở cuốn cho buổi họp mặt vào chiều mai
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 25 củ sushi cho bữa tối lãng mạn tối nay
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 chai gà rán cho buổi xem phim cuối tuần
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền mười triệu pizza cho bữa tiệc tại nhà vào thứ sáu
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai bún chả cho bữa ăn trưa với đồng nghiệp hôm nay
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 30 triệu hải sản cho bữa tiệc gia đình vào cuối tháng
+",30000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 củ bánh xèo cho buổi picnic vào cuối tuần này
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 18 triệu kem cho bữa tiệc sinh nhật của con gái
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 3 triệu mua sắm quần áo
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua 1 chai rưỡi cà phê sáng
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 5 m tiền thuê nhà
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 2 triệu chi cho tiệc sinh nhật
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm kia 4 chai mua trái cây
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 6 m chi phí đi lại
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần này 1 triệu gửi tiết kiệm
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua 3 chai ăn tối với bạn
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 2 triệu cho bảo hiểm xe
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 5 m mua sắm đồ điện tử
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua một chai nước 2 triệu 300 nghìn cho bữa tiệc.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 5 m 700 nghìn cho một chiếc áo mới.
+",5700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 3 mê 250 nghìn cho căn hộ mới.
+",3250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 6 triệu 800 nghìn cho vé máy bay đi du lịch.
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua một củ khoai tây 1 triệu 500 nghìn ở chợ.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 9 triệu 900 nghìn cho một chiếc xe đạp mới.
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt hàng 7 m 450 nghìn cho một bộ đồ chơi.
+",7450000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 2 triệu 100 nghìn cho bữa ăn tối với bạn bè.
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua một chai rượu 4 triệu 600 nghìn cho dịp lễ.
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 3 mê 800 nghìn cho một buổi hòa nhạc.
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 150.000đ bánh mì sáng nay
+",3150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 m 250 30.000đ trà sữa chiều qua
+",7250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 chai 500.000đ sushi cuối tuần này
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 trai 600.000đ pizza cho bữa tiệc tối nay
+",10600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 củ 800.000đ lẩu hải sản hôm trước
+",5800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 200.000đ kem tươi cho sinh nhật tuần này
+",4200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 m 900 20.000đ nước ngọt trong buổi họp
+",6900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 chai 350.000đ gà rán tối qua
+",8350000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 củ 750.000đ bánh kem cho lễ kỷ niệm hôm nay
+",9750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu cho bữa tiệc sinh nhật của bạn bè tuần trước.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng này 5 m chi phí cho việc sửa chữa xe.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 chai đồ uống cho buổi họp mặt cuối tuần.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai vé xem phim cho nhóm bạn vào thứ Bảy.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu cho chuyến du lịch cuối năm.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng trước 6 m tiền thuê nhà.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 chai bánh kem cho lễ kỷ niệm công ty.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 trai quà tặng cho các nhân viên trong dịp Tết.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","11 triệu cho việc mua sắm đồ nội thất mới.
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng này 4 m chi phí cho dịch vụ internet.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu 300 nghìn cho bữa tiệc sinh nhật tuần trước
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 5 mê cho phí bảo trì xe hơi tháng này
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 3 m 750 nghìn cho chuyến du lịch cuối tuần
+",3750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 6 triệu 200 nghìn cho hóa đơn điện nước tháng trước
+",6200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 1 m 500 nghìn mua sắm đồ dùng học tập
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 7 triệu 800 nghìn cho phí thuê nhà hàng tháng
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 9 mê cho vé xem concert cuối tuần này
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 4 triệu 600 nghìn cho dịch vụ internet hàng tháng
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 10 triệu cho việc sửa chữa nhà cửa
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 2 triệu 900 nghìn cho phí khám sức khỏe định kỳ
+",2900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 10 triệu bánh mì cho bữa sáng hôm nay.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 mê cho một bữa tiệc tối cuối tuần.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 15 củ cho một bộ quần áo mới.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 25 chai sushi cho bữa tiệc sinh nhật.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 12 triệu cho một chuyến du lịch cuối năm.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 8 trai nước ngọt cho buổi picnic.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 3 triệu cho một bữa ăn tại nhà hàng sang trọng.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 18 củ cho vé xem concert tối nay.
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 5 triệu trái cây cho bữa tiệc BBQ.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 9 chai cho một bộ phim và bắp rang bơ.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 2 m 750 nghìn cho bữa tiệc sinh nhật cuối tuần.
+",2750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 m 600 20.000đ trà sữa cho buổi hẹn hò tối qua.
+",5620000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 800 40.000đ cà phê sáng nay với bạn bè.
+",1840000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 6 triệu 500 10.000đ cho bữa ăn gia đình hôm qua.
+",6510000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 m 300 60.000đ sushi cho bữa tối thứ bảy.
+",2360000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 4 triệu 400 15.000đ cho món ăn vặt chiều nay.
+",4415000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 m 100 35.000đ kem cho buổi picnic cuối tuần.
+",8135000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 600 5.000đ nước ngọt cho bữa tiệc sinh nhật.
+",9605000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 7 triệu cho bữa tiệc sinh nhật tuần trước.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 triệu cho chuyến du lịch cuối tuần vừa rồi.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 5 triệu cho hợp đồng mới ký kết.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu mua sắm đồ dùng văn phòng tháng này.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu cho bữa ăn tối với đối tác.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","20 triệu cho việc sửa chữa nhà cửa gần đây.
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 3 triệu cho dịch vụ tư vấn tài chính.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu cho vé máy bay đi công tác tuần tới.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu cho quà tặng sinh nhật bạn bè.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","11 triệu cho khóa học trực tuyến mới bắt đầu.
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 300.000 cho bữa tiệc sinh nhật vào cuối tuần này.
+",5300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 m 750 20.000đ cho bữa ăn tối hôm qua với bạn bè.
+",3752000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu 200 nghìn cho chuyến du lịch tháng tới.
+",6200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 850.000 cho quần áo mới trong mùa sale.
+",2850000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 m 600 15.000đ cho bữa ăn tại nhà hàng sang trọng tối qua.
+",8615000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 1 triệu 900 nghìn cho vé xem concert cuối tuần này.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 triệu 450.000 cho việc sửa chữa nhà cửa.
+",9450000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 m 300 30.000đ cho đồ uống tại quán cà phê sáng nay.
+",7330000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 100 nghìn cho khóa học trực tuyến mới.
+",4100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 10 triệu 500.000 cho một chiếc laptop mới phục vụ công việc.
+",10500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 2 m mua sắm đồ dùng văn phòng.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua 5 m chi cho bữa tiệc sinh nhật.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 3 m 200 nghìn cho vé xem phim.
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 1 m 500 nghìn đặt phòng khách sạn.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua 6 m ăn tối với bạn bè tại nhà hàng.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 4 m mua quà cho gia đình.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua 7 m chi cho việc sửa chữa xe.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 8 m đầu tư vào quỹ chứng khoán.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần này 9 m thanh toán tiền thuê nhà.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua 10 m mua sắm quần áo mới.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu 200 mua bánh sinh nhật cho bạn tối qua
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm nay tiêu 3 m 700 cho bữa tiệc tại nhà
+",3700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đã chi 2 chai cho bữa ăn tối với gia đình tuần trước
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối nay trả 5 m 250 cho hóa đơn nước
+",5250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 500 mua quà cho sinh nhật mẹ
+",4500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua tiêu 1 m 800 cho bữa ăn tại nhà hàng
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đã chi 3 chai cho vé xem phim cuối tuần trước
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua đóng 2 m 600 cho tiền thuê nhà
+",2600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu 500 mua sắm đồ dùng học tập cho con
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm nay tiêu 6 m 300 cho bữa tiệc sinh nhật bạn bè
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 triệu cho chuyến du lịch cuối năm vừa qua.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","20 m cho việc sửa chữa nhà cửa tháng trước.
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 mê cho bữa tiệc sinh nhật của bạn thân.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 củ cho việc mua sắm đồ dùng học tập.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 chai cho quỹ từ thiện của trường.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","18 trai cho việc đầu tư vào cổ phiếu mới.
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu cho việc thuê mặt bằng kinh doanh.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","25 m cho việc tổ chức sự kiện lớn cuối tuần này.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","30 mê cho việc mua sắm thiết bị công nghệ.
+",30000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 củ cho việc chăm sóc sức khỏe định kỳ.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 3 triệu cho bữa tiệc sinh nhật vào cuối tuần này
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 7 củ cho chiếc áo mới mua ở cửa hàng
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu để đặt phòng khách sạn cho chuyến đi sắp tới
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 6 triệu cho vé xem concert vào tháng sau
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu cho bữa ăn tối với bạn bè
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 8 củ cho bộ quần áo thể thao mới
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu để mua quà cho người thân dịp lễ
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 9 triệu cho dịch vụ sửa chữa xe hơi
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 1 triệu cho vé vào cửa triển lãm nghệ thuật
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 12 triệu cho khóa học trực tuyến trong tháng này
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu 200.000 mua sắm đồ dùng cho văn phòng hôm qua.
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 800.000 ăn tối với bạn bè cuối tuần trước.
+",5800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 500.000 gửi tiết kiệm cho tương lai hôm nay.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 750.000 đặt vé máy bay đi du lịch tháng sau.
+",4750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 300.000 mua quà sinh nhật cho người yêu tuần này.
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 100.000 thanh toán tiền điện nước tháng này.
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 900.000 sửa chữa xe hơi hôm trước.
+",8900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 triệu 600.000 mua sắm quần áo cho mùa đông.
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 400.000 đầu tư vào quỹ chứng khoán hôm nay.
+",3400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu 800.000 thuê phòng khách sạn cho chuyến đi tuần tới.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu bánh mì cho bữa tiệc cuối tuần này.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 m sushi cho buổi họp mặt vào thứ bảy tới.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 chai trà sữa cho nhóm làm việc hôm qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu pizza cho buổi sinh nhật của bạn.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 m gà rán cho bữa ăn trưa hôm nay.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 chai nước ngọt cho buổi picnic cuối tuần.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu bánh kem cho lễ kỷ niệm sắp tới.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 m phở cho bữa tối với gia đình tối qua.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 chai bia cho buổi xem bóng đá cuối tuần này.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","11 triệu trái cây cho bữa tiệc sinh nhật của con.
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 3 triệu mua sắm quần áo cuối tuần vừa rồi
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu bảy m tối thứ hai vừa qua
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 5 chai cho phí dịch vụ internet tháng này
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 mê để ăn tối tại nhà hàng sang trọng hôm qua
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu hai trai cho việc sửa chữa xe hơi tuần trước
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 9 triệu cho học phí của con trai
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 m cho việc tổ chức sinh nhật bạn thân
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu ba chai vào việc mua sắm đồ dùng học tập
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 10 mê cho khoản vay ngân hàng tháng này
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu cho việc đặt phòng khách sạn cuối tuần này
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê bốn với nhóm marketing tuần trước.
+",1400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chai năm rưỡi cho bữa tiệc sinh nhật hôm qua.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Triệu hai cho dự án mới với đối tác.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Củ bảy với đội thiết kế vào thứ Sáu vừa rồi.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","M bảy cho việc mua sắm văn phòng tuần này.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trai ba cho bữa ăn trưa với khách hàng hôm nay.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chai một cho chi phí quảng cáo tháng này.
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Củ chín với nhóm phát triển sản phẩm tuần trước.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê sáu cho việc tổ chức hội thảo sắp tới.
+",1600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Triệu năm cho chuyến công tác vào tháng sau.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 15 triệu 300 nghìn bánh mì cho bữa tiệc sinh nhật hôm qua.
+",15300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 500 nghìn cho món sushi vào tối thứ 7.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 củ 800.000 cho bữa ăn gia đình cuối tuần này.
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 10 triệu 600 nghìn cho một bữa tiệc BBQ vào tối thứ 6.
+",10600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 12 triệu 250 nghìn cho món lẩu hải sản hôm qua.
+",12250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 700 nghìn cho bữa ăn tối tại nhà hàng sang trọng.
+",4700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu 900 nghìn cho món ăn vặt trong buổi họp mặt bạn bè.
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 400 nghìn cho bữa tiệc sinh nhật của con vào cuối tuần.
+",6400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 củ 500.000 cho món phở đặc biệt vào tối thứ 5.
+",8500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 11 triệu 750 nghìn cho bữa ăn tại nhà hàng Ý hôm trước.
+",11750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 500 bánh mì sáng nay.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 m 200 30.000đ trà sữa chiều qua.
+",5230000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 800 kem tươi cuối tuần trước.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 600 pizza cho bữa tiệc tối nay.
+",7600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 m 300 25.000đ cà phê sáng hôm qua.
+",2325000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 900 sushi cho bữa tối thứ 7.
+",4900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 m 150 40.000đ nước ngọt chiều nay.
+",6154000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu 250 bánh kem cho sinh nhật tuần này.
+",8250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 700 phở gà cho bữa trưa hôm nay.
+",9700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 m 500 15.000đ trà đá chiều qua.
+",10515000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 10 triệu mua quà sinh nhật cho bạn thân.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Triệu 3 chai rượu để đãi khách vào cuối tuần.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 15 triệu cho bữa tiệc kỷ niệm vào tối thứ 7.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 triệu để đặt bàn ở nhà hàng sang trọng.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 12 triệu cho chuyến du lịch cuối năm.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Triệu 6 m mua sắm đồ dùng cho gia đình.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 8 triệu để tổ chức buổi họp mặt bạn bè.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm 3 triệu đồ dùng học tập cho năm học mới.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 m cho bữa tiệc sinh nhật của bạn.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 10 mê vào quỹ chứng khoán tháng này.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 4 củ tiền thuê nhà cho tháng này.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Dành 6 triệu để đi du lịch cuối tuần.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu rưỡi cho việc sửa chữa xe hơi.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 1 chai rượu ngon với giá 1 triệu.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 9 triệu cho một chiếc điện thoại mới.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 5 triệu cho chuyến du lịch nước ngoài.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu cho việc tổ chức tiệc cưới.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu mua sắm đồ dùng học tập cho con.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 chai ăn tối tại nhà hàng sang trọng.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng này 6 m tiền thuê nhà.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu rưỡi cho chuyến du lịch cuối tuần.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 triệu rưỡi cho bữa tiệc sinh nhật.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 mê đầu tư vào quỹ chứng khoán.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tháng trước 4 chai cho việc sửa chữa xe.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu rưỡi chi cho thiết bị điện tử mới.
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu mua sắm quần áo cho mùa hè.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu cho việc làm đẹp tại spa.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu rưỡi mua sắm đồ dùng cho gia đình.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu rưỡi gửi tiết kiệm ngân hàng.
+",5500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua chi 4 triệu ăn tối với bạn bè.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu rưỡi trả tiền thuê nhà tháng này.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm nay chi 3 triệu mua quà sinh nhật cho mẹ.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu rưỡi đầu tư vào cổ phiếu công nghệ.
+",6500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu mua vé máy bay cho chuyến du lịch.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu rưỡi thanh toán hóa đơn nước.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua chi 2 triệu ăn uống tại nhà hàng.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu rưỡi mua sắm quần áo cho mùa đông.
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 m rưỡi mua sắm quần áo cho mùa hè.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 5 củ để tổ chức tiệc sinh nhật cho bạn thân.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 chai 100.000đ đặt bánh sinh nhật cho gia đình.
+",7100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 trai 800 20.000đ uống cà phê sáng nay.
+",2820000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 500 10.000đ đi xem phim cuối tuần.
+",9510000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 mê 600 15.000đ mua sách mới cho thư viện.
+",4615000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 củ 200 50.000đ làm quà tặng cho đồng nghiệp.
+",1250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 chai 300 25.000đ ăn trưa tại quán yêu thích.
+",5325000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai 400 5.000đ mua vé xe về quê.
+",8405000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 150.000đ ăn sushi cuối tuần này
+",3150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 m 800 20.000đ uống trà sữa hôm qua
+",1820000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 củ 300.000đ mua bánh kem cho bữa tiệc sinh nhật
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 chai 500.000đ ăn hải sản vào tối thứ bảy
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 trai 250.000đ đặt món ăn cho buổi họp mặt
+",4250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 600.000đ mua quần áo mới cho mùa hè
+",5600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 7 củ 100.000đ đi xem phim tối nay
+",7100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 chai 700.000đ ăn tối tại nhà hàng sang trọng
+",3700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 400.000đ mua quà tặng cho bạn bè
+",2400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 trai 50.000đ uống cà phê sáng nay
+",8050000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 200.000đ mua sắm quần áo cho mùa hè.
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 mê 150.000đ ăn tối tại nhà hàng sang trọng.
+",3150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu 500.000đ đầu tư vào cổ phiếu công nghệ.
+",10500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 800.000đ chi phí cho chuyến du lịch cuối tuần.
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 300.000đ sửa chữa xe hơi cũ.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 mê 400.000đ thanh toán hóa đơn điện nước tháng này.
+",6400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 600.000đ đặt cọc mua nhà mới.
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 750.000đ tổ chức tiệc sinh nhật cho bạn bè.
+",4750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 900.000đ mua sách và tài liệu học tập.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu 250.000đ chi phí cho khóa học trực tuyến.
+",8250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 10 triệu bánh mì cho bữa tiệc cuối tuần này.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 chai nước ngọt cho buổi họp mặt tối nay.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 15 triệu sushi cho bữa tiệc sinh nhật vào thứ bảy.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 7 trai kem cho buổi picnic vào chiều chủ nhật.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Gọi 8 triệu gà rán cho bữa tối hôm nay.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 12 củ pizza cho buổi xem phim tối thứ 6.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 4 triệu trái cây cho bữa tiệc BBQ cuối tuần.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 6 triệu bánh kem cho lễ kỷ niệm vào tuần tới.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 9 chai trà sữa cho buổi gặp mặt bạn bè tối nay.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 11 triệu hải sản cho bữa tiệc tối thứ bảy.
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Sáng nay tôi đã trả 5 triệu tiền thuê nhà.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chiều qua, tôi chi 2 chai cho bữa tiệc.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm trước, tôi mua một chiếc xe với giá 10 triệu.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tối qua, tôi đã tiêu 4 m cho việc ăn uống.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tuần trước, tôi gửi 3 mê vào tài khoản tiết kiệm.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm nay, tôi đã thanh toán 6 củ cho hóa đơn nước.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tôi đã đầu tư 8 triệu vào cổ phiếu hôm qua.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chiều nay, tôi đã chi 1 trai cho quà sinh nhật.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tôi đã nhận được 7 triệu từ việc bán hàng.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Sáng nay, tôi đã trả 9 m cho dịch vụ internet.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 triệu rưỡi sáng nay
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 m tối qua
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 chai chiều hôm qua
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu cuối tuần trước
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 mê giữa tháng này
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 trai tối thứ bảy tuần trước
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","25 triệu sáng thứ hai
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 củ hôm qua
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","18 triệu rưỡi chiều nay
+",18500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 3 triệu 500 nghìn cho bữa tiệc sinh nhật của bạn tối qua
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 củ 750.000 cho một chuyến du lịch cuối tuần
+",6750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu 300 nghìn mua sắm quần áo mới
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 triệu 100 nghìn cho bữa ăn tối tại nhà hàng sang trọng
+",8100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 5 củ 600.000 cho một bộ phim và đồ ăn vặt
+",5600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 200 nghìn cho việc sửa chữa xe hơi
+",4200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 7 triệu 800 nghìn cho một khóa học trực tuyến
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu 900 nghìn cho một buổi hẹn hò lãng mạn
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 9 củ 400.000 cho một chiếc điện thoại mới
+",9400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 700 nghìn cho một bữa tiệc BBQ với bạn bè
+",2700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu bánh mì cho bữa tiệc sinh nhật cuối tuần vừa rồi.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 m 300 nghìn cho món sushi tại nhà hàng hôm qua.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 chai nước ngọt cho buổi họp nhóm vào thứ Sáu vừa rồi.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu pizza cho buổi xem phim tối thứ Bảy vừa qua.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 củ trà sữa cho buổi gặp mặt bạn bè cuối tuần.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu 600 nghìn cho bữa ăn tối tại nhà hàng hôm trước.
+",3600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 trai gà rán cho bữa tiệc tại nhà vào tối thứ Bảy.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu bánh kem cho lễ kỷ niệm vào cuối tuần vừa rồi.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 m phở cho bữa ăn trưa với đồng nghiệp hôm qua.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 6 triệu cho bữa tiệc BBQ cuối tuần vừa rồi.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 3 triệu đồ ăn cho bữa tiệc cuối tuần này
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 6 m cho tiền thuê nhà tháng này
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 chai mua quà sinh nhật cho bạn thân
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 7 mê cho vé xem concert tối nay
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp 1 triệu tiền học phí cho khóa học mới
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 triệu rưỡi cho bữa ăn tối với gia đình
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 5 củ đồ trang trí cho căn phòng mới
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 triệu cho chuyến du lịch cuối năm
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 3 chai cho tiền xăng xe tháng này
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 mê cho bộ phim mới ra mắt cuối tuần này
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 15 triệu cho bữa tiệc sinh nhật của bạn vào cuối tuần qua.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 10 triệu bánh mì cho cả nhóm vào thứ Bảy vừa rồi.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 25 triệu sushi cho buổi họp mặt vào tối thứ Tư.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 18 triệu cho bữa ăn tối lãng mạn vào thứ Sáu vừa rồi.
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mời bạn bè ăn 12 triệu pizza vào tối thứ Bảy tuần trước.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 30 triệu món ăn cho buổi tiệc cuối năm vào tuần tới.
+",30000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 22 triệu cho bữa tiệc BBQ tại nhà vào cuối tuần này.
+",22000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 14 triệu trà sữa cho cả nhóm vào chiều Chủ Nhật.
+",14000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 17 triệu cho bữa ăn trưa với đối tác vào thứ Hai.
+",17000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 19 triệu món ăn chay cho buổi họp mặt vào tối thứ Năm.
+",19000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 300.000đ cho bữa tiệc sinh nhật của bạn tối qua.
+",7300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 2 chai rượu vang với giá 1 triệu 500.000đ cho buổi hẹn hò.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 10 trai sushi cho bữa tiệc cuối tuần này.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 củ 800.000đ cho một bữa ăn tại nhà hàng sang trọng.
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 600.000đ cho chuyến du lịch cuối năm.
+",5600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 4 triệu 200.000đ cho bộ quần áo mới.
+",4200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai bánh mì cho bữa sáng hôm nay.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 6 triệu 100.000đ vé xem concert vào cuối tuần.
+",6100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 9 củ 500.000đ cho một chiếc túi xách mới.
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu 750.000đ cho một khóa học trực tuyến.
+",12750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu 300.000 cho bữa tiệc sinh nhật của bạn tối qua.
+",5300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 750.000 cho chuyến du lịch cuối tuần vừa rồi.
+",6750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua sắm 3 triệu 200.000 cho quần áo mới vào thứ bảy tuần trước.
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 100.000 cho bữa ăn tối tại nhà hàng sang trọng hôm qua.
+",8100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 500.000 cho vé xem concert vào tối thứ sáu.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu 600.000 cho việc sửa chữa xe hơi tuần này.
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 1 triệu 800.000 đồ dùng học tập cho con vào đầu tháng.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 250.000 cho một buổi hẹn hò lãng mạn tối qua.
+",4250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu 900.000 cho việc trang trí nhà cửa dịp lễ sắp tới.
+",7900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 600.000 cho một bữa ăn gia đình vào cuối tuần.
+",3600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 15 triệu mua quà sinh nhật cho bạn thân cuối tuần này
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 trai cà phê sáng nay rất ngon
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 5 m tiền thuê nhà đã được thanh toán
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 củ bánh mì cho bữa trưa hôm nay
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 12 triệu cho một chuyến du lịch vào tháng tới
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","20 chai nước ngọt cho bữa tiệc cuối tuần
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 3 m tiền điện thoại đã hết hạn
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu cho một bộ quần áo mới
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 25 củ cho bữa tối lãng mạn hôm thứ 7
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","18 trai trà sữa cho nhóm bạn vào chiều nay
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai năm cho bữa tiệc sinh nhật tuần trước.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai ba mua quà cho bạn gái vào dịp lễ.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ bảy cho chuyến du lịch cuối tháng này.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mười triệu mời bạn bè ăn tối tại nhà hàng sang trọng.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tám triệu chi cho việc sửa chữa xe hơi hôm qua.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mười hai triệu đầu tư vào dự án khởi nghiệp mới.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ hai mua sắm đồ dùng học tập cho con.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai bốn thanh toán tiền thuê nhà tháng này.
+",1400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai chín tổ chức sự kiện cho công ty.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","triệu năm chi cho vé máy bay đi du lịch hè này.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chiều nay mua 2 triệu đồ ăn cho cả nhà.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 5 m cho căn hộ mới vào cuối tháng.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Sáng nay gửi 7 triệu vào tài khoản tiết kiệm.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 1 chai rượu 3 triệu để đãi bạn bè.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 4 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 6 triệu tiền thuê nhà cho tháng này.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 8 triệu vào quỹ chứng khoán.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 10 củ khoai tây chỉ hết 1 triệu.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu cho vé xem concert tối thứ 7.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tặng bạn 3 triệu nhân dịp tốt nghiệp.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 5 triệu mua sắm quần áo mới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 15 triệu cho bữa tiệc sinh nhật của bạn.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu cho chuyến du lịch cuối tuần vừa qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 3 triệu thanh toán tiền thuê nhà.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 25 triệu cho việc sửa chữa xe hơi.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu cho bữa ăn tối tại nhà hàng sang trọng.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 12 triệu đầu tư vào cổ phiếu.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 30 triệu cho việc tổ chức sự kiện.
+",30000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu mua sắm đồ dùng học tập cho con.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 18 triệu thanh toán hóa đơn internet.
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 7 mê bánh mì cho bữa trưa với đồng nghiệp hôm qua.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","thanh toán 2 củ pizza cho bữa tiệc sinh nhật tối qua.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu cho 10 hủ kem tại cửa hàng yêu thích.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 5 chai sushi cho bữa tối với gia đình vào thứ Bảy.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 m rưỡi cho vé xem phim cùng bạn bè tối qua.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu cho 12 hủ nước ngọt trong buổi picnic cuối tuần.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","thanh toán 1 củ 3 cho phần ăn tại quán ăn yêu thích.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu cho 15 hủ trái cây tươi cho bữa tiệc cuối tuần.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 500 nghìn cho bữa tiệc sinh nhật cuối tuần này.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 m 750 nghìn cho một chiếc áo mới.
+",2750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 củ 300.000 cho chuyến du lịch hè vừa qua.
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 5 triệu 200 nghìn cho một chiếc điện thoại mới.
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 800 nghìn cho bữa ăn tối với bạn bè.
+",4800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 7 triệu 100 nghìn cho một chiếc laptop mới.
+",7100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 600 nghìn cho vé xem concert cuối tuần.
+",2600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 8 củ 400.000 cho một bộ quần áo mới.
+",8400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu 900 nghìn cho một bữa ăn tại nhà hàng sang trọng.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 9 triệu 500 nghìn cho một khóa học trực tuyến.
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 10 tháng 8, tôi đã chi 2 triệu 300 cho một bữa tiệc nhỏ.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua, tôi mua một chiếc điện thoại mới với giá 8 triệu 500 nghìn.
+",8500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chiều nay, tôi đã tiêu triệu 700 cho một bữa ăn tại nhà hàng.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tôi đã tiết kiệm được 6 triệu 250 để đi du lịch vào cuối năm.
+",6250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 15 tháng 9, tôi đã chi 3 triệu 100 cho một bộ quần áo mới.
+",3100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm trước, tôi đã mua một chiếc xe đạp với giá 4 triệu 800 nghìn.
+",4800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tôi đã đầu tư 10 triệu vào một dự án khởi nghiệp.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 5 tháng 10, tôi đã chi 2 triệu 500 cho một buổi hòa nhạc.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tôi đã tiêu 7 triệu 900 cho một chuyến đi chơi cuối tuần.
+",7900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm nay, tôi đã mua một chiếc laptop mới với giá 9 triệu 600 nghìn.
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu mua sắm đồ dùng cho văn phòng tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 mê cho bữa tiệc sinh nhật cuối tuần vừa rồi.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 6 củ vé xem phim cho nhóm bạn vào tối thứ bảy.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 chai cho một bữa ăn tại nhà hàng sang trọng hôm qua.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 trai cho chuyến du lịch ngắn ngày vào tháng tới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 1 triệu đồ ăn cho bữa tiệc BBQ cuối tuần này.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 7 củ cho việc sửa chữa nhà cửa tháng trước.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu cho một chiếc điện thoại mới vào tuần trước.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 10 chai phòng khách sạn cho chuyến công tác sắp tới.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu cho việc mua sắm quần áo mùa hè này.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu ba triệu cho bữa tiệc sinh nhật cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi mười mê mua sắm quần áo mới cho mùa đông.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu năm củ cho chuyến du lịch đến Đà Nẵng.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi bảy chai cho việc sửa chữa nhà cửa tháng này.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu hai triệu rưỡi cho việc học thêm tiếng Anh.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi ba m cho việc đầu tư vào cổ phiếu mới.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu chín mê cho bữa ăn tối tại nhà hàng sang trọng.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi bốn củ cho việc mua sắm đồ dùng học tập.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu sáu chai cho việc tổ chức sự kiện thể thao.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi một triệu rưỡi cho việc làm đẹp và chăm sóc bản thân.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền chai năm cho bữa tiệc sinh nhật của bạn tối nay.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi sáng thanh toán 2 m rưỡi tiền thuê nhà.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ bảy cho chuyến du lịch cuối tuần với nhóm bạn.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền trai ba cho việc sửa chữa xe hơi.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi chiều đóng 4 m hoá đơn nước.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ chín để mua sắm đồ dùng cho văn phòng mới.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi tối thanh toán 5 m cho dịch vụ internet.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ ba cho việc tổ chức sự kiện tại công viên.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền trai sáu cho việc mua quà tặng sinh nhật.
+",1600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu 200 mua sắm quần áo cuối tuần vừa rồi
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 chai 750 mua quà sinh nhật cho bạn thân
+",5750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 500 ăn tối tại nhà hàng sang trọng hôm qua
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 100 cho vé xem concert tối thứ bảy
+",4100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 300 mua sách và đồ dùng học tập cho năm học mới
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 chai 600 đi du lịch biển cùng gia đình tháng trước
+",6600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 800 chi cho tiệc cưới của bạn vào tuần trước
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 900 mua đồ trang trí cho lễ hội cuối năm
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 250 đặt phòng khách sạn cho kỳ nghỉ lễ
+",7250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 triệu 500 cho bữa tiệc sinh nhật của con trai tuần này
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 2 triệu 300 nghìn cho bữa tiệc sinh nhật tuần trước.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua, tôi đã trả 5 triệu 200 nghìn cho vé máy bay.
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm đồ dùng học tập hết 1 triệu 800 nghìn vào cuối tuần.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu 600 nghìn cho việc sửa chữa xe hơi.
+",3600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt phòng khách sạn với giá 4 triệu 150 nghìn cho hai đêm.
+",4150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm nay, tôi đã chi 6 triệu 750 nghìn cho một chiếc laptop mới.
+",6750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 2 triệu 900 nghìn cho dịch vụ internet hàng tháng.
+",2900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 7 triệu 500 nghìn vào quỹ chứng khoán.
+",7500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 triệu 250 nghìn cho bữa ăn tối với bạn bè.
+",1250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua một chiếc điện thoại mới với giá 8 triệu 400 nghìn.
+",8400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","gửi tiền 12 triệu cho việc học của em gái
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu 5 trăm nghìn cho bữa tiệc sinh nhật
+",7500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 15 triệu để mua xe mới
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 9 triệu cho hóa đơn điện nước tháng này
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu 2 trăm nghìn cho vé máy bay
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","gửi tiền 20 triệu vào tài khoản tiết kiệm
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 6 triệu cho dịch vụ sửa chữa nhà
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 8 trăm nghìn cho quà tặng sinh nhật
+",4800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 11 triệu cho khóa học trực tuyến
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 13 triệu cho hợp đồng thuê nhà
+",13000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 chai nước ngọt cho buổi tiệc sinh nhật vào cuối tuần.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 500 20.000đ sushi cho bữa tối lãng mạn tối nay.
+",5520000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu 600 40.000đ pizza cho buổi họp mặt cuối tháng.
+",12640000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai gà rán cho bữa tiệc sinh nhật của bạn vào thứ Sáu.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu 900 25.000đ kem cho buổi picnic vào cuối tuần này.
+",6925000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","11 triệu 700 50.000đ hải sản cho bữa tiệc gia đình vào Chủ Nhật.
+",11700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 400 10.000đ trà đá cho buổi họp nhóm vào chiều nay.
+",2410000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 3 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 4 triệu cho chuyến du lịch hè năm nay.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 6 m cho bữa ăn tối với bạn bè.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 củ cho bộ quần áo mới.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 5 trai trái cây cho bữa tiệc BBQ.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 10 triệu vào dự án khởi nghiệp.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 1 triệu cho vé xem concert tối nay.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 9 mê cho một chiếc điện thoại mới.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 200.000đ bánh mì cho bữa tiệc cuối tuần này.
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 750.000đ sushi cho bữa tối kỷ niệm.
+",3750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 mê pizza cho buổi xem phim tối nay.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 500.000đ trà sữa cho nhóm bạn vào chiều Chủ nhật.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 củ trái cây tươi cho bữa tiệc sinh nhật.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 300.000đ hải sản cho bữa tiệc BBQ cuối tuần.
+",4300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 trai bánh xèo cho bữa ăn trưa với đồng nghiệp.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 800.000đ kem cho buổi dã ngoại vào thứ Sáu.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu 600.000đ đồ uống cho sự kiện thể thao sắp tới.
+",12600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu 3 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua sắm 7 m cho đồ nội thất mới cho căn hộ.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 chai cho một chuyến du lịch ngắn ngày.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 củ cho việc sửa chữa xe hơi tuần trước.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu cho một bộ quần áo mới.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 m cho bữa ăn tối tại nhà hàng sang trọng.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu cho vé xem concert cuối tuần này.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 củ cho việc học thêm tiếng Anh.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 triệu cho một chiếc laptop mới.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 10 chai cho việc tổ chức sự kiện lớn.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 7 m cho một chiếc điện thoại mới.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 4 triệu vé xem phim cho cả nhóm bạn.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 củ cho một bữa ăn sang trọng tại nhà hàng.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu cho bộ quần áo mới trước khi đi du lịch.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 trai pizza cho bữa tối với gia đình vào thứ sáu.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 triệu cho một chuyến du lịch ngắn ngày.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 1 triệu cho một cuốn sách hiếm mà mình thích.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 5 triệu 200.000 cho bữa tiệc sinh nhật vào cuối tuần này
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 10 củ bánh mì cho buổi họp sáng thứ năm
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 750.000 cho chuyến du lịch tháng tới
+",8750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","gửi 12 chai nước ngọt cho đội bóng vào thứ bảy
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 300.000 cho việc sửa chữa nhà
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 4 mê sách mới cho thư viện trường
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 15 trai pizza cho buổi họp mặt tối thứ ba
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu 600.000 cho quà tặng Giáng sinh
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 800.000 cho vé xem phim cuối tuần
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 11 củ trái cây cho bữa tiệc tối nay
+",11000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu mua sắm đồ dùng cho văn phòng mới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua, tôi đã chi 4 chai cho một bữa ăn ngon.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đã thanh toán 6 triệu cho dịch vụ sửa chữa nhà.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 m cho một chuyến du lịch ngắn ngày cuối tuần.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 3 củ trái cây tươi cho bữa tiệc tối nay.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 10 triệu cho một khóa học trực tuyến.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 chai rưỡi cho một bộ phim tại rạp.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 9 triệu cho việc nâng cấp máy tính cá nhân.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 m cho một bộ quần áo mới trong mùa sale.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 3 triệu 200.000 đồ ăn cho bữa tiệc cuối tuần.
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 5 triệu 800.000 cho chuyến du lịch tháng tới.
+",5800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 4 triệu 500.000 cho căn hộ mới.
+",4500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Thanh toán 6 triệu 750.000 cho hóa đơn điện nước tháng này.
+",6750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 8 triệu 300.000 cho quần áo mùa đông.
+",8300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Gửi 1 triệu 600.000 vào tài khoản tiết kiệm hôm qua.
+",1600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 9 triệu 900.000 cho bữa tiệc sinh nhật bạn thân.
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 2 triệu 100.000 sách mới cho thư viện cá nhân.
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả 7 triệu 400.000 cho dịch vụ sửa chữa nhà.
+",7400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 10 triệu 500.000 vào cổ phiếu công nghệ.
+",10500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 3 triệu đồ ăn cho bữa tiệc cuối tuần này
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 4 m tiền thuê nhà tháng này
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 mê cho quần áo mới
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 1 chai rưỡi vé xem phim tối nay
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 7 củ cho một bữa ăn sang trọng
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","gửi 2 triệu vào tài khoản tiết kiệm
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 5 m đồ dùng học tập cho con
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 mê cho một chuyến du lịch ngắn
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 3 chai tiền điện tháng trước
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đầu tư 10 củ vào cổ phiếu mới nổi
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 200.000 cho bữa tiệc cuối tuần này
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 m bún đêm qua với bạn bè
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mê 3 triệu 750.000 cho chuyến du lịch sắp tới
+",3750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai 6 triệu 100.000 cho quà sinh nhật của sếp
+",6100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ 9 triệu 300.000 cho việc sửa chữa nhà
+",9300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 800.000 cho đồ ăn tối qua
+",2800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mê 8 triệu 600.000 cho khóa học trực tuyến
+",8600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai 1 triệu 900.000 cho vé xem concert cuối tuần này
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm đồ mới hết 5 triệu cho dịp lễ.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 20 triệu vào dự án khởi nghiệp.
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 8 triệu cho bữa tiệc sinh nhật cuối tuần qua.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Gửi tiết kiệm 15 triệu vào ngân hàng tháng này.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Thanh toán hóa đơn 12 triệu cho dịch vụ internet.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua vé máy bay hết 7 triệu cho chuyến du lịch.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu cho việc sửa chữa nhà cửa.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 25 triệu cho căn hộ mới.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tặng quà 10 triệu cho người thân trong dịp lễ.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 18 triệu cho khóa học trực tuyến.
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 chai 8 triệu 100.000đ pizza tối qua
+",18100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 trai 500 10.000đ kem dừa hôm trước
+",10510000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu 300 15.000đ gà rán tối nay
+",6315000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 m 600 25.000đ sushi trưa hôm qua
+",4625000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 trai 900 5.000đ nước ngọt sáng nay
+",8905000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 m 100 30.000đ phở cuốn tối hôm kia
+",9130000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu 2 trăm nghìn cho bữa tiệc hôm qua
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu bảy chai cho chuyến du lịch cuối tuần
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ năm với nhóm bạn tối qua
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 8 trăm nghìn cho món quà sinh nhật
+",4800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu mười triệu cho việc sửa chữa nhà
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ ba với dự án mới tuần trước
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu 5 trăm nghìn cho bữa ăn tối
+",6500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu hai triệu 1 trăm nghìn cho vé concert
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ chín với đội thể thao hôm trước
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 4 trăm nghìn cho khóa học trực tuyến
+",8400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu 300 nghìn cho bữa tiệc sinh nhật cuối tuần qua.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm qua, tôi đã thanh toán 5 m 200 cho hóa đơn nước.
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm 1 triệu 750 nghìn cho quần áo mới vào thứ Bảy.
+",1750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu 600 nghìn cho bữa ăn tối tại nhà hàng sang trọng.
+",3600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đã trả 4 m rưỡi cho dịch vụ sửa chữa xe hôm trước.
+",4500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu 100 nghìn cho vé xem concert vào tối thứ Sáu.
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Hôm nay, tôi đã chi 6 triệu 500 nghìn cho một chiếc laptop mới.
+",6500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đã thanh toán 3 triệu 800 nghìn cho chuyến du lịch cuối tuần.
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 triệu 900 nghìn cho đồ trang trí nhà cửa mới.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 300.000 cho bữa tiệc cuối tuần này
+",5300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai bốn với nhóm marketing vào thứ năm tuần trước
+",1400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 150.000 cho chuyến du lịch sắp tới
+",6150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ chín với đội phát triển sản phẩm hôm qua
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","ngày 15 tháng 9 một mê cho quảng cáo trực tuyến
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 800.000 cho quà tặng sinh nhật
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai mười với ban giám đốc vào tuần trước
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","ngày 20 tháng 11 bảy triệu cho sự kiện lớn
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ năm với nhóm nghiên cứu vào tối thứ bảy vừa qua
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 500.000 cho bữa tiệc sinh nhật tuần trước
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 chai 700.000 cho đồ ăn tối qua
+",4700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 250.000 cho chuyến du lịch tháng trước
+",6250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 triệu 800.000 mua sắm quần áo hôm qua
+",2800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu 900.000 cho bữa ăn tại nhà hàng hôm kia
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 củ 300.000 cho vé xem concert tối qua
+",7300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 100.000 cho quà tặng sinh nhật tuần trước
+",5100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 chai 200.000 cho đồ uống tại quán cà phê hôm nay
+",4200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 triệu 600.000 cho sửa chữa nhà cửa tháng trước
+",8600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu 400.000 cho vé máy bay đi du lịch tuần này
+",3400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 150.000 mua sắm đồ dùng cho văn phòng tuần này
+",3150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 củ 800.000 ăn tối với bạn bè vào cuối tuần
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 600.000 đặt vé xem phim tối nay
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 300.000 mua quà sinh nhật cho đồng nghiệp
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 củ 900.000 thanh toán hóa đơn điện nước tháng này
+",5900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 triệu 250.000 đầu tư vào dự án mới tuần tới
+",8250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu 700.000 mua sắm thực phẩm cho bữa tiệc
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 củ 500.000 đặt phòng khách sạn cho chuyến đi
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 10 triệu 100.000 chi cho khóa học trực tuyến
+",10100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 400.000 sửa chữa xe hơi vào thứ bảy này
+",4400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu 4 trăm nghìn cho bữa tiệc sinh nhật tuần trước.
+",7400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 m bánh mì cho cả nhóm vào chiều thứ bảy.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 3 củ 500.000 cho vé xem phim tối qua.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 8 triệu 2 trăm nghìn đồ trang trí cho sự kiện.
+",8200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 m cà phê cho buổi họp sáng nay.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 củ 800.000 cho bữa ăn tối với bạn bè.
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 12 triệu 1 trăm nghìn cho chuyến du lịch tháng tới.
+",12100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 m nước ngọt cho buổi picnic cuối tuần.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 4 triệu 600.000 cho dịch vụ sửa chữa nhà.
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 11 củ 300.000 quà tặng cho dịp lễ sắp tới.
+",11300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 7 triệu 2 trăm nghìn đồ ăn cho bữa tiệc cuối tuần.
+",7200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 10 chai trà sữa cho nhóm bạn vào tối qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 3 triệu 5 trăm nghìn vé xem phim cho cả gia đình.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền củ 4 hủ kim chi cho bữa ăn tối hôm nay.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 6 triệu 8 trăm nghìn quần áo mới cho mùa đông.
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 chai nước ngọt cho buổi picnic cuối tuần.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 8 triệu 1 trăm nghìn phòng khách sạn cho chuyến du lịch.
+",8100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 9 triệu 3 trăm nghìn sách cho thư viện trường.
+",9300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 triệu 7 trăm nghìn cho bữa ăn tại nhà hàng tối qua.
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 3 triệu mua sắm đồ dùng cho văn phòng hôm qua.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 7 m để đãi bạn bè bữa tiệc sinh nhật cuối tuần trước.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 củ đặt cọc cho căn hộ mới vào tháng trước.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 chai cho bữa ăn tối tại nhà hàng sang trọng hôm thứ sáu.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu cho chuyến du lịch biển vào tháng 8 vừa rồi.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 mê mua vé concert cho nhóm nhạc yêu thích vào tháng tới.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu cho việc sửa chữa xe hơi hôm qua.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 củ cho bộ quần áo mới trước khi đi dự tiệc.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 chai đặt hàng thực phẩm cho bữa tiệc cuối tuần này.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu cho khóa học trực tuyến vào tháng trước.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần này chi 2 m cho việc mua sắm.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước trả 6 chai tiền thuê nhà.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua tiêu 1 m rưỡi cho bữa ăn.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần tới dự kiến chi 3 củ cho quà sinh nhật.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này đã tiêu 4 m cho vé máy bay.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua thanh toán 5 trai cho bữa tiệc.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước đã chi 2 củ cho đồ trang trí.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này đã trả 7 m cho hóa đơn internet.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm nay tiêu 1 chai cho cà phê sáng.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần này dự định chi 3 m cho sách vở.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 2 triệu 300 nghìn bánh mì cho bữa sáng hôm nay.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 7 triệu 150 nghìn cho một chiếc điện thoại mới.
+",7150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 10 tháng 8, tôi đã tiêu 6 triệu 800 nghìn cho một bữa tiệc.
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt cọc 3 triệu 500 nghìn cho căn hộ mới vào tuần trước.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 1 triệu 250 nghìn cho vé xem phim tối qua.
+",1250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua sắm 4 triệu 600 nghìn đồ dùng học tập cho năm học mới.
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 8 triệu 900 nghìn cho một chuyến du lịch cuối tuần.
+",8900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 15 tháng 9, tôi đã chi 5 triệu 400 nghìn cho quần áo mới.
+",5400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đầu tư 9 triệu 750 nghìn vào quỹ chứng khoán tháng này.
+",9750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 triệu 100 nghìn cho bữa tối tại nhà hàng sang trọng hôm qua.
+",2100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 10 tháng 8 bốn triệu mua sắm.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Buổi sáng ba triệu rưỡi chi tiêu cho ăn uống.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả tiền 7 chai 500.000 cho dịch vụ.
+",7500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 15 tháng 9 hai triệu đầu tư vào cổ phiếu.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Buổi tối một triệu tám trăm thuê phòng khách sạn.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả tiền 6 trai 300.000 cho bữa tiệc.
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 20 tháng 10 năm triệu tiết kiệm cho du lịch.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Buổi chiều chín triệu rưỡi chi phí cho sự kiện.
+",9500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trả tiền 4 củ 150.000 cho vé xem phim.
+",4150000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Ngày 5 tháng 11 năm triệu mua quà tặng.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiêu 3 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 2 triệu 500 cho bữa ăn tối tại nhà hàng sang trọng.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 củ bánh mì cho cả nhóm đi dã ngoại hôm nay.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 4 triệu 300 cho vé xem concert vào tối thứ sáu.
+",4300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 trai sushi cho bữa tối lãng mạn cuối tuần này.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Tiêu 6 triệu cho chuyến du lịch ngắn ngày tới biển.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mua 8 chai rượu vang cho bữa tiệc tối nay.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Đặt 1 triệu 800 cho món ăn đặc sản tại quán yêu thích.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 củ kem cho buổi họp mặt gia đình vào cuối tuần.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua chai nước 5 triệu cho cả nhóm
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu 12 triệu cho chuyến du lịch cuối tuần
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đầu tư 15 triệu vào dự án khởi nghiệp
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","thanh toán 7 triệu cho dịch vụ sửa chữa
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nhận được 20 triệu từ hợp đồng mới
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiết kiệm 3 triệu mỗi tháng cho quỹ hưu trí
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","vay 25 triệu để mua xe mới
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu cho bữa tiệc sinh nhật
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","bán sản phẩm thu về 18 triệu trong tuần qua
+",18000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","quyên góp 4 triệu cho tổ chức từ thiện
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","sáng nay ba triệu mua sắm đồ dùng học tập.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tối qua chi 15 triệu cho bữa tiệc sinh nhật.
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu đầu tư vào quỹ chứng khoán.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chiều nay tám triệu ăn uống với bạn bè.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu mua quà tặng cho người thân.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 triệu thuê phòng khách sạn cho kỳ nghỉ.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi tối chi 7 triệu cho vé xem concert.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu mua sắm thực phẩm cho cả tuần.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","sáng mai 20 triệu gửi tiết kiệm ngân hàng.
+",20000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chiều nay chi 25 triệu cho chuyến du lịch.
+",25000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 200 m bánh mì cho bữa tiệc cuối tuần này.
+",7200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 chai trà sữa cho buổi họp nhóm vào thứ Sáu.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 mê pizza cho bữa tối kỷ niệm vào tuần tới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu 500.000đ sushi cho bữa tiệc sinh nhật của bạn.
+",8500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","12 chai nước ngọt cho sự kiện thể thao vào cuối tháng.
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 750.000đ bánh kem cho lễ kỷ niệm công ty.
+",3750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 mê gà rán cho buổi picnic vào thứ Bảy.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 300.000đ hải sản cho bữa tiệc gia đình vào cuối tuần.
+",9300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","11 triệu 100.000đ trái cây tươi cho bữa tiệc mùa hè.
+",11100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu 5 triệu cho bữa tiệc sinh nhật tuần trước
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua sắm 3 m 200 nghìn đồ dùng học tập hôm qua
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đầu tư 10 triệu vào dự án khởi nghiệp mới
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 7 triệu cho chuyến du lịch tháng trước
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiết kiệm 2 triệu mỗi tháng để mua xe
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu cho việc sửa chữa nhà cửa tuần trước
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nhận được 15 triệu từ hợp đồng làm việc
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu hết 4 triệu cho đồ ăn và giải trí cuối tuần
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","vay 8 triệu để đầu tư vào chứng khoán
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","bán hàng thu về 12 triệu trong tháng này
+",12000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu rưỡi cà phê sáng nay.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền mười chai trà sữa cho nhóm bạn tối qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 1 củ bánh mì kẹp thịt ở quán mới.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 m phở gà cho bữa trưa hôm nay.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 2 trai pizza cho bữa tiệc cuối tuần.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu rưỡi sushi cho bữa tối hôm qua.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 3 củ kem tươi ở tiệm gần nhà.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 chai nước ngọt cho buổi picnic hôm trước.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền 2 triệu cho bữa tiệc sinh nhật.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 m bánh xèo cho bữa sáng hôm nay.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu 300 nghìn cho bữa tiệc sinh nhật hôm qua
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 500 nghìn cho chuyến du lịch cuối tuần này
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi tối 5 mê 200 nghìn mua sắm quần áo
+",5200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 750 nghìn cho bữa ăn tối tại nhà hàng
+",1750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 triệu 100 nghìn cho việc sửa chữa xe hơi
+",6100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 600 nghìn cho vé xem concert tối nay
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","buổi sáng 7 mê 800 nghìn thanh toán tiền thuê nhà
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 900 nghìn cho đồ dùng học tập cho năm học mới
+",2900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 400 nghìn cho một chiếc laptop mới
+",8400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 250 nghìn cho dịch vụ làm đẹp cuối tuần này
+",5250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai năm với nhóm phát triển sản phẩm tuần trước.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mười triệu cho hợp tác với đối tác chiến lược tháng trước.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ chín triệu cho việc nâng cấp hệ thống công nghệ tuần trước.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai hai triệu cho bữa ăn tối với khách hàng hôm qua.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai sáu triệu cho quà tặng nhân dịp lễ hội vừa qua.
+",1600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ một triệu cho việc mua sắm văn phòng phẩm tuần này.
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","m tám triệu cho khóa học đào tạo nhân viên tháng trước.
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu cho bữa tiệc sinh nhật cuối tuần trước
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 m cho một chiếc áo mới hôm qua
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 mê vào việc mua sắm trực tuyến tuần này
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 6 củ cho một bữa ăn tại nhà hàng sang trọng tối qua
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 chai cho vé xem concert vào tháng tới
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu cho một bộ phim tại rạp tối thứ bảy
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 10 triệu cho chuyến du lịch hè vừa qua
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 m cho một chiếc điện thoại mới tuần trước
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 mê vào việc trang trí nhà cửa tháng này
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 củ cho một khóa học trực tuyến mới đây
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiêu 7 triệu cho bữa tiệc sinh nhật bạn thân
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","vay 10 m để mua xe mới
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đầu tư 4 chai vào dự án khởi nghiệp
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiết kiệm 6 củ mỗi tháng cho chuyến du lịch
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua sắm 3 triệu đồ dùng học tập cho con
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","thanh toán 9 m cho hóa đơn điện nước
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","cho vay 2 chai để bạn sửa chữa nhà
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 củ cho vé máy bay đi du lịch
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt cọc 8 triệu cho căn hộ mới
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 m cho bữa ăn tối lãng mạn
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 15 triệu 300.000 ăn tối với bạn bè vào thứ bảy này.
+",15300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 m 500.000 mua sắm quần áo cho mùa hè.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 10 củ 750.000 đặt tiệc sinh nhật cho con vào cuối tuần.
+",10750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 8 triệu 200.000 đi du lịch biển vào tháng tới.
+",8200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 12 triệu 100.000 mua quà cho gia đình dịp lễ.
+",12100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 800.000 đặt phòng khách sạn cho chuyến đi.
+",6800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 4 triệu 600.000 ăn uống tại nhà hàng sang trọng tối nay.
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 triệu 900.000 mua sắm đồ điện tử mới.
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 11 triệu 250.000 tổ chức tiệc cưới cho bạn thân.
+",11250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 300.000 mua vé xem concert cuối tuần này.
+",2300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 3 triệu mua sắm đồ dùng văn phòng
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 m cho vé xem concert cuối tuần này
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 2 chai rưỡi cho quà tặng đồng nghiệp
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu rưỡi cho vé máy bay đi du lịch hè
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 4 chai mua sắm quần áo mới
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng này 6 triệu cho chi phí học tập của con
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 củ cho dịch vụ chăm sóc sức khỏe hàng tháng
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu ba triệu cho bữa tiệc sinh nhật cuối tuần qua
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền mười chai cho chuyến du lịch hè này
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu năm m cho việc sửa chữa nhà vào tháng trước
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền củ bảy cho bộ quần áo mới hôm qua
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu bốn triệu cho việc học thêm tiếng Anh tuần này
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền tám chai cho bữa ăn tối với bạn bè hôm thứ bảy
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu hai triệu cho việc mua sắm đồ dùng văn phòng tuần trước
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền mười trai cho vé xem concert cuối tuần này
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu sáu triệu cho việc tổ chức sự kiện vào tháng tới
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền củ ba cho việc làm đẹp tại spa hôm nay
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 500 nghìn cho bữa tiệc sinh nhật tuần trước
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 củ 300.000 cho bộ quần áo mới hôm qua
+",7300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 200 nghìn cho chuyến du lịch cuối tuần này
+",2200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 4 triệu 800 nghìn cho bữa ăn tại nhà hàng sang trọng tối qua
+",4800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 triệu 100 nghìn cho việc sửa chữa xe hơi tuần trước
+",6100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 củ 50.000 cho một chiếc điện thoại mới hôm nay
+",8050000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 1 triệu 900 nghìn cho vé xem phim cùng bạn bè tối qua
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 9 triệu 600 nghìn cho một chiếc laptop mới tuần trước
+",9600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 triệu 400 nghìn cho đồ nội thất mới cho căn hộ hôm qua
+",5400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 củ 700.000 cho một bữa ăn tại quán ăn yêu thích tối nay
+",2700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai 3 trà sữa chiều qua
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai 5 bánh mì sáng nay
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","triệu 1 pizza tối hôm trước
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","m 4 cà phê sáng sớm
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ 6 sushi trưa hôm kia
+",1600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mê 2 kem chiều nay
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","triệu 7 nước ngọt tối qua
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai 9 mì xào trưa hôm trước
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai 10 trái cây sáng nay
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","m 3 bánh ngọt chiều qua
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 triệu 500 nghìn bánh mì sáng nay
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 2 triệu 750 nghìn trà sữa chiều qua
+",2750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 6 củ 100.000 sushi tối qua
+",6100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu 800 nghìn pizza cuối tuần trước
+",1800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 4 triệu 300 nghìn cà phê sáng nay
+",4300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu 200 nghìn hải sản tối qua
+",7200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 5 củ 500.000 bún bò chiều hôm qua
+",5500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu 600 nghìn lẩu tối thứ bảy
+",8600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 2 triệu 400 nghìn kem tráng miệng tối qua
+",2400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 9 triệu 900 nghìn món ăn vặt cuối tuần vừa rồi
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu cho bữa tiệc sinh nhật cuối tuần này.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 4 triệu cho chuyến du lịch hè tới.
+",4000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 3 m cho việc sửa chữa nhà cửa.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả 6 củ cho bộ quần áo mới.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu cho vé concert sắp tới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 8 trai bánh mì cho bữa trưa hôm nay.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 10 triệu cho dịch vụ tổ chức sự kiện.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tiêu 9 m cho việc học thêm tiếng Anh.
+",9000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu cho một bữa ăn tại nhà hàng sang trọng.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi trả 3 triệu 500 nghìn cho bữa tiệc sinh nhật bạn thân.
+",3500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 6 m 300 nghìn phí bảo trì xe hơi.
+",6300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 2 củ 750.000 cho vé xem concert cuối tuần.
+",2750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 7 mê 800 nghìn mua sắm quần áo mùa hè.
+",7800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 1 triệu 200 nghìn cho dịch vụ internet hàng tháng.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 4 triệu 600 nghìn cho chuyến du lịch cuối năm.
+",4600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 5 củ 100.000 cho bữa ăn tại nhà hàng sang trọng.
+",5100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","nộp tiền 9 triệu 900 nghìn cho học phí khóa học online.
+",9900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trả tiền 8 m 450 nghìn cho thiết bị điện tử mới.
+",8450000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi tiền 2 triệu 250 nghìn cho quà tặng sinh nhật bạn gái.
+",2250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu 200.000đ bánh mì cho bữa sáng hôm nay.
+",7200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","2 triệu 500.000đ trà sữa cho buổi hẹn hò cuối tuần.
+",2500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu 300.000đ pizza cho bữa tiệc sinh nhật tối nay.
+",10300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu 600.000đ sushi cho bữa tối lãng mạn.
+",5600000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","3 triệu 800.000đ cà phê cho buổi họp mặt bạn bè.
+",3800000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","1 triệu 900.000đ kem cho ngày hè nóng bức.
+",1900000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu 400.000đ hải sản cho bữa tiệc gia đình.
+",6400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu 750.000đ thịt nướng cho buổi picnic cuối tuần.
+",8750000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","9 triệu 100.000đ bánh ngọt cho lễ kỷ niệm.
+",9100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","4 triệu 250.000đ nước ép cho bữa tiệc sinh nhật.
+",4250000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 3 triệu 2 trăm nghìn cho bữa tiệc sinh nhật tuần trước.
+",3200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Củ năm với nhóm bạn tối qua.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Trai 4 triệu 5 trăm nghìn để đầu tư vào dự án mới.
+",4500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi 8 triệu 300 nghìn cho việc sửa chữa nhà cửa.
+",8300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Củ ba với đội thể thao cuối tuần qua.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 m 600 20.000đ cho bữa ăn tại nhà hàng hôm qua.
+",5620000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 9 triệu 7 trăm nghìn để mua sắm đồ dùng học tập.
+",9700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 5 triệu mua sắm đồ dùng cho văn phòng mới.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm qua tôi đã chi 3 m cho bữa tiệc sinh nhật bạn.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 1 triệu để sửa chữa máy tính cá nhân.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","hôm nay tôi đã chi 2 triệu cho một chuyến du lịch ngắn.
+",2000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","mua 6 củ trái cây tươi cho bữa tiệc BBQ.
+",6000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 7 triệu cho một khóa học trực tuyến.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước tôi đã chi 1 m cho việc trang trí nhà cửa.
+",1000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","đặt 3 chai nước ngọt cho buổi họp mặt bạn bè.
+",3000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chi 8 triệu để mua sắm quần áo mùa đông.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tuần trước 5 triệu chi phí marketing
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ ba cho dự án mới tuần này
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","10 triệu đầu tư vào công nghệ tuần trước
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai bốn cho chiến dịch quảng cáo tháng này
+",1400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai hai triệu cho sự kiện sắp tới
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","tháng trước 7 triệu cho chi phí vận hành
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","củ một cho quỹ từ thiện cuối tuần
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","15 triệu cho hợp tác với đối tác chiến lược
+",15000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","chai ba triệu cho việc nâng cấp hệ thống
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","trai bảy triệu cho chương trình khuyến mãi tháng này
+",1700000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","5 triệu cho bữa tiệc sinh nhật của nhóm vào cuối tuần này.
+",5000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 10 chai nước ngọt cho buổi họp mặt hôm qua.
+",10000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền củ ba cho bữa ăn trưa với đồng nghiệp hôm nay.
+",1300000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","7 triệu cho chuyến du lịch cùng bạn bè vào tháng tới.
+",7000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 2 trai bánh mì cho bữa sáng hôm nay.
+",1200000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền củ năm cho quà tặng sinh nhật của sếp.
+",1500000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","8 triệu cho vé xem concert vào cuối tháng này.
+",8000000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Mê 4 chai bia cho buổi tiệc tối qua.
+",1400000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","Chi tiền củ một cho bữa tối lãng mạn cuối tuần này.
+",1100000
+"You're an money manager assistant.
+Your job is to find and convert textual money string into integer money string","6 triệu cho việc trang trí văn phòng mới.
+",6000000
